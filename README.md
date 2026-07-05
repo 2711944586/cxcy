@@ -41,12 +41,14 @@ npm ci
 npm run dev
 ```
 
-本地构建：
+本地构建 GitHub Pages 同款静态产物：
 
 ```bash
 cd skyguard-demo
-npm run build
+npm run build:pages
 ```
+
+`build:pages` 会在 Vite 构建后把 `数据以及图/_整理/数据`、`数据以及图/_整理/图` 和 `参考/` 复制到 `dist/source-data/`，线上数据中心页面会直接读取这些静态数据、图片和参考材料。
 
 路由巡检：
 
@@ -69,7 +71,8 @@ python skyguard-plan/scripts/build_deliverables.py
 
 1. 安装 `skyguard-demo` 依赖
 2. 使用 `/cxcy/` 作为 Vite 静态资源前缀构建
-3. 复制 `index.html` 为 `404.html`，支持直接访问内部路由
-4. 发布到 GitHub Pages
+3. 复制全量原始数据、图片素材和参考材料到 `source-data/`
+4. 复制 `index.html` 为 `404.html`，支持直接访问内部路由
+5. 发布到 GitHub Pages
 
 也可以在 GitHub 仓库的 Actions 页面手动运行 `Deploy SkyGuard WebDemo`。

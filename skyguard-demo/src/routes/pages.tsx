@@ -154,18 +154,151 @@ export function Scenarios() {
 }
 
 export function DataPage() {
-  const data = useSkyguardData();
+  const data = useSkyguardData(true);
+  const [query, setQuery] = useState("");
+  const [category, setCategory] = useState("全部");
+
+  const totalKb = data.assets.reduce((sum, item) => sum + item.size_kb, 0);
+  const categories = useMemo(() => ["全部", ...Array.from(new Set(data.assets.map((item) => item.category)))], [data.assets]);
+  const deployedImages = data.sourceManifest?.images ?? [];
+  const deployedReferences = data.sourceManifest?.references ?? [];
+  const filteredAssets = useMemo(() => {
+    const keyword = query.trim().toLowerCase();
+    return data.assets.filter((item) => {
+      const categoryMatch = category === "全部" || item.category === category;
+      const keywordMatch = !keyword || `${item.name} ${item.use} ${item.category}`.toLowerCase().includes(keyword);
+      return categoryMatch && keywordMatch;
+    });
+  }, [category, data.assets, query]);
+  const sizeByUse = useMemo(() => {
+    const buckets = new Map<string, number>();
+    data.assets.forEach((item) => {
+      const key = item.use.includes("风险") ? "风险模型" : item.use.includes("实时") ? "运行态势" : item.use.includes("政策") ? "政策证据" : item.use.includes("企业") ? "产业主体" : item.use.includes("设施") ? "基础设施" : "计划书证据";
+      buckets.set(key, (buckets.get(key) ?? 0) + item.size_kb);
+    });
+    return Array.from(buckets, ([name, value]) => ({ name, value: Math.round(value / 1024) }));
+  }, [data.assets]);
+
   if (data.loading) return <Loading />;
+  if (data.error) {
+    return (
+      <div className="page">
+        <PageTitle eyebrow="数据证据" title="数据未载入" desc="静态资源加载失败，请检查部署路径和 Pages 构建产物。" />
+        <section className="panel"><p className="reading">{data.error}</p></section>
+      </div>
+    );
+  }
+
   return (
-    <div className="page">
-      <PageTitle eyebrow="数据证据" title="数据证据" desc="官方统计、地方政策、公开数据和演示样本分层管理，避免把演示样本写成真实客户业务。" />
+    <div className="page data-page">
+      <PageTitle eyebrow="数据证据" title="全量数据与素材中心" desc="官方统计、地方政策、公开数据、演示样本、原始数据包和图片素材在静态站中统一展示，评审可以直接查看、筛选和下载。" />
       <div className="kpi-strip">
         <KpiCard label="数据文件" value={data.assets.length} icon={<Database size={18} />} />
         <KpiCard label="目标样本" value={compact(data.targets.length)} icon={<Radar size={18} />} />
         <KpiCard label="飞行计划" value={compact(data.plans.length)} icon={<Route size={18} />} />
+        <KpiCard label="轨迹点" value={compact(data.tracks.length)} icon={<MapPinned size={18} />} />
         <KpiCard label="事件记录" value={compact(data.events.length)} icon={<Bell size={18} />} />
+        <KpiCard label="原始数据体量" value={`${Math.round(totalKb / 1024)} MB`} icon={<FileText size={18} />} />
+        <KpiCard label="部署图片" value={deployedImages.length || data.visualAssets.length} icon={<Layers3 size={18} />} />
       </div>
-      <section className="panel"><TableMini headers={["文件", "类别", "大小", "用途"]} rows={data.assets.slice(0, 32).map((a) => [a.name, a.category, `${a.size_kb} KB`, a.use])} /></section>
+      <div className="data-hero-grid">
+        <section className="panel data-feature">
+          <img src={appPath("/assets/asset_05.jpg")} alt="低空全域感知系统展示素材" />
+          <div>
+            <span className="eyebrow">静态部署资源</span>
+            <h3>数据、图片和演示样本已经进入 Pages artifact</h3>
+            <p className="reading">页面运行所需的 JSON、平台图片、原始 CSV/XLSX、政策图片和参考素材都按静态文件提供。数据页不依赖后端服务，所有表格、图表、地图和工作台页面直接读取仓库随附资源。</p>
+            <div className="flow">
+              <a className="btn primary" href={appPath("/source-data/data/00_readme_dataset_manifest_final.csv")}>下载数据清单</a>
+              <a className="btn" href={appPath("/source-data/images/01_南京市低空飞行服务平台.jpg")}>查看图片素材</a>
+            </div>
+          </div>
+        </section>
+        <section className="panel">
+          <h3>数据用途体量</h3>
+          <HorizontalBarChart data={sizeByUse} />
+        </section>
+      </div>
+      <div className="data-controls">
+        <label className="data-search">
+          <Filter size={15} />
+          <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="按文件名、用途或类别搜索" />
+        </label>
+        <div className="segmented">
+          {categories.map((item) => <button key={item} className={category === item ? "seg active" : "seg"} onClick={() => setCategory(item)}>{item}</button>)}
+        </div>
+      </div>
+      <section className="panel data-table-panel">
+        <div className="panel-head">
+          <div><span className="eyebrow">source-data/data</span><h3>全量原始数据文件</h3></div>
+          <strong>{filteredAssets.length} / {data.assets.length}</strong>
+        </div>
+        <TableMini headers={["文件", "类别", "大小", "用途", "静态链接"]} rows={filteredAssets.map((a) => [
+          a.name,
+          a.category,
+          a.size_kb >= 1024 ? `${(a.size_kb / 1024).toFixed(1)} MB` : `${a.size_kb.toFixed(1)} KB`,
+          a.use,
+          <a className="linklike" href={appPath(`/source-data/data/${encodeURIComponent(a.name)}`)}>打开</a>
+        ])} />
+      </section>
+      <div className="report-grid">
+        <section className="panel">
+          <h3>运行样本结构</h3>
+          <SimpleBarChart data={[
+            { name: "目标", value: data.targets.length },
+            { name: "计划", value: data.plans.length },
+            { name: "轨迹", value: data.tracks.length },
+            { name: "事件", value: data.events.length },
+            { name: "设备", value: data.sensors.length },
+            { name: "模型", value: data.riskSamples.length }
+          ]} />
+        </section>
+        <section className="panel">
+          <h3>风险事件分布</h3>
+          <DonutChart data={Object.entries(data.summary?.risk_level_distribution ?? {}).map(([name, value]) => ({ name, value }))} />
+        </section>
+      </div>
+      <section className="panel asset-gallery-panel">
+        <div className="panel-head">
+          <div><span className="eyebrow">assets</span><h3>页面图片素材墙</h3></div>
+          <strong>{data.visualAssets.length} 张页面图片</strong>
+        </div>
+        <div className="asset-gallery">
+          {data.visualAssets.map((asset) => {
+            const file = asset.file;
+            const source = asset.source;
+            const href = appPath(`/assets/${asset.file}`);
+            return (
+            <a key={file} href={href} className="asset-tile">
+              <img loading="lazy" src={href} alt={source} />
+              <span>{source}</span>
+            </a>
+            );
+          })}
+        </div>
+      </section>
+      <section className="panel data-table-panel">
+        <div className="panel-head">
+          <div><span className="eyebrow">source-data/images</span><h3>全量原始图片素材</h3></div>
+          <strong>{deployedImages.length} 张</strong>
+        </div>
+        <TableMini headers={["图片文件", "大小", "静态链接"]} rows={deployedImages.map((item) => [
+          item.name,
+          item.size_kb >= 1024 ? `${(item.size_kb / 1024).toFixed(1)} MB` : `${item.size_kb.toFixed(1)} KB`,
+          <a className="linklike" href={appPath(`/source-data/images/${encodeURIComponent(item.path)}`)}>打开</a>
+        ])} />
+      </section>
+      <section className="panel data-table-panel">
+        <div className="panel-head">
+          <div><span className="eyebrow">source-data/references</span><h3>参考材料与课程要求</h3></div>
+          <strong>{deployedReferences.length} 份</strong>
+        </div>
+        <TableMini headers={["文件", "大小", "静态链接"]} rows={deployedReferences.map((item) => [
+          item.name,
+          item.size_kb >= 1024 ? `${(item.size_kb / 1024).toFixed(1)} MB` : `${item.size_kb.toFixed(1)} KB`,
+          <a className="linklike" href={appPath(`/source-data/references/${encodeURIComponent(item.path)}`)}>打开</a>
+        ])} />
+      </section>
     </div>
   );
 }

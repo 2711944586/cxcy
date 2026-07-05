@@ -87,3 +87,44 @@ export type DataAsset = {
   size_kb: number;
   use: string;
 };
+
+export type VisualAsset = {
+  file: string;
+  source: string;
+};
+
+export type FlightTrackPoint = {
+  track_id?: string;
+  drone_id?: string;
+  city?: string;
+  timestamp?: string;
+  lat?: number;
+  lng?: number;
+  altitude?: number;
+  speed?: number;
+  risk_score?: number;
+  [key: string]: unknown;
+};
+
+export type RiskModelSample = {
+  sample_id?: string;
+  drone_id?: string;
+  city?: string;
+  risk_score?: number;
+  label?: string;
+  [key: string]: unknown;
+};
+
+export type SourceFile = {
+  name: string;
+  path: string;
+  size_kb: number;
+  type: "data" | "image" | "reference";
+};
+
+export type SourceManifest = {
+  generated_at: string;
+  data: SourceFile[];
+  images: SourceFile[];
+  references: SourceFile[];
+};

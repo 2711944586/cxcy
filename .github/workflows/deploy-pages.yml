@@ -37,7 +37,7 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build
+        run: npm run build:pages
         env:
           GITHUB_PAGES: "true"
 
@@ -63,4 +63,3 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
-
