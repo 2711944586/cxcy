@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "tsc && vite build",
-    "build:pages": "tsc && vite build && node scripts/copy-source-assets.mjs",
+    "build:pages": "tsc && vite build && node scripts/copy-source-assets.mjs && node scripts/generate-static-routes.mjs",
     "preview": "vite preview --host 0.0.0.0",
     "preview:pages": "node scripts/serve-dist-cxcy.mjs",
     "audit:routes": "node scripts/audit-routes.mjs"

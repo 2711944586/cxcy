@@ -56,6 +56,11 @@ const server = http.createServer(async (req, res) => {
           await sendFile(res, candidate);
           return;
         }
+        if (stat.isDirectory()) {
+          const indexFile = path.join(candidate, "index.html");
+          await sendFile(res, indexFile);
+          return;
+        }
       } catch {
         // Fall through to SPA fallback.
       }

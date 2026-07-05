@@ -10,14 +10,21 @@ export function appPath(path: string) {
   return `${basePath}${normalized}` || normalized;
 }
 
+function normalizeRoutePath(pathname: string) {
+  const normalized = pathname || "/";
+  if (normalized.length > 1) {
+    return normalized.replace(/\/+$/, "") || "/";
+  }
+  return normalized;
+}
+
 export function currentAppPath() {
   const { pathname } = window.location;
   if (basePath && pathname === basePath) {
     return "/";
   }
   if (basePath && pathname.startsWith(`${basePath}/`)) {
-    return pathname.slice(basePath.length) || "/";
+    return normalizeRoutePath(pathname.slice(basePath.length) || "/");
   }
-  return pathname || "/";
+  return normalizeRoutePath(pathname || "/");
 }
-
