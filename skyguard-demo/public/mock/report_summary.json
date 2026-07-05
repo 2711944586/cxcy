@@ -1,0 +1,280 @@
+{
+  "kpis": {
+    "today_flights": 600,
+    "active_targets": 180,
+    "open_events": 558,
+    "sensor_online_rate": 0.575,
+    "avg_response_min": 8.4
+  },
+  "risk_level_distribution": {
+    "medium": 583,
+    "critical": 448,
+    "high": 469
+  },
+  "event_type_top": [
+    [
+      "超高风险",
+      194
+    ],
+    [
+      "远程识别异常",
+      173
+    ],
+    [
+      "电子围栏越界",
+      172
+    ],
+    [
+      "通信链路弱",
+      171
+    ],
+    [
+      "速度异常",
+      153
+    ],
+    [
+      "疑似黑飞目标",
+      138
+    ],
+    [
+      "气象风险",
+      134
+    ],
+    [
+      "低电量告警",
+      125
+    ],
+    [
+      "人群密集区飞越",
+      124
+    ],
+    [
+      "禁飞区接近",
+      116
+    ]
+  ],
+  "city_risk_top": [
+    [
+      "合肥",
+      94
+    ],
+    [
+      "长沙",
+      93
+    ],
+    [
+      "南京",
+      91
+    ],
+    [
+      "郑州",
+      86
+    ],
+    [
+      "广州",
+      85
+    ],
+    [
+      "西安",
+      85
+    ],
+    [
+      "杭州",
+      83
+    ],
+    [
+      "成都",
+      81
+    ],
+    [
+      "北京",
+      80
+    ],
+    [
+      "苏州",
+      78
+    ]
+  ],
+  "daily_trend": [
+    {
+      "date": "06-01",
+      "flights": 165,
+      "alerts": 14,
+      "closed": 35
+    },
+    {
+      "date": "06-02",
+      "flights": 246,
+      "alerts": 23,
+      "closed": 57
+    },
+    {
+      "date": "06-03",
+      "flights": 194,
+      "alerts": 14,
+      "closed": 10
+    },
+    {
+      "date": "06-04",
+      "flights": 196,
+      "alerts": 48,
+      "closed": 48
+    },
+    {
+      "date": "06-05",
+      "flights": 147,
+      "alerts": 33,
+      "closed": 28
+    },
+    {
+      "date": "06-06",
+      "flights": 236,
+      "alerts": 53,
+      "closed": 44
+    },
+    {
+      "date": "06-07",
+      "flights": 254,
+      "alerts": 43,
+      "closed": 18
+    },
+    {
+      "date": "06-08",
+      "flights": 249,
+      "alerts": 41,
+      "closed": 27
+    },
+    {
+      "date": "06-09",
+      "flights": 169,
+      "alerts": 63,
+      "closed": 17
+    },
+    {
+      "date": "06-10",
+      "flights": 204,
+      "alerts": 22,
+      "closed": 56
+    },
+    {
+      "date": "06-11",
+      "flights": 237,
+      "alerts": 53,
+      "closed": 26
+    },
+    {
+      "date": "06-12",
+      "flights": 167,
+      "alerts": 12,
+      "closed": 57
+    },
+    {
+      "date": "06-13",
+      "flights": 206,
+      "alerts": 62,
+      "closed": 28
+    },
+    {
+      "date": "06-14",
+      "flights": 169,
+      "alerts": 23,
+      "closed": 49
+    },
+    {
+      "date": "06-15",
+      "flights": 223,
+      "alerts": 64,
+      "closed": 37
+    },
+    {
+      "date": "06-16",
+      "flights": 251,
+      "alerts": 32,
+      "closed": 15
+    },
+    {
+      "date": "06-17",
+      "flights": 222,
+      "alerts": 54,
+      "closed": 16
+    },
+    {
+      "date": "06-18",
+      "flights": 167,
+      "alerts": 20,
+      "closed": 40
+    },
+    {
+      "date": "06-19",
+      "flights": 202,
+      "alerts": 27,
+      "closed": 10
+    },
+    {
+      "date": "06-20",
+      "flights": 186,
+      "alerts": 36,
+      "closed": 25
+    },
+    {
+      "date": "06-21",
+      "flights": 234,
+      "alerts": 60,
+      "closed": 27
+    },
+    {
+      "date": "06-22",
+      "flights": 204,
+      "alerts": 31,
+      "closed": 47
+    },
+    {
+      "date": "06-23",
+      "flights": 122,
+      "alerts": 28,
+      "closed": 51
+    },
+    {
+      "date": "06-24",
+      "flights": 212,
+      "alerts": 56,
+      "closed": 25
+    },
+    {
+      "date": "06-25",
+      "flights": 135,
+      "alerts": 54,
+      "closed": 17
+    },
+    {
+      "date": "06-26",
+      "flights": 239,
+      "alerts": 31,
+      "closed": 20
+    },
+    {
+      "date": "06-27",
+      "flights": 223,
+      "alerts": 55,
+      "closed": 42
+    },
+    {
+      "date": "06-28",
+      "flights": 199,
+      "alerts": 56,
+      "closed": 17
+    },
+    {
+      "date": "06-29",
+      "flights": 195,
+      "alerts": 35,
+      "closed": 49
+    },
+    {
+      "date": "06-30",
+      "flights": 176,
+      "alerts": 26,
+      "closed": 18
+    }
+  ]
+}

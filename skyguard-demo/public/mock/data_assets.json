@@ -1,0 +1,470 @@
+[
+  {
+    "name": "00_readme_dataset_manifest_final.csv",
+    "category": "data",
+    "size_kb": 3.4,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "01_national_low_altitude_indicators_2023_2025_clean.csv",
+    "category": "data",
+    "size_kb": 18.8,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "02_regional_ga_uav_units_2023_2025_clean.csv",
+    "category": "data",
+    "size_kb": 9.9,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "03_airport_airspace_context_and_safety_clean.csv",
+    "category": "data",
+    "size_kb": 22.6,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "04_uav_cloud_operations_2023_expanded_clean.csv",
+    "category": "data",
+    "size_kb": 11.1,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "05_city_policy_targets_cases_final_clean.csv",
+    "category": "data",
+    "size_kb": 57.2,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "06_platform_safety_sensing_field_dictionary_final.csv",
+    "category": "data",
+    "size_kb": 258.3,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "07_application_scenario_kpi_matrix_final.csv",
+    "category": "data",
+    "size_kb": 148.5,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "08_public_data_catalog_for_low_altitude_platform_final.csv",
+    "category": "data",
+    "size_kb": 10.2,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "09_city_reference_centers_and_demo_index.csv",
+    "category": "data",
+    "size_kb": 4.0,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "1.csv",
+    "category": "data",
+    "size_kb": 2.8,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "10_airspace_grid_risk_sample_10000.csv",
+    "category": "data",
+    "size_kb": 2801.3,
+    "use": "支撑风险评分模型和模型解释器"
+  },
+  {
+    "name": "11_sensor_station_coverage_sample_1000.csv",
+    "category": "data",
+    "size_kb": 198.7,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "12_vertiport_node_sample_900.csv",
+    "category": "data",
+    "size_kb": 158.6,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "13_route_corridor_sample_1200.csv",
+    "category": "data",
+    "size_kb": 221.2,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "14_flight_plan_application_sample_8000.csv",
+    "category": "data",
+    "size_kb": 2160.5,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "15_realtime_telemetry_sample_30000.csv",
+    "category": "data",
+    "size_kb": 6609.0,
+    "use": "支撑实时态势、轨迹监管和报表中心"
+  },
+  {
+    "name": "16_alert_event_response_sample_6000.csv",
+    "category": "data",
+    "size_kb": 1715.7,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "17_risk_model_feature_sample_6000.csv",
+    "category": "data",
+    "size_kb": 1370.4,
+    "use": "支撑风险评分模型和模型解释器"
+  },
+  {
+    "name": "18_dashboard_summary_pivot_ready.csv",
+    "category": "data",
+    "size_kb": 13.7,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "19_open_research_uav_dataset_catalog.csv",
+    "category": "data",
+    "size_kb": 1.3,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "2.csv",
+    "category": "data",
+    "size_kb": 1.8,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "3.csv",
+    "category": "data",
+    "size_kb": 1.5,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "99_source_urls_and_notes_final.csv",
+    "category": "data",
+    "size_kb": 4.5,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "bing_images_city_uav.html",
+    "category": "data",
+    "size_kb": 280.4,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "bing_images_drone_supervision.html",
+    "category": "data",
+    "size_kb": 257.6,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "bing_images_platform.html",
+    "category": "data",
+    "size_kb": 237.2,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "bing_web_supervision.html",
+    "category": "data",
+    "size_kb": 99.9,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "Dataset_uav_cyber.csv",
+    "category": "data",
+    "size_kb": 3712.3,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "Dataset_uav_cyber_1.csv",
+    "category": "data",
+    "size_kb": 3712.3,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "drone_surveillance_telemetry.csv",
+    "category": "data",
+    "size_kb": 1064.9,
+    "use": "支撑实时态势、轨迹监管和报表中心"
+  },
+  {
+    "name": "kaggle_adsb_search.json",
+    "category": "data",
+    "size_kb": 0.0,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "kaggle_drone_search.json",
+    "category": "data",
+    "size_kb": 71.5,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "kaggle_flight_search.json",
+    "category": "data",
+    "size_kb": 72.9,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "kaggle_uav_autonomous_navigation_detail.json",
+    "category": "data",
+    "size_kb": 4.9,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "kaggle_uav_communication_monitoring_detail.json",
+    "category": "data",
+    "size_kb": 5.3,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "kaggle_uav_cyber_network_intrusion_detail.json",
+    "category": "data",
+    "size_kb": 9.4,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "kaggle_uav_search.json",
+    "category": "data",
+    "size_kb": 67.9,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "Kaggle数据集清单.csv",
+    "category": "data",
+    "size_kb": 1.3,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "low_altitude_drone_delivery_routes.csv",
+    "category": "data",
+    "size_kb": 282.8,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "merged_wifi_attacks_dataset.csv",
+    "category": "data",
+    "size_kb": 2317.8,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "merged_wifi_attacks_dataset_1.csv",
+    "category": "data",
+    "size_kb": 2317.8,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "opensky_flightlist_202001.csv.gz",
+    "category": "data",
+    "size_kb": 39479.6,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "ourairports_airports.csv",
+    "category": "data",
+    "size_kb": 12366.4,
+    "use": "支撑低空基础设施和空域风险分析"
+  },
+  {
+    "name": "ourairports_navaids.csv",
+    "category": "data",
+    "size_kb": 1489.3,
+    "use": "支撑低空基础设施和空域风险分析"
+  },
+  {
+    "name": "ourairports_runways.csv",
+    "category": "data",
+    "size_kb": 3860.7,
+    "use": "支撑低空基础设施和空域风险分析"
+  },
+  {
+    "name": "README.md",
+    "category": "data",
+    "size_kb": 1.8,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "README_data_use_notes.csv",
+    "category": "data",
+    "size_kb": 0.8,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "README_low_altitude_data_bundle.txt",
+    "category": "data",
+    "size_kb": 1.8,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "search_bing_low_altitude.html",
+    "category": "data",
+    "size_kb": 101.3,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "uav_airspace_safety_data.csv",
+    "category": "data",
+    "size_kb": 646.1,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "uav_encrypted_communication_dataset.csv",
+    "category": "data",
+    "size_kb": 373.5,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "uav_encrypted_communication_dataset_1.csv",
+    "category": "data",
+    "size_kb": 373.5,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "uav_navigation_dataset.csv",
+    "category": "data",
+    "size_kb": 1306.9,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "uav_navigation_dataset_1.csv",
+    "category": "data",
+    "size_kb": 1306.9,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "低空安全事件与监管案例数据.csv",
+    "category": "data",
+    "size_kb": 24941.5,
+    "use": "证明痛点真实存在并支撑风险场景"
+  },
+  {
+    "name": "低空经济DID(2022-2025).xlsx",
+    "category": "data",
+    "size_kb": 14.1,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "低空经济专利.csv",
+    "category": "data",
+    "size_kb": 9219.7,
+    "use": "证明技术创新活跃度和技术主题方向"
+  },
+  {
+    "name": "低空经济专利全量数据.csv",
+    "category": "data",
+    "size_kb": 55361.5,
+    "use": "证明技术创新活跃度和技术主题方向"
+  },
+  {
+    "name": "低空经济产业链上下游数据.csv",
+    "category": "data",
+    "size_kb": 13970.0,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "低空经济招投标项目全量数据.csv",
+    "category": "data",
+    "size_kb": 40634.7,
+    "use": "证明采购需求、预算区间和商业化可行性"
+  },
+  {
+    "name": "低空经济招投标项目全量数据_1.csv",
+    "category": "data",
+    "size_kb": 1.1,
+    "use": "证明采购需求、预算区间和商业化可行性"
+  },
+  {
+    "name": "低空经济政策汇总.xlsx",
+    "category": "data",
+    "size_kb": 13.7,
+    "use": "支撑政策环境、合规需求、政策时间轴"
+  },
+  {
+    "name": "低空经济政策法规全量数据.csv",
+    "category": "data",
+    "size_kb": 47625.8,
+    "use": "支撑政策环境、合规需求、政策时间轴"
+  },
+  {
+    "name": "低空经济政策法规全量数据_1.csv",
+    "category": "data",
+    "size_kb": 0.7,
+    "use": "支撑政策环境、合规需求、政策时间轴"
+  },
+  {
+    "name": "低空经济相关企业全量数据.csv",
+    "category": "data",
+    "size_kb": 20670.3,
+    "use": "证明产业主体增长、区域分布、潜在客户基础"
+  },
+  {
+    "name": "低空经济相关公司名单数据（2000-2023）.xlsx",
+    "category": "data",
+    "size_kb": 91218.7,
+    "use": "证明产业主体增长、区域分布、潜在客户基础"
+  },
+  {
+    "name": "低空经济科研文献数据.csv",
+    "category": "data",
+    "size_kb": 49536.9,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "低空起降设施与空域数据.csv",
+    "category": "data",
+    "size_kb": 15393.0,
+    "use": "支撑低空基础设施和空域风险分析"
+  },
+  {
+    "name": "低空起降设施与空域数据_1.csv",
+    "category": "data",
+    "size_kb": 0.4,
+    "use": "支撑低空基础设施和空域风险分析"
+  },
+  {
+    "name": "低空飞行活动与轨迹数据.csv",
+    "category": "data",
+    "size_kb": 14031.7,
+    "use": "支撑实时态势、轨迹监管和报表中心"
+  },
+  {
+    "name": "各省低空经济指数数据（1990-2024）.csv",
+    "category": "data",
+    "size_kb": 105.0,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "各省低空经济指数数据（1990-2024）_1.csv",
+    "category": "data",
+    "size_kb": 101.0,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "数据说明-低空经济专利1985-2025.docx",
+    "category": "data",
+    "size_kb": 48.8,
+    "use": "证明技术创新活跃度和技术主题方向"
+  },
+  {
+    "name": "数据说明-低空经济企业数据.docx",
+    "category": "data",
+    "size_kb": 89.2,
+    "use": "证明产业主体增长、区域分布、潜在客户基础"
+  },
+  {
+    "name": "无人驾驶航空器飞行管理暂行条例_国务院中央军委.html",
+    "category": "data",
+    "size_kb": 75.2,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "说明.txt",
+    "category": "data",
+    "size_kb": 1.0,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  },
+  {
+    "name": "链接.docx",
+    "category": "data",
+    "size_kb": 10.1,
+    "use": "作为计划书正文、附录或 Web Demo 的数据材料"
+  }
+]

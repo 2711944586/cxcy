@@ -1,0 +1,229 @@
+{
+  "generatedAt": "2026-07-05T09:17:21.608Z",
+  "base": "http://127.0.0.1:5173",
+  "routeCount": 22,
+  "passed": 22,
+  "failed": 0,
+  "results": [
+    {
+      "route": "/",
+      "status": 200,
+      "title": "首页",
+      "bodyLength": 1103,
+      "consoleIssues": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ok": true
+    },
+    {
+      "route": "/product",
+      "status": 200,
+      "title": "产品方案",
+      "bodyLength": 561,
+      "consoleIssues": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ok": true
+    },
+    {
+      "route": "/technology",
+      "status": 200,
+      "title": "技术能力",
+      "bodyLength": 593,
+      "consoleIssues": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ok": true
+    },
+    {
+      "route": "/scenarios",
+      "status": 200,
+      "title": "应用场景",
+      "bodyLength": 493,
+      "consoleIssues": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ok": true
+    },
+    {
+      "route": "/data",
+      "status": 200,
+      "title": "数据资产",
+      "bodyLength": 2788,
+      "consoleIssues": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ok": true
+    },
+    {
+      "route": "/business",
+      "status": 200,
+      "title": "商业模式",
+      "bodyLength": 577,
+      "consoleIssues": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ok": true
+    },
+    {
+      "route": "/case-study",
+      "status": 200,
+      "title": "模拟案例",
+      "bodyLength": 480,
+      "consoleIssues": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ok": true
+    },
+    {
+      "route": "/demo-center",
+      "status": 200,
+      "title": "演示中心",
+      "bodyLength": 609,
+      "consoleIssues": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ok": true
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "title": "团队合作",
+      "bodyLength": 451,
+      "consoleIssues": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ok": true
+    },
+    {
+      "route": "/dashboard",
+      "status": 200,
+      "title": "低空态势总览",
+      "bodyLength": 1180,
+      "consoleIssues": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ok": true
+    },
+    {
+      "route": "/dashboard/live",
+      "status": 200,
+      "title": "实时目标监测",
+      "bodyLength": 4032,
+      "consoleIssues": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ok": true
+    },
+    {
+      "route": "/dashboard/flight-plans",
+      "status": 200,
+      "title": "飞行计划管理",
+      "bodyLength": 2814,
+      "consoleIssues": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ok": true
+    },
+    {
+      "route": "/dashboard/recognition-review",
+      "status": 200,
+      "title": "智能识别复核",
+      "bodyLength": 488,
+      "consoleIssues": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ok": true
+    },
+    {
+      "route": "/dashboard/geofence",
+      "status": 200,
+      "title": "电子围栏",
+      "bodyLength": 767,
+      "consoleIssues": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ok": true
+    },
+    {
+      "route": "/dashboard/incidents",
+      "status": 200,
+      "title": "事件处置中心",
+      "bodyLength": 2574,
+      "consoleIssues": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ok": true
+    },
+    {
+      "route": "/dashboard/reports",
+      "status": 200,
+      "title": "报表中心",
+      "bodyLength": 737,
+      "consoleIssues": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ok": true
+    },
+    {
+      "route": "/dashboard/sensors",
+      "status": 200,
+      "title": "设备管理",
+      "bodyLength": 4614,
+      "consoleIssues": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ok": true
+    },
+    {
+      "route": "/dashboard/data-assets",
+      "status": 200,
+      "title": "数据资产中心",
+      "bodyLength": 2790,
+      "consoleIssues": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ok": true
+    },
+    {
+      "route": "/dashboard/risk-model",
+      "status": 200,
+      "title": "风险模型解释器",
+      "bodyLength": 500,
+      "consoleIssues": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ok": true
+    },
+    {
+      "route": "/dashboard/settings",
+      "status": 200,
+      "title": "系统设置",
+      "bodyLength": 446,
+      "consoleIssues": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ok": true
+    },
+    {
+      "route": "/command-screen",
+      "status": 200,
+      "title": "指挥大屏",
+      "bodyLength": 766,
+      "consoleIssues": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ok": true
+    },
+    {
+      "route": "/mobile-alerts",
+      "status": 200,
+      "title": "移动处置",
+      "bodyLength": 598,
+      "consoleIssues": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "docx": "deliverables/SkyGuard_商业计划书.docx",
+  "pdf": "tmp\\wps_word_final_semantic_render\\SkyGuard_word_final_semantic.pdf",
+  "render_pages": 185,
+  "contact_sheets": [
+    "tmp\\wps_word_final_semantic_render\\contact_sheets\\contact_01.png",
+    "tmp\\wps_word_final_semantic_render\\contact_sheets\\contact_02.png",
+    "tmp\\wps_word_final_semantic_render\\contact_sheets\\contact_03.png",
+    "tmp\\wps_word_final_semantic_render\\contact_sheets\\contact_04.png",
+    "tmp\\wps_word_final_semantic_render\\contact_sheets\\contact_05.png",
+    "tmp\\wps_word_final_semantic_render\\contact_sheets\\contact_06.png",
+    "tmp\\wps_word_final_semantic_render\\contact_sheets\\contact_07.png",
+    "tmp\\wps_word_final_semantic_render\\contact_sheets\\contact_08.png",
+    "tmp\\wps_word_final_semantic_render\\contact_sheets\\contact_09.png",
+    "tmp\\wps_word_final_semantic_render\\contact_sheets\\contact_10.png",
+    "tmp\\wps_word_final_semantic_render\\contact_sheets\\contact_11.png",
+    "tmp\\wps_word_final_semantic_render\\contact_sheets\\contact_12.png"
+  ],
+  "blankish_pages_by_mean": [
+    "page-005.png",
+    "page-049.png",
+    "page-067.png",
+    "page-117.png",
+    "page-132.png",
+    "page-141.png",
+    "page-142.png",
+    "page-147.png",
+    "page-148.png",
+    "page-176.png",
+    "page-185.png"
+  ],
+  "notes": "WebDemo全量21张截图已按页面语义插入第十三章，补充截图位于附录之前。"
+}

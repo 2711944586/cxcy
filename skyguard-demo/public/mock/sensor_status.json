@@ -1,0 +1,1082 @@
+[
+  {
+    "sensor_id": "SEN-001",
+    "sensor_type": "radar",
+    "location": "厦门-游客中心",
+    "online_status": "maintenance",
+    "accuracy": 0.89,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-20 21:17:00"
+  },
+  {
+    "sensor_id": "SEN-002",
+    "sensor_type": "camera",
+    "location": "杭州-游客中心",
+    "online_status": "maintenance",
+    "accuracy": 0.84,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-28 19:06:00"
+  },
+  {
+    "sensor_id": "SEN-003",
+    "sensor_type": "infrared",
+    "location": "杭州-机巢",
+    "online_status": "online",
+    "accuracy": 0.74,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-07 11:54:00"
+  },
+  {
+    "sensor_id": "SEN-004",
+    "sensor_type": "radar",
+    "location": "上海-游客中心",
+    "online_status": "offline",
+    "accuracy": 0.97,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-26 18:15:00"
+  },
+  {
+    "sensor_id": "SEN-005",
+    "sensor_type": "5G-A通感",
+    "location": "厦门-游客中心",
+    "online_status": "online",
+    "accuracy": 0.94,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-19 14:52:00"
+  },
+  {
+    "sensor_id": "SEN-006",
+    "sensor_type": "5G-A通感",
+    "location": "南京-游客中心",
+    "online_status": "offline",
+    "accuracy": 0.72,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-05 16:51:00"
+  },
+  {
+    "sensor_id": "SEN-007",
+    "sensor_type": "5G-A通感",
+    "location": "西安-A区楼顶",
+    "online_status": "online",
+    "accuracy": 0.72,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-19 18:01:00"
+  },
+  {
+    "sensor_id": "SEN-008",
+    "sensor_type": "5G-A通感",
+    "location": "成都-A区楼顶",
+    "online_status": "online",
+    "accuracy": 0.91,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-24 10:30:00"
+  },
+  {
+    "sensor_id": "SEN-009",
+    "sensor_type": "radar",
+    "location": "杭州-机巢",
+    "online_status": "offline",
+    "accuracy": 0.75,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-20 09:46:00"
+  },
+  {
+    "sensor_id": "SEN-010",
+    "sensor_type": "infrared",
+    "location": "北京-物流节点",
+    "online_status": "maintenance",
+    "accuracy": 0.89,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-02 23:54:00"
+  },
+  {
+    "sensor_id": "SEN-011",
+    "sensor_type": "radar",
+    "location": "海口-A区楼顶",
+    "online_status": "maintenance",
+    "accuracy": 0.91,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-03 10:20:00"
+  },
+  {
+    "sensor_id": "SEN-012",
+    "sensor_type": "acoustic",
+    "location": "南通-A区楼顶",
+    "online_status": "online",
+    "accuracy": 0.79,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-13 17:29:00"
+  },
+  {
+    "sensor_id": "SEN-013",
+    "sensor_type": "acoustic",
+    "location": "东莞-场馆东门",
+    "online_status": "online",
+    "accuracy": 0.93,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-28 14:27:00"
+  },
+  {
+    "sensor_id": "SEN-014",
+    "sensor_type": "radar",
+    "location": "武汉-场馆东门",
+    "online_status": "online",
+    "accuracy": 0.94,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-14 11:20:00"
+  },
+  {
+    "sensor_id": "SEN-015",
+    "sensor_type": "radar",
+    "location": "南京-物流节点",
+    "online_status": "online",
+    "accuracy": 0.97,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-03 10:53:00"
+  },
+  {
+    "sensor_id": "SEN-016",
+    "sensor_type": "camera",
+    "location": "上海-场馆东门",
+    "online_status": "online",
+    "accuracy": 0.91,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-26 12:35:00"
+  },
+  {
+    "sensor_id": "SEN-017",
+    "sensor_type": "camera",
+    "location": "厦门-机巢",
+    "online_status": "offline",
+    "accuracy": 0.81,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-14 19:55:00"
+  },
+  {
+    "sensor_id": "SEN-018",
+    "sensor_type": "infrared",
+    "location": "海口-A区楼顶",
+    "online_status": "online",
+    "accuracy": 0.88,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-04 14:09:00"
+  },
+  {
+    "sensor_id": "SEN-019",
+    "sensor_type": "infrared",
+    "location": "长沙-游客中心",
+    "online_status": "online",
+    "accuracy": 0.81,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-04 16:36:00"
+  },
+  {
+    "sensor_id": "SEN-020",
+    "sensor_type": "5G-A通感",
+    "location": "海口-机巢",
+    "online_status": "offline",
+    "accuracy": 0.88,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-20 16:01:00"
+  },
+  {
+    "sensor_id": "SEN-021",
+    "sensor_type": "5G-A通感",
+    "location": "成都-物流节点",
+    "online_status": "online",
+    "accuracy": 0.81,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-28 12:36:00"
+  },
+  {
+    "sensor_id": "SEN-022",
+    "sensor_type": "infrared",
+    "location": "深圳-A区楼顶",
+    "online_status": "online",
+    "accuracy": 0.91,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-03 14:24:00"
+  },
+  {
+    "sensor_id": "SEN-023",
+    "sensor_type": "radar",
+    "location": "重庆-物流节点",
+    "online_status": "online",
+    "accuracy": 0.82,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-25 10:56:00"
+  },
+  {
+    "sensor_id": "SEN-024",
+    "sensor_type": "camera",
+    "location": "南通-游客中心",
+    "online_status": "offline",
+    "accuracy": 0.73,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-09 22:42:00"
+  },
+  {
+    "sensor_id": "SEN-025",
+    "sensor_type": "radar",
+    "location": "长沙-机巢",
+    "online_status": "maintenance",
+    "accuracy": 0.83,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-25 11:22:00"
+  },
+  {
+    "sensor_id": "SEN-026",
+    "sensor_type": "radar",
+    "location": "西安-物流节点",
+    "online_status": "offline",
+    "accuracy": 0.85,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-02 15:25:00"
+  },
+  {
+    "sensor_id": "SEN-027",
+    "sensor_type": "acoustic",
+    "location": "苏州-A区楼顶",
+    "online_status": "online",
+    "accuracy": 0.8,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-25 12:48:00"
+  },
+  {
+    "sensor_id": "SEN-028",
+    "sensor_type": "radio",
+    "location": "珠海-物流节点",
+    "online_status": "online",
+    "accuracy": 0.72,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-06 12:24:00"
+  },
+  {
+    "sensor_id": "SEN-029",
+    "sensor_type": "acoustic",
+    "location": "武汉-机巢",
+    "online_status": "offline",
+    "accuracy": 0.94,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-03 20:55:00"
+  },
+  {
+    "sensor_id": "SEN-030",
+    "sensor_type": "infrared",
+    "location": "苏州-场馆东门",
+    "online_status": "online",
+    "accuracy": 0.84,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-28 18:36:00"
+  },
+  {
+    "sensor_id": "SEN-031",
+    "sensor_type": "radar",
+    "location": "厦门-场馆东门",
+    "online_status": "maintenance",
+    "accuracy": 0.8,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-01 18:10:00"
+  },
+  {
+    "sensor_id": "SEN-032",
+    "sensor_type": "acoustic",
+    "location": "重庆-物流节点",
+    "online_status": "online",
+    "accuracy": 0.83,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-08 21:37:00"
+  },
+  {
+    "sensor_id": "SEN-033",
+    "sensor_type": "radar",
+    "location": "北京-A区楼顶",
+    "online_status": "maintenance",
+    "accuracy": 0.95,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-08 18:49:00"
+  },
+  {
+    "sensor_id": "SEN-034",
+    "sensor_type": "5G-A通感",
+    "location": "上海-机巢",
+    "online_status": "online",
+    "accuracy": 0.86,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-25 19:22:00"
+  },
+  {
+    "sensor_id": "SEN-035",
+    "sensor_type": "infrared",
+    "location": "南通-游客中心",
+    "online_status": "online",
+    "accuracy": 0.76,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-06 12:48:00"
+  },
+  {
+    "sensor_id": "SEN-036",
+    "sensor_type": "infrared",
+    "location": "上海-游客中心",
+    "online_status": "maintenance",
+    "accuracy": 0.84,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-22 18:55:00"
+  },
+  {
+    "sensor_id": "SEN-037",
+    "sensor_type": "infrared",
+    "location": "南京-游客中心",
+    "online_status": "maintenance",
+    "accuracy": 0.74,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-21 17:50:00"
+  },
+  {
+    "sensor_id": "SEN-038",
+    "sensor_type": "radio",
+    "location": "厦门-A区楼顶",
+    "online_status": "online",
+    "accuracy": 0.85,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-15 22:02:00"
+  },
+  {
+    "sensor_id": "SEN-039",
+    "sensor_type": "camera",
+    "location": "杭州-物流节点",
+    "online_status": "online",
+    "accuracy": 0.89,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-20 20:29:00"
+  },
+  {
+    "sensor_id": "SEN-040",
+    "sensor_type": "acoustic",
+    "location": "合肥-A区楼顶",
+    "online_status": "maintenance",
+    "accuracy": 0.96,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-11 23:32:00"
+  },
+  {
+    "sensor_id": "SEN-041",
+    "sensor_type": "5G-A通感",
+    "location": "苏州-场馆东门",
+    "online_status": "online",
+    "accuracy": 0.93,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-23 10:32:00"
+  },
+  {
+    "sensor_id": "SEN-042",
+    "sensor_type": "infrared",
+    "location": "郑州-A区楼顶",
+    "online_status": "online",
+    "accuracy": 0.9,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-17 13:23:00"
+  },
+  {
+    "sensor_id": "SEN-043",
+    "sensor_type": "radio",
+    "location": "珠海-场馆东门",
+    "online_status": "maintenance",
+    "accuracy": 0.92,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-26 18:04:00"
+  },
+  {
+    "sensor_id": "SEN-044",
+    "sensor_type": "radio",
+    "location": "西安-机巢",
+    "online_status": "maintenance",
+    "accuracy": 0.79,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-11 10:37:00"
+  },
+  {
+    "sensor_id": "SEN-045",
+    "sensor_type": "infrared",
+    "location": "南通-物流节点",
+    "online_status": "online",
+    "accuracy": 0.97,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-05 10:19:00"
+  },
+  {
+    "sensor_id": "SEN-046",
+    "sensor_type": "acoustic",
+    "location": "深圳-物流节点",
+    "online_status": "online",
+    "accuracy": 0.89,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-21 21:32:00"
+  },
+  {
+    "sensor_id": "SEN-047",
+    "sensor_type": "radio",
+    "location": "广州-物流节点",
+    "online_status": "online",
+    "accuracy": 0.77,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-11 23:12:00"
+  },
+  {
+    "sensor_id": "SEN-048",
+    "sensor_type": "5G-A通感",
+    "location": "南通-游客中心",
+    "online_status": "online",
+    "accuracy": 0.8,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-17 09:42:00"
+  },
+  {
+    "sensor_id": "SEN-049",
+    "sensor_type": "radio",
+    "location": "东莞-游客中心",
+    "online_status": "offline",
+    "accuracy": 0.82,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-06 13:46:00"
+  },
+  {
+    "sensor_id": "SEN-050",
+    "sensor_type": "radar",
+    "location": "苏州-场馆东门",
+    "online_status": "online",
+    "accuracy": 0.9,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-15 17:48:00"
+  },
+  {
+    "sensor_id": "SEN-051",
+    "sensor_type": "infrared",
+    "location": "重庆-游客中心",
+    "online_status": "offline",
+    "accuracy": 0.78,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-27 14:23:00"
+  },
+  {
+    "sensor_id": "SEN-052",
+    "sensor_type": "infrared",
+    "location": "厦门-场馆东门",
+    "online_status": "maintenance",
+    "accuracy": 0.92,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-17 21:10:00"
+  },
+  {
+    "sensor_id": "SEN-053",
+    "sensor_type": "5G-A通感",
+    "location": "东莞-游客中心",
+    "online_status": "online",
+    "accuracy": 0.73,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-28 19:35:00"
+  },
+  {
+    "sensor_id": "SEN-054",
+    "sensor_type": "camera",
+    "location": "北京-A区楼顶",
+    "online_status": "online",
+    "accuracy": 0.74,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-09 22:57:00"
+  },
+  {
+    "sensor_id": "SEN-055",
+    "sensor_type": "acoustic",
+    "location": "南通-场馆东门",
+    "online_status": "online",
+    "accuracy": 0.97,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-27 22:56:00"
+  },
+  {
+    "sensor_id": "SEN-056",
+    "sensor_type": "radio",
+    "location": "广州-场馆东门",
+    "online_status": "online",
+    "accuracy": 0.82,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-08 20:05:00"
+  },
+  {
+    "sensor_id": "SEN-057",
+    "sensor_type": "radio",
+    "location": "武汉-A区楼顶",
+    "online_status": "online",
+    "accuracy": 0.96,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-26 12:08:00"
+  },
+  {
+    "sensor_id": "SEN-058",
+    "sensor_type": "camera",
+    "location": "珠海-场馆东门",
+    "online_status": "online",
+    "accuracy": 0.92,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-15 08:57:00"
+  },
+  {
+    "sensor_id": "SEN-059",
+    "sensor_type": "camera",
+    "location": "广州-物流节点",
+    "online_status": "online",
+    "accuracy": 0.94,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-04 17:15:00"
+  },
+  {
+    "sensor_id": "SEN-060",
+    "sensor_type": "radio",
+    "location": "西安-A区楼顶",
+    "online_status": "online",
+    "accuracy": 0.83,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-03 11:53:00"
+  },
+  {
+    "sensor_id": "SEN-061",
+    "sensor_type": "radar",
+    "location": "东莞-机巢",
+    "online_status": "online",
+    "accuracy": 0.88,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-23 12:18:00"
+  },
+  {
+    "sensor_id": "SEN-062",
+    "sensor_type": "radar",
+    "location": "广州-机巢",
+    "online_status": "online",
+    "accuracy": 0.78,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-06 10:33:00"
+  },
+  {
+    "sensor_id": "SEN-063",
+    "sensor_type": "radio",
+    "location": "上海-机巢",
+    "online_status": "offline",
+    "accuracy": 0.85,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-13 23:02:00"
+  },
+  {
+    "sensor_id": "SEN-064",
+    "sensor_type": "infrared",
+    "location": "深圳-物流节点",
+    "online_status": "online",
+    "accuracy": 0.91,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-26 10:22:00"
+  },
+  {
+    "sensor_id": "SEN-065",
+    "sensor_type": "5G-A通感",
+    "location": "西安-机巢",
+    "online_status": "online",
+    "accuracy": 0.75,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-18 18:52:00"
+  },
+  {
+    "sensor_id": "SEN-066",
+    "sensor_type": "infrared",
+    "location": "郑州-场馆东门",
+    "online_status": "maintenance",
+    "accuracy": 0.88,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-03 22:02:00"
+  },
+  {
+    "sensor_id": "SEN-067",
+    "sensor_type": "radio",
+    "location": "青岛-A区楼顶",
+    "online_status": "online",
+    "accuracy": 0.95,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-10 20:52:00"
+  },
+  {
+    "sensor_id": "SEN-068",
+    "sensor_type": "acoustic",
+    "location": "长沙-物流节点",
+    "online_status": "online",
+    "accuracy": 0.92,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-10 19:55:00"
+  },
+  {
+    "sensor_id": "SEN-069",
+    "sensor_type": "camera",
+    "location": "南京-物流节点",
+    "online_status": "online",
+    "accuracy": 0.93,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-13 22:57:00"
+  },
+  {
+    "sensor_id": "SEN-070",
+    "sensor_type": "radar",
+    "location": "南京-游客中心",
+    "online_status": "maintenance",
+    "accuracy": 0.9,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-26 16:51:00"
+  },
+  {
+    "sensor_id": "SEN-071",
+    "sensor_type": "camera",
+    "location": "海口-A区楼顶",
+    "online_status": "maintenance",
+    "accuracy": 0.88,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-18 17:20:00"
+  },
+  {
+    "sensor_id": "SEN-072",
+    "sensor_type": "camera",
+    "location": "上海-物流节点",
+    "online_status": "online",
+    "accuracy": 0.8,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-06 22:22:00"
+  },
+  {
+    "sensor_id": "SEN-073",
+    "sensor_type": "radar",
+    "location": "苏州-物流节点",
+    "online_status": "offline",
+    "accuracy": 0.98,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-21 09:04:00"
+  },
+  {
+    "sensor_id": "SEN-074",
+    "sensor_type": "infrared",
+    "location": "深圳-物流节点",
+    "online_status": "offline",
+    "accuracy": 0.93,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-01 12:54:00"
+  },
+  {
+    "sensor_id": "SEN-075",
+    "sensor_type": "acoustic",
+    "location": "重庆-A区楼顶",
+    "online_status": "online",
+    "accuracy": 0.74,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-12 20:36:00"
+  },
+  {
+    "sensor_id": "SEN-076",
+    "sensor_type": "camera",
+    "location": "东莞-游客中心",
+    "online_status": "maintenance",
+    "accuracy": 0.97,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-15 10:36:00"
+  },
+  {
+    "sensor_id": "SEN-077",
+    "sensor_type": "5G-A通感",
+    "location": "北京-物流节点",
+    "online_status": "maintenance",
+    "accuracy": 0.8,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-08 11:01:00"
+  },
+  {
+    "sensor_id": "SEN-078",
+    "sensor_type": "infrared",
+    "location": "郑州-场馆东门",
+    "online_status": "offline",
+    "accuracy": 0.82,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-09 16:45:00"
+  },
+  {
+    "sensor_id": "SEN-079",
+    "sensor_type": "radar",
+    "location": "青岛-机巢",
+    "online_status": "online",
+    "accuracy": 0.9,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-07 11:08:00"
+  },
+  {
+    "sensor_id": "SEN-080",
+    "sensor_type": "camera",
+    "location": "重庆-游客中心",
+    "online_status": "maintenance",
+    "accuracy": 0.98,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-22 19:45:00"
+  },
+  {
+    "sensor_id": "SEN-081",
+    "sensor_type": "camera",
+    "location": "合肥-机巢",
+    "online_status": "online",
+    "accuracy": 0.95,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-23 13:50:00"
+  },
+  {
+    "sensor_id": "SEN-082",
+    "sensor_type": "radio",
+    "location": "北京-游客中心",
+    "online_status": "online",
+    "accuracy": 0.98,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-08 23:01:00"
+  },
+  {
+    "sensor_id": "SEN-083",
+    "sensor_type": "radio",
+    "location": "合肥-机巢",
+    "online_status": "online",
+    "accuracy": 0.84,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-20 10:04:00"
+  },
+  {
+    "sensor_id": "SEN-084",
+    "sensor_type": "radio",
+    "location": "深圳-场馆东门",
+    "online_status": "offline",
+    "accuracy": 0.83,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-27 10:08:00"
+  },
+  {
+    "sensor_id": "SEN-085",
+    "sensor_type": "radio",
+    "location": "上海-场馆东门",
+    "online_status": "maintenance",
+    "accuracy": 0.9,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-05 13:49:00"
+  },
+  {
+    "sensor_id": "SEN-086",
+    "sensor_type": "5G-A通感",
+    "location": "海口-机巢",
+    "online_status": "online",
+    "accuracy": 0.94,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-10 13:10:00"
+  },
+  {
+    "sensor_id": "SEN-087",
+    "sensor_type": "radio",
+    "location": "武汉-物流节点",
+    "online_status": "offline",
+    "accuracy": 0.95,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-09 14:40:00"
+  },
+  {
+    "sensor_id": "SEN-088",
+    "sensor_type": "acoustic",
+    "location": "成都-游客中心",
+    "online_status": "online",
+    "accuracy": 0.88,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-17 13:37:00"
+  },
+  {
+    "sensor_id": "SEN-089",
+    "sensor_type": "acoustic",
+    "location": "南通-游客中心",
+    "online_status": "offline",
+    "accuracy": 0.91,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-27 09:52:00"
+  },
+  {
+    "sensor_id": "SEN-090",
+    "sensor_type": "camera",
+    "location": "上海-A区楼顶",
+    "online_status": "offline",
+    "accuracy": 0.79,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-25 21:39:00"
+  },
+  {
+    "sensor_id": "SEN-091",
+    "sensor_type": "infrared",
+    "location": "广州-场馆东门",
+    "online_status": "offline",
+    "accuracy": 0.8,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-16 15:51:00"
+  },
+  {
+    "sensor_id": "SEN-092",
+    "sensor_type": "infrared",
+    "location": "深圳-物流节点",
+    "online_status": "maintenance",
+    "accuracy": 0.74,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-06 22:26:00"
+  },
+  {
+    "sensor_id": "SEN-093",
+    "sensor_type": "radar",
+    "location": "重庆-游客中心",
+    "online_status": "online",
+    "accuracy": 0.88,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-28 18:46:00"
+  },
+  {
+    "sensor_id": "SEN-094",
+    "sensor_type": "radio",
+    "location": "深圳-游客中心",
+    "online_status": "online",
+    "accuracy": 0.85,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-11 15:29:00"
+  },
+  {
+    "sensor_id": "SEN-095",
+    "sensor_type": "camera",
+    "location": "成都-场馆东门",
+    "online_status": "online",
+    "accuracy": 0.76,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-10 20:55:00"
+  },
+  {
+    "sensor_id": "SEN-096",
+    "sensor_type": "acoustic",
+    "location": "海口-游客中心",
+    "online_status": "online",
+    "accuracy": 0.93,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-07 13:31:00"
+  },
+  {
+    "sensor_id": "SEN-097",
+    "sensor_type": "acoustic",
+    "location": "重庆-场馆东门",
+    "online_status": "online",
+    "accuracy": 0.85,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-13 22:15:00"
+  },
+  {
+    "sensor_id": "SEN-098",
+    "sensor_type": "5G-A通感",
+    "location": "厦门-物流节点",
+    "online_status": "online",
+    "accuracy": 0.73,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-20 23:18:00"
+  },
+  {
+    "sensor_id": "SEN-099",
+    "sensor_type": "acoustic",
+    "location": "广州-A区楼顶",
+    "online_status": "maintenance",
+    "accuracy": 0.75,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-24 19:48:00"
+  },
+  {
+    "sensor_id": "SEN-100",
+    "sensor_type": "radar",
+    "location": "杭州-A区楼顶",
+    "online_status": "maintenance",
+    "accuracy": 0.73,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-12 17:04:00"
+  },
+  {
+    "sensor_id": "SEN-101",
+    "sensor_type": "radar",
+    "location": "北京-场馆东门",
+    "online_status": "offline",
+    "accuracy": 0.79,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-05 11:25:00"
+  },
+  {
+    "sensor_id": "SEN-102",
+    "sensor_type": "radio",
+    "location": "南京-机巢",
+    "online_status": "online",
+    "accuracy": 0.92,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-20 20:32:00"
+  },
+  {
+    "sensor_id": "SEN-103",
+    "sensor_type": "camera",
+    "location": "苏州-A区楼顶",
+    "online_status": "online",
+    "accuracy": 0.91,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-17 22:09:00"
+  },
+  {
+    "sensor_id": "SEN-104",
+    "sensor_type": "acoustic",
+    "location": "北京-游客中心",
+    "online_status": "online",
+    "accuracy": 0.96,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-06 20:39:00"
+  },
+  {
+    "sensor_id": "SEN-105",
+    "sensor_type": "infrared",
+    "location": "珠海-机巢",
+    "online_status": "online",
+    "accuracy": 0.85,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-23 17:30:00"
+  },
+  {
+    "sensor_id": "SEN-106",
+    "sensor_type": "camera",
+    "location": "杭州-物流节点",
+    "online_status": "online",
+    "accuracy": 0.97,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-26 08:38:00"
+  },
+  {
+    "sensor_id": "SEN-107",
+    "sensor_type": "radar",
+    "location": "成都-机巢",
+    "online_status": "offline",
+    "accuracy": 0.78,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-19 23:10:00"
+  },
+  {
+    "sensor_id": "SEN-108",
+    "sensor_type": "acoustic",
+    "location": "东莞-场馆东门",
+    "online_status": "online",
+    "accuracy": 0.93,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-02 11:12:00"
+  },
+  {
+    "sensor_id": "SEN-109",
+    "sensor_type": "camera",
+    "location": "重庆-物流节点",
+    "online_status": "maintenance",
+    "accuracy": 0.76,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-14 23:55:00"
+  },
+  {
+    "sensor_id": "SEN-110",
+    "sensor_type": "infrared",
+    "location": "苏州-游客中心",
+    "online_status": "offline",
+    "accuracy": 0.77,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-22 23:33:00"
+  },
+  {
+    "sensor_id": "SEN-111",
+    "sensor_type": "radar",
+    "location": "南京-游客中心",
+    "online_status": "maintenance",
+    "accuracy": 0.96,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-18 19:43:00"
+  },
+  {
+    "sensor_id": "SEN-112",
+    "sensor_type": "infrared",
+    "location": "成都-机巢",
+    "online_status": "maintenance",
+    "accuracy": 0.77,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-09 17:14:00"
+  },
+  {
+    "sensor_id": "SEN-113",
+    "sensor_type": "radio",
+    "location": "珠海-游客中心",
+    "online_status": "maintenance",
+    "accuracy": 0.8,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-18 16:18:00"
+  },
+  {
+    "sensor_id": "SEN-114",
+    "sensor_type": "camera",
+    "location": "厦门-机巢",
+    "online_status": "maintenance",
+    "accuracy": 0.95,
+    "coverage_radius_m": 2000,
+    "last_heartbeat": "2026-06-27 19:49:00"
+  },
+  {
+    "sensor_id": "SEN-115",
+    "sensor_type": "5G-A通感",
+    "location": "珠海-A区楼顶",
+    "online_status": "online",
+    "accuracy": 0.97,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-12 22:41:00"
+  },
+  {
+    "sensor_id": "SEN-116",
+    "sensor_type": "radio",
+    "location": "长沙-游客中心",
+    "online_status": "online",
+    "accuracy": 0.94,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-18 16:08:00"
+  },
+  {
+    "sensor_id": "SEN-117",
+    "sensor_type": "camera",
+    "location": "东莞-机巢",
+    "online_status": "online",
+    "accuracy": 0.78,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-21 15:03:00"
+  },
+  {
+    "sensor_id": "SEN-118",
+    "sensor_type": "camera",
+    "location": "海口-物流节点",
+    "online_status": "maintenance",
+    "accuracy": 0.75,
+    "coverage_radius_m": 800,
+    "last_heartbeat": "2026-06-01 13:26:00"
+  },
+  {
+    "sensor_id": "SEN-119",
+    "sensor_type": "infrared",
+    "location": "长沙-场馆东门",
+    "online_status": "online",
+    "accuracy": 0.92,
+    "coverage_radius_m": 1200,
+    "last_heartbeat": "2026-06-11 17:41:00"
+  },
+  {
+    "sensor_id": "SEN-120",
+    "sensor_type": "camera",
+    "location": "上海-机巢",
+    "online_status": "online",
+    "accuracy": 0.86,
+    "coverage_radius_m": 500,
+    "last_heartbeat": "2026-06-06 21:56:00"
+  }
+]

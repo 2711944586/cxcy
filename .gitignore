@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+skyguard-demo/node_modules/
+
+# Build outputs
+dist/
+skyguard-demo/dist/
+
+# Local temporary/render output
+tmp/
+*.log
+skyguard-plan/qa/
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Large local source/reference material kept outside the deploy repository
+数据以及图/
+参考/
+
+# Office lock files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/

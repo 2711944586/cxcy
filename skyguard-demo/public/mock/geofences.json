@@ -1,0 +1,578 @@
+[
+  {
+    "fence_id": "GF-001",
+    "fence_name": "合肥体育场馆",
+    "fence_type": "限飞区",
+    "risk_weight": 0.73,
+    "active": true,
+    "center": {
+      "lat": 27.1376,
+      "lng": 121.3296
+    },
+    "radius_m": 300
+  },
+  {
+    "fence_id": "GF-002",
+    "fence_name": "长沙机场周边",
+    "fence_type": "普通监测区",
+    "risk_weight": 0.55,
+    "active": true,
+    "center": {
+      "lat": 37.90896,
+      "lng": 114.00538
+    },
+    "radius_m": 800
+  },
+  {
+    "fence_id": "GF-003",
+    "fence_name": "上海机场周边",
+    "fence_type": "普通监测区",
+    "risk_weight": 0.39,
+    "active": true,
+    "center": {
+      "lat": 39.13914,
+      "lng": 112.24244
+    },
+    "radius_m": 300
+  },
+  {
+    "fence_id": "GF-004",
+    "fence_name": "珠海景区核心区",
+    "fence_type": "限飞区",
+    "risk_weight": 0.42,
+    "active": true,
+    "center": {
+      "lat": 24.93109,
+      "lng": 118.3439
+    },
+    "radius_m": 2000
+  },
+  {
+    "fence_id": "GF-005",
+    "fence_name": "北京机场周边",
+    "fence_type": "普通监测区",
+    "risk_weight": 0.9,
+    "active": true,
+    "center": {
+      "lat": 32.93028,
+      "lng": 114.81706
+    },
+    "radius_m": 2000
+  },
+  {
+    "fence_id": "GF-006",
+    "fence_name": "东莞景区核心区",
+    "fence_type": "禁飞区",
+    "risk_weight": 0.92,
+    "active": true,
+    "center": {
+      "lat": 40.02056,
+      "lng": 109.08846
+    },
+    "radius_m": 500
+  },
+  {
+    "fence_id": "GF-007",
+    "fence_name": "武汉产业园区",
+    "fence_type": "禁飞区",
+    "risk_weight": 0.44,
+    "active": true,
+    "center": {
+      "lat": 26.96363,
+      "lng": 104.98573
+    },
+    "radius_m": 2000
+  },
+  {
+    "fence_id": "GF-008",
+    "fence_name": "珠海体育场馆",
+    "fence_type": "普通监测区",
+    "risk_weight": 0.39,
+    "active": true,
+    "center": {
+      "lat": 30.65842,
+      "lng": 104.09731
+    },
+    "radius_m": 800
+  },
+  {
+    "fence_id": "GF-009",
+    "fence_name": "青岛机场周边",
+    "fence_type": "禁飞区",
+    "risk_weight": 0.68,
+    "active": true,
+    "center": {
+      "lat": 36.3809,
+      "lng": 114.93856
+    },
+    "radius_m": 800
+  },
+  {
+    "fence_id": "GF-010",
+    "fence_name": "郑州体育场馆",
+    "fence_type": "重点保护区",
+    "risk_weight": 0.61,
+    "active": true,
+    "center": {
+      "lat": 37.07936,
+      "lng": 104.8068
+    },
+    "radius_m": 800
+  },
+  {
+    "fence_id": "GF-011",
+    "fence_name": "北京物流航线",
+    "fence_type": "普通监测区",
+    "risk_weight": 0.61,
+    "active": true,
+    "center": {
+      "lat": 34.79521,
+      "lng": 120.75098
+    },
+    "radius_m": 1200
+  },
+  {
+    "fence_id": "GF-012",
+    "fence_name": "广州景区核心区",
+    "fence_type": "限飞区",
+    "risk_weight": 0.93,
+    "active": true,
+    "center": {
+      "lat": 35.42161,
+      "lng": 114.54796
+    },
+    "radius_m": 2000
+  },
+  {
+    "fence_id": "GF-013",
+    "fence_name": "成都物流航线",
+    "fence_type": "禁飞区",
+    "risk_weight": 0.81,
+    "active": true,
+    "center": {
+      "lat": 32.76821,
+      "lng": 103.87964
+    },
+    "radius_m": 2000
+  },
+  {
+    "fence_id": "GF-014",
+    "fence_name": "郑州物流航线",
+    "fence_type": "普通监测区",
+    "risk_weight": 0.73,
+    "active": true,
+    "center": {
+      "lat": 33.92717,
+      "lng": 120.26413
+    },
+    "radius_m": 300
+  },
+  {
+    "fence_id": "GF-015",
+    "fence_name": "南京景区核心区",
+    "fence_type": "限飞区",
+    "risk_weight": 0.55,
+    "active": true,
+    "center": {
+      "lat": 30.66019,
+      "lng": 110.97277
+    },
+    "radius_m": 800
+  },
+  {
+    "fence_id": "GF-016",
+    "fence_name": "合肥景区核心区",
+    "fence_type": "普通监测区",
+    "risk_weight": 0.4,
+    "active": true,
+    "center": {
+      "lat": 34.1265,
+      "lng": 110.82828
+    },
+    "radius_m": 300
+  },
+  {
+    "fence_id": "GF-017",
+    "fence_name": "北京景区核心区",
+    "fence_type": "普通监测区",
+    "risk_weight": 0.6,
+    "active": true,
+    "center": {
+      "lat": 39.66333,
+      "lng": 110.8964
+    },
+    "radius_m": 800
+  },
+  {
+    "fence_id": "GF-018",
+    "fence_name": "重庆景区核心区",
+    "fence_type": "限飞区",
+    "risk_weight": 0.51,
+    "active": true,
+    "center": {
+      "lat": 33.40741,
+      "lng": 112.62242
+    },
+    "radius_m": 800
+  },
+  {
+    "fence_id": "GF-019",
+    "fence_name": "西安景区核心区",
+    "fence_type": "限飞区",
+    "risk_weight": 0.78,
+    "active": true,
+    "center": {
+      "lat": 30.08609,
+      "lng": 116.27798
+    },
+    "radius_m": 300
+  },
+  {
+    "fence_id": "GF-020",
+    "fence_name": "西安机场周边",
+    "fence_type": "禁飞区",
+    "risk_weight": 0.74,
+    "active": true,
+    "center": {
+      "lat": 32.14053,
+      "lng": 105.20573
+    },
+    "radius_m": 800
+  },
+  {
+    "fence_id": "GF-021",
+    "fence_name": "长沙机场周边",
+    "fence_type": "限飞区",
+    "risk_weight": 0.62,
+    "active": true,
+    "center": {
+      "lat": 31.3597,
+      "lng": 108.50368
+    },
+    "radius_m": 500
+  },
+  {
+    "fence_id": "GF-022",
+    "fence_name": "南通景区核心区",
+    "fence_type": "重点保护区",
+    "risk_weight": 0.81,
+    "active": true,
+    "center": {
+      "lat": 38.79363,
+      "lng": 112.80081
+    },
+    "radius_m": 800
+  },
+  {
+    "fence_id": "GF-023",
+    "fence_name": "广州体育场馆",
+    "fence_type": "重点保护区",
+    "risk_weight": 0.85,
+    "active": true,
+    "center": {
+      "lat": 39.01647,
+      "lng": 112.7916
+    },
+    "radius_m": 1200
+  },
+  {
+    "fence_id": "GF-024",
+    "fence_name": "长沙体育场馆",
+    "fence_type": "重点保护区",
+    "risk_weight": 0.68,
+    "active": true,
+    "center": {
+      "lat": 37.77469,
+      "lng": 111.67182
+    },
+    "radius_m": 1200
+  },
+  {
+    "fence_id": "GF-025",
+    "fence_name": "武汉物流航线",
+    "fence_type": "普通监测区",
+    "risk_weight": 0.49,
+    "active": true,
+    "center": {
+      "lat": 38.99134,
+      "lng": 119.41371
+    },
+    "radius_m": 300
+  },
+  {
+    "fence_id": "GF-026",
+    "fence_name": "深圳机场周边",
+    "fence_type": "限飞区",
+    "risk_weight": 0.65,
+    "active": false,
+    "center": {
+      "lat": 27.92717,
+      "lng": 112.15547
+    },
+    "radius_m": 2000
+  },
+  {
+    "fence_id": "GF-027",
+    "fence_name": "西安机场周边",
+    "fence_type": "禁飞区",
+    "risk_weight": 0.67,
+    "active": true,
+    "center": {
+      "lat": 39.57636,
+      "lng": 109.5755
+    },
+    "radius_m": 500
+  },
+  {
+    "fence_id": "GF-028",
+    "fence_name": "南通景区核心区",
+    "fence_type": "普通监测区",
+    "risk_weight": 0.82,
+    "active": true,
+    "center": {
+      "lat": 29.57962,
+      "lng": 115.4825
+    },
+    "radius_m": 2000
+  },
+  {
+    "fence_id": "GF-029",
+    "fence_name": "南京物流航线",
+    "fence_type": "普通监测区",
+    "risk_weight": 0.92,
+    "active": true,
+    "center": {
+      "lat": 34.66868,
+      "lng": 115.39201
+    },
+    "radius_m": 1200
+  },
+  {
+    "fence_id": "GF-030",
+    "fence_name": "上海产业园区",
+    "fence_type": "重点保护区",
+    "risk_weight": 0.95,
+    "active": true,
+    "center": {
+      "lat": 37.90289,
+      "lng": 104.15695
+    },
+    "radius_m": 1200
+  },
+  {
+    "fence_id": "GF-031",
+    "fence_name": "西安机场周边",
+    "fence_type": "限飞区",
+    "risk_weight": 0.77,
+    "active": true,
+    "center": {
+      "lat": 39.81008,
+      "lng": 117.41477
+    },
+    "radius_m": 300
+  },
+  {
+    "fence_id": "GF-032",
+    "fence_name": "杭州体育场馆",
+    "fence_type": "普通监测区",
+    "risk_weight": 0.44,
+    "active": true,
+    "center": {
+      "lat": 28.03874,
+      "lng": 104.52698
+    },
+    "radius_m": 2000
+  },
+  {
+    "fence_id": "GF-033",
+    "fence_name": "郑州景区核心区",
+    "fence_type": "普通监测区",
+    "risk_weight": 0.72,
+    "active": true,
+    "center": {
+      "lat": 34.47241,
+      "lng": 106.79504
+    },
+    "radius_m": 2000
+  },
+  {
+    "fence_id": "GF-034",
+    "fence_name": "成都机场周边",
+    "fence_type": "重点保护区",
+    "risk_weight": 0.75,
+    "active": true,
+    "center": {
+      "lat": 24.77612,
+      "lng": 111.93904
+    },
+    "radius_m": 1200
+  },
+  {
+    "fence_id": "GF-035",
+    "fence_name": "郑州景区核心区",
+    "fence_type": "普通监测区",
+    "risk_weight": 0.92,
+    "active": true,
+    "center": {
+      "lat": 38.42177,
+      "lng": 115.90028
+    },
+    "radius_m": 800
+  },
+  {
+    "fence_id": "GF-036",
+    "fence_name": "成都机场周边",
+    "fence_type": "重点保护区",
+    "risk_weight": 0.47,
+    "active": true,
+    "center": {
+      "lat": 33.7009,
+      "lng": 111.26485
+    },
+    "radius_m": 1200
+  },
+  {
+    "fence_id": "GF-037",
+    "fence_name": "杭州物流航线",
+    "fence_type": "重点保护区",
+    "risk_weight": 0.95,
+    "active": true,
+    "center": {
+      "lat": 24.11976,
+      "lng": 110.47897
+    },
+    "radius_m": 1200
+  },
+  {
+    "fence_id": "GF-038",
+    "fence_name": "苏州物流航线",
+    "fence_type": "普通监测区",
+    "risk_weight": 0.85,
+    "active": true,
+    "center": {
+      "lat": 27.14065,
+      "lng": 113.8565
+    },
+    "radius_m": 500
+  },
+  {
+    "fence_id": "GF-039",
+    "fence_name": "青岛物流航线",
+    "fence_type": "重点保护区",
+    "risk_weight": 0.76,
+    "active": true,
+    "center": {
+      "lat": 33.12717,
+      "lng": 109.94747
+    },
+    "radius_m": 500
+  },
+  {
+    "fence_id": "GF-040",
+    "fence_name": "苏州体育场馆",
+    "fence_type": "普通监测区",
+    "risk_weight": 0.37,
+    "active": true,
+    "center": {
+      "lat": 33.50847,
+      "lng": 120.03229
+    },
+    "radius_m": 500
+  },
+  {
+    "fence_id": "GF-041",
+    "fence_name": "海口产业园区",
+    "fence_type": "限飞区",
+    "risk_weight": 0.43,
+    "active": true,
+    "center": {
+      "lat": 23.8224,
+      "lng": 108.90052
+    },
+    "radius_m": 800
+  },
+  {
+    "fence_id": "GF-042",
+    "fence_name": "郑州体育场馆",
+    "fence_type": "普通监测区",
+    "risk_weight": 0.93,
+    "active": true,
+    "center": {
+      "lat": 31.75534,
+      "lng": 120.21681
+    },
+    "radius_m": 800
+  },
+  {
+    "fence_id": "GF-043",
+    "fence_name": "上海产业园区",
+    "fence_type": "限飞区",
+    "risk_weight": 0.87,
+    "active": true,
+    "center": {
+      "lat": 36.67619,
+      "lng": 112.07046
+    },
+    "radius_m": 1200
+  },
+  {
+    "fence_id": "GF-044",
+    "fence_name": "杭州景区核心区",
+    "fence_type": "普通监测区",
+    "risk_weight": 0.36,
+    "active": true,
+    "center": {
+      "lat": 39.61086,
+      "lng": 118.22395
+    },
+    "radius_m": 1200
+  },
+  {
+    "fence_id": "GF-045",
+    "fence_name": "成都物流航线",
+    "fence_type": "普通监测区",
+    "risk_weight": 0.84,
+    "active": true,
+    "center": {
+      "lat": 28.83454,
+      "lng": 117.20691
+    },
+    "radius_m": 300
+  },
+  {
+    "fence_id": "GF-046",
+    "fence_name": "东莞物流航线",
+    "fence_type": "重点保护区",
+    "risk_weight": 0.9,
+    "active": true,
+    "center": {
+      "lat": 34.34706,
+      "lng": 112.12803
+    },
+    "radius_m": 300
+  },
+  {
+    "fence_id": "GF-047",
+    "fence_name": "珠海机场周边",
+    "fence_type": "禁飞区",
+    "risk_weight": 0.43,
+    "active": true,
+    "center": {
+      "lat": 33.63727,
+      "lng": 111.9961
+    },
+    "radius_m": 800
+  },
+  {
+    "fence_id": "GF-048",
+    "fence_name": "武汉物流航线",
+    "fence_type": "限飞区",
+    "risk_weight": 0.58,
+    "active": true,
+    "center": {
+      "lat": 40.12669,
+      "lng": 105.625
+    },
+    "radius_m": 2000
+  }
+]
