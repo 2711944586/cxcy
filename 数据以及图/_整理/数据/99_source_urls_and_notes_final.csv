@@ -1,0 +1,20 @@
+﻿source_id,source_url,source_type,used_in_files,access_date,note
+CAAC_2025_BULLETIN,https://www.caac.gov.cn/XWZX/MHYW/202604/t20260417_230603.html,official_or_public_or_research,source_id/source_url columns; README,2026-06-28,公开网页/PDF/研究论文；CSV中已保留source_id和source_url。
+XINHUA_2025_UAV_REGISTERED,https://www.news.cn/fortune/20260420/3468340343db45ae8e2e813eeb67d0d0/c.html,official_or_public_or_research,source_id/source_url columns; README,2026-06-28,公开网页/PDF/研究论文；CSV中已保留source_id和source_url。
+CAAC_2024_BULLETIN,https://www.caac.gov.cn/XXGK/XXGK/TJSJ/202505/t20250515_227513.html,official_or_public_or_research,source_id/source_url columns; README,2026-06-28,公开网页/PDF/研究论文；CSV中已保留source_id和source_url。
+MOT_2024_BULLETIN_PDF,https://www.mot.gov.cn/shuju/fenxigongbao/hangyegongbao/202601/P020260104371505744786.pdf,official_or_public_or_research,source_id/source_url columns; README,2026-06-28,公开网页/PDF/研究论文；CSV中已保留source_id和source_url。
+CAAC_UAV_CLOUD_2023,https://www.caac.gov.cn/PHONE/XWZX/MHYW/202404/t20240429_224016.html,official_or_public_or_research,source_id/source_url columns; README,2026-06-28,公开网页/PDF/研究论文；CSV中已保留source_id和source_url。
+CAAC_STATS_PORTAL,https://www.caac.gov.cn/XXGK/XXGK/TJSJ/TJSJ_1/,official_or_public_or_research,source_id/source_url columns; README,2026-06-28,公开网页/PDF/研究论文；CSV中已保留source_id和source_url。
+SHENZHEN_LOW_ALTITUDE_INFRA_PLAN,https://fgw.sz.gov.cn/zwgk/qt/tzgg/content/post_12305044.html,official_or_public_or_research,source_id/source_url columns; README,2026-06-28,公开网页/PDF/研究论文；CSV中已保留source_id和source_url。
+GUANGDONG_LOW_ALTITUDE_PLAN,https://www.thnet.gov.cn/zjth/tzth/tzzc/sszc/content/post_9836185.html,official_or_public_or_research,source_id/source_url columns; README,2026-06-28,公开网页/PDF/研究论文；CSV中已保留source_id和source_url。
+SUZHOU_LOW_ALTITUDE_PLAN,https://www.suzhou.gov.cn/szsrmzf/zfbgswj/202402/1ea65ae34733413ba188c04f8690267a.shtml,official_or_public_or_research,source_id/source_url columns; README,2026-06-28,公开网页/PDF/研究论文；CSV中已保留source_id和source_url。
+SHANGHAI_LOW_ALTITUDE_SUPERVISION,https://www.mot.gov.cn/xinwen/jiaotongyaowen/202601/t20260122_4198498.html,official_or_public_or_research,source_id/source_url columns; README,2026-06-28,公开网页/PDF/研究论文；CSV中已保留source_id和source_url。
+CHONGQING_LOW_ALTITUDE_PLAN,https://www.cq.gov.cn/zwgk/zfxxgkml/szfwj/qtgw/202409/t20240926_13663171.html,official_or_public_or_research,source_id/source_url columns; README,2026-06-28,公开网页/PDF/研究论文；CSV中已保留source_id和source_url。
+ANHUI_LOW_ALTITUDE_PLAN,https://www.tljq.gov.cn/openness/upload_tl/download?id=89264&siteId=4,official_or_public_or_research,source_id/source_url columns; README,2026-06-28,公开网页/PDF/研究论文；CSV中已保留source_id和source_url。
+NANTONG_LOW_ALTITUDE_PLAN,https://www.nantong.gov.cn/ntsrmzf/szfbwj/content/f6d67b3b-25c0-4b89-83f1-3794a28f3812.html,official_or_public_or_research,source_id/source_url columns; README,2026-06-28,公开网页/PDF/研究论文；CSV中已保留source_id和source_url。
+FANGSHAN_LOW_ALTITUDE_PLAN,https://www.bjfsh.gov.cn/zwgk/zcwj/202410/t20241028_40082292.shtml,official_or_public_or_research,source_id/source_url columns; README,2026-06-28,公开网页/PDF/研究论文；CSV中已保留source_id和source_url。
+CAICT_LOW_ALTITUDE_REPORT_2026,https://www.caict.ac.cn/kxyj/qwfb/bps/202603/P020260331466642289162.pdf,official_or_public_or_research,source_id/source_url columns; README,2026-06-28,公开网页/PDF/研究论文；CSV中已保留source_id和source_url。
+AU_AIR_DATASET_PAPER,https://arxiv.org/abs/2001.11737,official_or_public_or_research,source_id/source_url columns; README,2026-06-28,公开网页/PDF/研究论文；CSV中已保留source_id和source_url。
+UAV_HUMAN_DATASET_PAPER,https://arxiv.org/abs/2104.00946,official_or_public_or_research,source_id/source_url columns; README,2026-06-28,公开网页/PDF/研究论文；CSV中已保留source_id和source_url。
+CITYSIM_DATASET_PAPER,https://arxiv.org/abs/2208.11036,official_or_public_or_research,source_id/source_url columns; README,2026-06-28,公开网页/PDF/研究论文；CSV中已保留source_id和source_url。
+HIGH_DENSITY_INTERSECTION_DATASET,https://arxiv.org/abs/2411.02349,official_or_public_or_research,source_id/source_url columns; README,2026-06-28,公开网页/PDF/研究论文；CSV中已保留source_id和source_url。

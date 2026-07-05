@@ -1,0 +1,717 @@
+﻿field_id,module,layer,table_name,field_name_en,field_name_cn,data_type,unit,recommended_update_frequency,sensitivity_level,quality_rule,source_basis,data_nature,platform_use,required_for_mvp
+F0001,飞行器身份与适航,感知层/业务层,t_aircraft_identity,aircraft_id,aircraft id,string/id,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0002,飞行器身份与适航,感知层/业务层,t_aircraft_identity,registration_no,registration no,string/id,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0003,飞行器身份与适航,感知层/业务层,t_aircraft_identity,remote_id,remote id,numeric,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0004,飞行器身份与适航,感知层/业务层,t_aircraft_identity,serial_no,serial no,string/id,,按业务事件,高,按业务字典校验，缺失率和异常值需监控,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0005,飞行器身份与适航,感知层/业务层,t_aircraft_identity,manufacturer,manufacturer,numeric,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0006,飞行器身份与适航,感知层/业务层,t_aircraft_identity,model,model,numeric,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0007,飞行器身份与适航,感知层/业务层,t_aircraft_identity,aircraft_category,aircraft category,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0008,飞行器身份与适航,感知层/业务层,t_aircraft_identity,size_class,size class,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0009,飞行器身份与适航,感知层/业务层,t_aircraft_identity,mtow_kg,mtow kg,numeric,千克,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0010,飞行器身份与适航,感知层/业务层,t_aircraft_identity,empty_weight_kg,empty weight kg,numeric,千克,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0011,飞行器身份与适航,感知层/业务层,t_aircraft_identity,wingspan_m,wingspan m,numeric,米,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0012,飞行器身份与适航,感知层/业务层,t_aircraft_identity,rotor_count,rotor count,numeric,个/架/次,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0013,飞行器身份与适航,感知层/业务层,t_aircraft_identity,energy_type,energy type,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0014,飞行器身份与适航,感知层/业务层,t_aircraft_identity,battery_capacity_wh,battery capacity wh,numeric,Wh,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0015,飞行器身份与适航,感知层/业务层,t_aircraft_identity,max_speed_mps,max speed mps,numeric,米/秒,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0016,飞行器身份与适航,感知层/业务层,t_aircraft_identity,max_range_km,max range km,numeric,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0017,飞行器身份与适航,感知层/业务层,t_aircraft_identity,max_endurance_min,max endurance min,numeric,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0018,飞行器身份与适航,感知层/业务层,t_aircraft_identity,parachute_equipped,parachute equipped,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0019,飞行器身份与适航,感知层/业务层,t_aircraft_identity,geo_fence_capable,geo fence capable,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0020,飞行器身份与适航,感知层/业务层,t_aircraft_identity,firmware_version,firmware version,numeric,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0021,飞行器身份与适航,感知层/业务层,t_aircraft_identity,airworthiness_cert_no,airworthiness cert no,string/id,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0022,飞行器身份与适航,感知层/业务层,t_aircraft_identity,maintenance_status,maintenance status,numeric,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0023,飞行器身份与适航,感知层/业务层,t_aircraft_identity,last_maintenance_time,last maintenance time,datetime/date,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0024,飞行器身份与适航,感知层/业务层,t_aircraft_identity,insurance_policy_no,insurance policy no,string/id,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机实名/运营监管口径+城市平台身份识别需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0025,主体与操控员,感知层/业务层,t_operator,operator_id,operator id,string/id,,按业务事件,高,主键唯一/时间戳不可为空/坐标需在城市边界内,CAAC无人机操控员执照与运营合格证统计口径,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0026,主体与操控员,感知层/业务层,t_operator,operator_name,operator name,numeric,,按业务事件,高,按业务字典校验，缺失率和异常值需监控,CAAC无人机操控员执照与运营合格证统计口径,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0027,主体与操控员,感知层/业务层,t_operator,operator_type,operator type,string,,按业务事件,高,按业务字典校验，缺失率和异常值需监控,CAAC无人机操控员执照与运营合格证统计口径,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0028,主体与操控员,感知层/业务层,t_operator,uom_certificate_no,uom certificate no,numeric,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机操控员执照与运营合格证统计口径,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0029,主体与操控员,感知层/业务层,t_operator,business_license_no,business license no,string/id,,按业务事件,高,按业务字典校验，缺失率和异常值需监控,CAAC无人机操控员执照与运营合格证统计口径,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0030,主体与操控员,感知层/业务层,t_operator,pilot_id_hash,pilot id hash,string/id,,按业务事件,高,按业务字典校验，缺失率和异常值需监控,CAAC无人机操控员执照与运营合格证统计口径,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0031,主体与操控员,感知层/业务层,t_operator,pilot_license_no,pilot license no,string/id,,按业务事件,高,按业务字典校验，缺失率和异常值需监控,CAAC无人机操控员执照与运营合格证统计口径,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0032,主体与操控员,感知层/业务层,t_operator,license_level,license level,string,,按业务事件,高,按业务字典校验，缺失率和异常值需监控,CAAC无人机操控员执照与运营合格证统计口径,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0033,主体与操控员,感知层/业务层,t_operator,license_valid_from,license valid from,datetime/date,,按业务事件,高,按业务字典校验，缺失率和异常值需监控,CAAC无人机操控员执照与运营合格证统计口径,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0034,主体与操控员,感知层/业务层,t_operator,license_valid_to,license valid to,datetime/date,,按业务事件,高,按业务字典校验，缺失率和异常值需监控,CAAC无人机操控员执照与运营合格证统计口径,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0035,主体与操控员,感知层/业务层,t_operator,training_org,training org,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机操控员执照与运营合格证统计口径,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0036,主体与操控员,感知层/业务层,t_operator,contact_phone_hash,contact phone hash,string/id,,按业务事件,高,按业务字典校验，缺失率和异常值需监控,CAAC无人机操控员执照与运营合格证统计口径,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0037,主体与操控员,感知层/业务层,t_operator,emergency_contact_hash,emergency contact hash,numeric,,按业务事件,高,按业务字典校验，缺失率和异常值需监控,CAAC无人机操控员执照与运营合格证统计口径,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0038,主体与操控员,感知层/业务层,t_operator,organization_credit_code_hash,organization credit code hash,string/id,,按业务事件,高,按业务字典校验，缺失率和异常值需监控,CAAC无人机操控员执照与运营合格证统计口径,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0039,主体与操控员,感知层/业务层,t_operator,insurance_valid_to,insurance valid to,datetime/date,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机操控员执照与运营合格证统计口径,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0040,主体与操控员,感知层/业务层,t_operator,blacklist_flag,blacklist flag,boolean,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机操控员执照与运营合格证统计口径,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0041,主体与操控员,感知层/业务层,t_operator,compliance_score,compliance score,decimal_percent,%或0-100评分,按业务事件,低,按业务字典校验，缺失率和异常值需监控,CAAC无人机操控员执照与运营合格证统计口径,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0042,飞行计划与审批,感知层/业务层,t_flight_plan,plan_id,plan id,string/id,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,广东/深圳/苏州平台建设方案中飞行申请响应、飞行管理服务平台需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0043,飞行计划与审批,感知层/业务层,t_flight_plan,mission_type,mission type,numeric,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,广东/深圳/苏州平台建设方案中飞行申请响应、飞行管理服务平台需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0044,飞行计划与审批,感知层/业务层,t_flight_plan,application_time,application time,datetime/date,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,广东/深圳/苏州平台建设方案中飞行申请响应、飞行管理服务平台需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0045,飞行计划与审批,感知层/业务层,t_flight_plan,planned_takeoff_time,planned takeoff time,datetime/date,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,广东/深圳/苏州平台建设方案中飞行申请响应、飞行管理服务平台需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0046,飞行计划与审批,感知层/业务层,t_flight_plan,planned_landing_time,planned landing time,datetime/date,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,广东/深圳/苏州平台建设方案中飞行申请响应、飞行管理服务平台需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0047,飞行计划与审批,感知层/业务层,t_flight_plan,planned_duration_min,planned duration min,numeric,秒/分钟,按业务事件,低,按业务字典校验，缺失率和异常值需监控,广东/深圳/苏州平台建设方案中飞行申请响应、飞行管理服务平台需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0048,飞行计划与审批,感知层/业务层,t_flight_plan,takeoff_site_id,takeoff site id,string/id,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,广东/深圳/苏州平台建设方案中飞行申请响应、飞行管理服务平台需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0049,飞行计划与审批,感知层/业务层,t_flight_plan,landing_site_id,landing site id,string/id,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,广东/深圳/苏州平台建设方案中飞行申请响应、飞行管理服务平台需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0050,飞行计划与审批,感知层/业务层,t_flight_plan,route_id,route id,string/id,,按业务事件,中,主键唯一/时间戳不可为空/坐标需在城市边界内,广东/深圳/苏州平台建设方案中飞行申请响应、飞行管理服务平台需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0051,飞行计划与审批,感知层/业务层,t_flight_plan,waypoint_count,waypoint count,numeric,个/架/次,按业务事件,低,按业务字典校验，缺失率和异常值需监控,广东/深圳/苏州平台建设方案中飞行申请响应、飞行管理服务平台需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0052,飞行计划与审批,感知层/业务层,t_flight_plan,planned_min_altitude_m,planned min altitude m,numeric,米,按业务事件,低,按业务字典校验，缺失率和异常值需监控,广东/深圳/苏州平台建设方案中飞行申请响应、飞行管理服务平台需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0053,飞行计划与审批,感知层/业务层,t_flight_plan,planned_max_altitude_m,planned max altitude m,numeric,米,按业务事件,低,按业务字典校验，缺失率和异常值需监控,广东/深圳/苏州平台建设方案中飞行申请响应、飞行管理服务平台需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0054,飞行计划与审批,感知层/业务层,t_flight_plan,payload_type,payload type,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,广东/深圳/苏州平台建设方案中飞行申请响应、飞行管理服务平台需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0055,飞行计划与审批,感知层/业务层,t_flight_plan,payload_weight_kg,payload weight kg,numeric,千克,按业务事件,低,按业务字典校验，缺失率和异常值需监控,广东/深圳/苏州平台建设方案中飞行申请响应、飞行管理服务平台需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0056,飞行计划与审批,感知层/业务层,t_flight_plan,risk_level_precheck,risk level precheck,string,,按业务事件,中,按业务字典校验，缺失率和异常值需监控,广东/深圳/苏州平台建设方案中飞行申请响应、飞行管理服务平台需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0057,飞行计划与审批,感知层/业务层,t_flight_plan,approval_status,approval status,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,广东/深圳/苏州平台建设方案中飞行申请响应、飞行管理服务平台需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0058,飞行计划与审批,感知层/业务层,t_flight_plan,approval_time,approval time,datetime/date,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,广东/深圳/苏州平台建设方案中飞行申请响应、飞行管理服务平台需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0059,飞行计划与审批,感知层/业务层,t_flight_plan,approver_org,approver org,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,广东/深圳/苏州平台建设方案中飞行申请响应、飞行管理服务平台需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0060,飞行计划与审批,感知层/业务层,t_flight_plan,airspace_id,airspace id,string/id,,按业务事件,中,主键唯一/时间戳不可为空/坐标需在城市边界内,广东/深圳/苏州平台建设方案中飞行申请响应、飞行管理服务平台需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0061,飞行计划与审批,感知层/业务层,t_flight_plan,temporary_restriction_flag,temporary restriction flag,boolean,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,广东/深圳/苏州平台建设方案中飞行申请响应、飞行管理服务平台需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0062,飞行计划与审批,感知层/业务层,t_flight_plan,emergency_plan_id,emergency plan id,numeric,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,广东/深圳/苏州平台建设方案中飞行申请响应、飞行管理服务平台需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0063,飞行计划与审批,感知层/业务层,t_flight_plan,digital_signature,digital signature,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,广东/深圳/苏州平台建设方案中飞行申请响应、飞行管理服务平台需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0064,航线与三维空域,感知层/业务层,t_airspace_route,airspace_grid_id,airspace grid id,string/id,,按业务事件,中,主键唯一/时间戳不可为空/坐标需在城市边界内,广东三维GIS+CIM+低空空域数字底座、深圳SILAS和航线管理能力,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0065,航线与三维空域,感知层/业务层,t_airspace_route,grid_polygon_wkt,grid polygon wkt,string/id,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,广东三维GIS+CIM+低空空域数字底座、深圳SILAS和航线管理能力,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0066,航线与三维空域,感知层/业务层,t_airspace_route,grid_center_lat,grid center lat,decimal_degrees,度,按业务事件,中,主键唯一/时间戳不可为空/坐标需在城市边界内,广东三维GIS+CIM+低空空域数字底座、深圳SILAS和航线管理能力,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0067,航线与三维空域,感知层/业务层,t_airspace_route,grid_center_lon,grid center lon,decimal_degrees,度,按业务事件,中,主键唯一/时间戳不可为空/坐标需在城市边界内,广东三维GIS+CIM+低空空域数字底座、深圳SILAS和航线管理能力,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0068,航线与三维空域,感知层/业务层,t_airspace_route,lower_altitude_m,lower altitude m,numeric,米,按业务事件,低,按业务字典校验，缺失率和异常值需监控,广东三维GIS+CIM+低空空域数字底座、深圳SILAS和航线管理能力,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0069,航线与三维空域,感知层/业务层,t_airspace_route,upper_altitude_m,upper altitude m,numeric,米,按业务事件,低,按业务字典校验，缺失率和异常值需监控,广东三维GIS+CIM+低空空域数字底座、深圳SILAS和航线管理能力,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0070,航线与三维空域,感知层/业务层,t_airspace_route,vertical_datum,vertical datum,numeric,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,广东三维GIS+CIM+低空空域数字底座、深圳SILAS和航线管理能力,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0071,航线与三维空域,感知层/业务层,t_airspace_route,restriction_type,restriction type,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,广东三维GIS+CIM+低空空域数字底座、深圳SILAS和航线管理能力,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0072,航线与三维空域,感知层/业务层,t_airspace_route,restriction_level,restriction level,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,广东三维GIS+CIM+低空空域数字底座、深圳SILAS和航线管理能力,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0073,航线与三维空域,感知层/业务层,t_airspace_route,effective_start_time,effective start time,datetime/date,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,广东三维GIS+CIM+低空空域数字底座、深圳SILAS和航线管理能力,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0074,航线与三维空域,感知层/业务层,t_airspace_route,effective_end_time,effective end time,datetime/date,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,广东三维GIS+CIM+低空空域数字底座、深圳SILAS和航线管理能力,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0075,航线与三维空域,感知层/业务层,t_airspace_route,route_corridor_width_m,route corridor width m,numeric,米,按业务事件,中,按业务字典校验，缺失率和异常值需监控,广东三维GIS+CIM+低空空域数字底座、深圳SILAS和航线管理能力,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0076,航线与三维空域,感知层/业务层,t_airspace_route,route_capacity_per_hour,route capacity per hour,numeric,个/架/次,按业务事件,中,按业务字典校验，缺失率和异常值需监控,广东三维GIS+CIM+低空空域数字底座、深圳SILAS和航线管理能力,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0077,航线与三维空域,感知层/业务层,t_airspace_route,route_priority,route priority,string,,按业务事件,中,按业务字典校验，缺失率和异常值需监控,广东三维GIS+CIM+低空空域数字底座、深圳SILAS和航线管理能力,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0078,航线与三维空域,感知层/业务层,t_airspace_route,conflict_buffer_m,conflict buffer m,numeric,米,按业务事件,低,按业务字典校验，缺失率和异常值需监控,广东三维GIS+CIM+低空空域数字底座、深圳SILAS和航线管理能力,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0079,航线与三维空域,感知层/业务层,t_airspace_route,sensitive_area_distance_m,sensitive area distance m,numeric,米,按业务事件,低,按业务字典校验，缺失率和异常值需监控,广东三维GIS+CIM+低空空域数字底座、深圳SILAS和航线管理能力,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0080,航线与三维空域,感知层/业务层,t_airspace_route,airport_clearance_zone_flag,airport clearance zone flag,boolean,米,按业务事件,低,按业务字典校验，缺失率和异常值需监控,广东三维GIS+CIM+低空空域数字底座、深圳SILAS和航线管理能力,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0081,航线与三维空域,感知层/业务层,t_airspace_route,no_fly_zone_flag,no fly zone flag,boolean,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,广东三维GIS+CIM+低空空域数字底座、深圳SILAS和航线管理能力,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0082,实时遥测与轨迹,感知层/业务层,t_telemetry,telemetry_id,telemetry id,numeric,,实时/秒级,低,主键唯一/时间戳不可为空/坐标需在城市边界内,无人机云系统运行数据与香港沙盒高度/速度/GNSS采集维度,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0083,实时遥测与轨迹,感知层/业务层,t_telemetry,timestamp_utc8,timestamp utc8,datetime/date,,实时/秒级,低,主键唯一/时间戳不可为空/坐标需在城市边界内,无人机云系统运行数据与香港沙盒高度/速度/GNSS采集维度,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0084,实时遥测与轨迹,感知层/业务层,t_telemetry,aircraft_id,aircraft id,string/id,,实时/秒级,低,主键唯一/时间戳不可为空/坐标需在城市边界内,无人机云系统运行数据与香港沙盒高度/速度/GNSS采集维度,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0085,实时遥测与轨迹,感知层/业务层,t_telemetry,lat,lat,decimal_degrees,度,实时/秒级,中,主键唯一/时间戳不可为空/坐标需在城市边界内,无人机云系统运行数据与香港沙盒高度/速度/GNSS采集维度,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0086,实时遥测与轨迹,感知层/业务层,t_telemetry,lon,lon,decimal_degrees,度,实时/秒级,中,主键唯一/时间戳不可为空/坐标需在城市边界内,无人机云系统运行数据与香港沙盒高度/速度/GNSS采集维度,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0087,实时遥测与轨迹,感知层/业务层,t_telemetry,height_agl_m,height agl m,numeric,米,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,无人机云系统运行数据与香港沙盒高度/速度/GNSS采集维度,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0088,实时遥测与轨迹,感知层/业务层,t_telemetry,height_msl_m,height msl m,numeric,米,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,无人机云系统运行数据与香港沙盒高度/速度/GNSS采集维度,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0089,实时遥测与轨迹,感知层/业务层,t_telemetry,ground_speed_mps,ground speed mps,numeric,米/秒,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,无人机云系统运行数据与香港沙盒高度/速度/GNSS采集维度,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0090,实时遥测与轨迹,感知层/业务层,t_telemetry,vertical_speed_mps,vertical speed mps,numeric,米/秒,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,无人机云系统运行数据与香港沙盒高度/速度/GNSS采集维度,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0091,实时遥测与轨迹,感知层/业务层,t_telemetry,heading_deg,heading deg,numeric,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,无人机云系统运行数据与香港沙盒高度/速度/GNSS采集维度,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0092,实时遥测与轨迹,感知层/业务层,t_telemetry,battery_pct,battery pct,decimal_percent,%或0-100评分,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,无人机云系统运行数据与香港沙盒高度/速度/GNSS采集维度,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0093,实时遥测与轨迹,感知层/业务层,t_telemetry,battery_voltage_v,battery voltage v,numeric,伏,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,无人机云系统运行数据与香港沙盒高度/速度/GNSS采集维度,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0094,实时遥测与轨迹,感知层/业务层,t_telemetry,gps_satellite_count,gps satellite count,numeric,个/架/次,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,无人机云系统运行数据与香港沙盒高度/速度/GNSS采集维度,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0095,实时遥测与轨迹,感知层/业务层,t_telemetry,gnss_hdop,gnss hdop,string,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,无人机云系统运行数据与香港沙盒高度/速度/GNSS采集维度,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0096,实时遥测与轨迹,感知层/业务层,t_telemetry,gnss_vdop,gnss vdop,string,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,无人机云系统运行数据与香港沙盒高度/速度/GNSS采集维度,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0097,实时遥测与轨迹,感知层/业务层,t_telemetry,rtk_status,rtk status,string,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,无人机云系统运行数据与香港沙盒高度/速度/GNSS采集维度,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0098,实时遥测与轨迹,感知层/业务层,t_telemetry,link_quality_pct,link quality pct,decimal_percent,%或0-100评分,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,无人机云系统运行数据与香港沙盒高度/速度/GNSS采集维度,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0099,实时遥测与轨迹,感知层/业务层,t_telemetry,control_mode,control mode,numeric,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,无人机云系统运行数据与香港沙盒高度/速度/GNSS采集维度,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0100,实时遥测与轨迹,感知层/业务层,t_telemetry,flight_phase,flight phase,string,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,无人机云系统运行数据与香港沙盒高度/速度/GNSS采集维度,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0101,实时遥测与轨迹,感知层/业务层,t_telemetry,return_to_home_flag,return to home flag,boolean,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,无人机云系统运行数据与香港沙盒高度/速度/GNSS采集维度,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0102,实时遥测与轨迹,感知层/业务层,t_telemetry,trajectory_point_quality,trajectory point quality,string,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,无人机云系统运行数据与香港沙盒高度/速度/GNSS采集维度,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0103,通信网络与链路,感知层/业务层,t_network_link,network_record_id,network record id,string/id,,实时/秒级,低,主键唯一/时间戳不可为空/坐标需在城市边界内,广东5G/5G-A、北斗、卫星互联网、通信导航监视设施要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0104,通信网络与链路,感知层/业务层,t_network_link,aircraft_id,aircraft id,string/id,,实时/秒级,低,主键唯一/时间戳不可为空/坐标需在城市边界内,广东5G/5G-A、北斗、卫星互联网、通信导航监视设施要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0105,通信网络与链路,感知层/业务层,t_network_link,timestamp_utc8,timestamp utc8,datetime/date,,实时/秒级,低,主键唯一/时间戳不可为空/坐标需在城市边界内,广东5G/5G-A、北斗、卫星互联网、通信导航监视设施要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0106,通信网络与链路,感知层/业务层,t_network_link,operator_network,operator network,string,,实时/秒级,高,按业务字典校验，缺失率和异常值需监控,广东5G/5G-A、北斗、卫星互联网、通信导航监视设施要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0107,通信网络与链路,感知层/业务层,t_network_link,cell_id,cell id,string/id,,实时/秒级,低,主键唯一/时间戳不可为空/坐标需在城市边界内,广东5G/5G-A、北斗、卫星互联网、通信导航监视设施要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0108,通信网络与链路,感知层/业务层,t_network_link,5g_a_connected_flag,5g a connected flag,boolean,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,广东5G/5G-A、北斗、卫星互联网、通信导航监视设施要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0109,通信网络与链路,感知层/业务层,t_network_link,rsrp_dbm,rsrp dbm,numeric,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,广东5G/5G-A、北斗、卫星互联网、通信导航监视设施要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0110,通信网络与链路,感知层/业务层,t_network_link,rsrq_db,rsrq db,string,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,广东5G/5G-A、北斗、卫星互联网、通信导航监视设施要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0111,通信网络与链路,感知层/业务层,t_network_link,sinr_db,sinr db,string,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,广东5G/5G-A、北斗、卫星互联网、通信导航监视设施要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0112,通信网络与链路,感知层/业务层,t_network_link,uplink_latency_ms,uplink latency ms,decimal_degrees,度,实时/秒级,中,主键唯一/时间戳不可为空/坐标需在城市边界内,广东5G/5G-A、北斗、卫星互联网、通信导航监视设施要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0113,通信网络与链路,感知层/业务层,t_network_link,downlink_latency_ms,downlink latency ms,decimal_degrees,度,实时/秒级,中,主键唯一/时间戳不可为空/坐标需在城市边界内,广东5G/5G-A、北斗、卫星互联网、通信导航监视设施要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0114,通信网络与链路,感知层/业务层,t_network_link,packet_loss_pct,packet loss pct,decimal_percent,%或0-100评分,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,广东5G/5G-A、北斗、卫星互联网、通信导航监视设施要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0115,通信网络与链路,感知层/业务层,t_network_link,satellite_link_flag,satellite link flag,boolean,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,广东5G/5G-A、北斗、卫星互联网、通信导航监视设施要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0116,通信网络与链路,感知层/业务层,t_network_link,beidou_short_message_flag,beidou short message flag,boolean,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,广东5G/5G-A、北斗、卫星互联网、通信导航监视设施要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0117,通信网络与链路,感知层/业务层,t_network_link,handover_count,handover count,numeric,个/架/次,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,广东5G/5G-A、北斗、卫星互联网、通信导航监视设施要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0118,通信网络与链路,感知层/业务层,t_network_link,command_link_status,command link status,numeric,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,广东5G/5G-A、北斗、卫星互联网、通信导航监视设施要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0119,通信网络与链路,感知层/业务层,t_network_link,video_link_status,video link status,string/id,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,广东5G/5G-A、北斗、卫星互联网、通信导航监视设施要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0120,感知设备与目标识别,感知层/业务层,t_sensor_fusion,sensor_id,sensor id,string/id,,实时/秒级,低,主键唯一/时间戳不可为空/坐标需在城市边界内,ADS-B、雷达、识别、反制设施与城市安全感知需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0121,感知设备与目标识别,感知层/业务层,t_sensor_fusion,sensor_type,sensor type,string,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,ADS-B、雷达、识别、反制设施与城市安全感知需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0122,感知设备与目标识别,感知层/业务层,t_sensor_fusion,sensor_location_lat,sensor location lat,decimal_degrees,度,实时/秒级,中,主键唯一/时间戳不可为空/坐标需在城市边界内,ADS-B、雷达、识别、反制设施与城市安全感知需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0123,感知设备与目标识别,感知层/业务层,t_sensor_fusion,sensor_location_lon,sensor location lon,decimal_degrees,度,实时/秒级,中,主键唯一/时间戳不可为空/坐标需在城市边界内,ADS-B、雷达、识别、反制设施与城市安全感知需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0124,感知设备与目标识别,感知层/业务层,t_sensor_fusion,sensor_height_m,sensor height m,numeric,米,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,ADS-B、雷达、识别、反制设施与城市安全感知需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0125,感知设备与目标识别,感知层/业务层,t_sensor_fusion,coverage_radius_m,coverage radius m,numeric,米,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,ADS-B、雷达、识别、反制设施与城市安全感知需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0126,感知设备与目标识别,感知层/业务层,t_sensor_fusion,target_id,target id,string/id,,实时/秒级,低,主键唯一/时间戳不可为空/坐标需在城市边界内,ADS-B、雷达、识别、反制设施与城市安全感知需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0127,感知设备与目标识别,感知层/业务层,t_sensor_fusion,target_type,target type,string,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,ADS-B、雷达、识别、反制设施与城市安全感知需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0128,感知设备与目标识别,感知层/业务层,t_sensor_fusion,detected_lat,detected lat,decimal_degrees,度,实时/秒级,中,主键唯一/时间戳不可为空/坐标需在城市边界内,ADS-B、雷达、识别、反制设施与城市安全感知需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0129,感知设备与目标识别,感知层/业务层,t_sensor_fusion,detected_lon,detected lon,decimal_degrees,度,实时/秒级,中,主键唯一/时间戳不可为空/坐标需在城市边界内,ADS-B、雷达、识别、反制设施与城市安全感知需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0130,感知设备与目标识别,感知层/业务层,t_sensor_fusion,detected_altitude_m,detected altitude m,numeric,米,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,ADS-B、雷达、识别、反制设施与城市安全感知需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0131,感知设备与目标识别,感知层/业务层,t_sensor_fusion,detected_speed_mps,detected speed mps,numeric,米/秒,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,ADS-B、雷达、识别、反制设施与城市安全感知需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0132,感知设备与目标识别,感知层/业务层,t_sensor_fusion,detection_confidence_pct,detection confidence pct,decimal_percent,%或0-100评分,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,ADS-B、雷达、识别、反制设施与城市安全感知需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0133,感知设备与目标识别,感知层/业务层,t_sensor_fusion,rf_fingerprint_hash,rf fingerprint hash,string/id,,实时/秒级,高,按业务字典校验，缺失率和异常值需监控,ADS-B、雷达、识别、反制设施与城市安全感知需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0134,感知设备与目标识别,感知层/业务层,t_sensor_fusion,optical_track_id,optical track id,string/id,,实时/秒级,低,主键唯一/时间戳不可为空/坐标需在城市边界内,ADS-B、雷达、识别、反制设施与城市安全感知需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0135,感知设备与目标识别,感知层/业务层,t_sensor_fusion,radar_track_id,radar track id,string/id,,实时/秒级,低,主键唯一/时间戳不可为空/坐标需在城市边界内,ADS-B、雷达、识别、反制设施与城市安全感知需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0136,感知设备与目标识别,感知层/业务层,t_sensor_fusion,adsb_icao24,adsb icao24,string,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,ADS-B、雷达、识别、反制设施与城市安全感知需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0137,感知设备与目标识别,感知层/业务层,t_sensor_fusion,remote_id_seen,remote id seen,numeric,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,ADS-B、雷达、识别、反制设施与城市安全感知需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0138,感知设备与目标识别,感知层/业务层,t_sensor_fusion,fusion_track_id,fusion track id,string/id,,实时/秒级,低,主键唯一/时间戳不可为空/坐标需在城市边界内,ADS-B、雷达、识别、反制设施与城市安全感知需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0139,感知设备与目标识别,感知层/业务层,t_sensor_fusion,false_alarm_flag,false alarm flag,boolean,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,ADS-B、雷达、识别、反制设施与城市安全感知需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0140,气象与环境,感知层/业务层,t_weather,weather_station_id,weather station id,string/id,,实时/秒级,低,主键唯一/时间戳不可为空/坐标需在城市边界内,香港沙盒环境因素与深圳低空气象监测能力要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0141,气象与环境,感知层/业务层,t_weather,timestamp_utc8,timestamp utc8,datetime/date,,实时/秒级,低,主键唯一/时间戳不可为空/坐标需在城市边界内,香港沙盒环境因素与深圳低空气象监测能力要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0142,气象与环境,感知层/业务层,t_weather,temperature_c,temperature c,numeric,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,香港沙盒环境因素与深圳低空气象监测能力要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0143,气象与环境,感知层/业务层,t_weather,relative_humidity_pct,relative humidity pct,decimal_degrees,度,实时/秒级,中,主键唯一/时间戳不可为空/坐标需在城市边界内,香港沙盒环境因素与深圳低空气象监测能力要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0144,气象与环境,感知层/业务层,t_weather,wind_speed_mps,wind speed mps,numeric,米/秒,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,香港沙盒环境因素与深圳低空气象监测能力要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0145,气象与环境,感知层/业务层,t_weather,wind_direction_deg,wind direction deg,numeric,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,香港沙盒环境因素与深圳低空气象监测能力要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0146,气象与环境,感知层/业务层,t_weather,gust_speed_mps,gust speed mps,numeric,米/秒,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,香港沙盒环境因素与深圳低空气象监测能力要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0147,气象与环境,感知层/业务层,t_weather,visibility_m,visibility m,numeric,米,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,香港沙盒环境因素与深圳低空气象监测能力要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0148,气象与环境,感知层/业务层,t_weather,precipitation_mm,precipitation mm,numeric,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,香港沙盒环境因素与深圳低空气象监测能力要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0149,气象与环境,感知层/业务层,t_weather,pressure_hpa,pressure hpa,string,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,香港沙盒环境因素与深圳低空气象监测能力要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0150,气象与环境,感知层/业务层,t_weather,thunderstorm_flag,thunderstorm flag,boolean,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,香港沙盒环境因素与深圳低空气象监测能力要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0151,气象与环境,感知层/业务层,t_weather,low_cloud_flag,low cloud flag,boolean,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,香港沙盒环境因素与深圳低空气象监测能力要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0152,气象与环境,感知层/业务层,t_weather,turbulence_level,turbulence level,string,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,香港沙盒环境因素与深圳低空气象监测能力要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0153,气象与环境,感知层/业务层,t_weather,micro_weather_grid_id,micro weather grid id,numeric,,实时/秒级,低,主键唯一/时间戳不可为空/坐标需在城市边界内,香港沙盒环境因素与深圳低空气象监测能力要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0154,气象与环境,感知层/业务层,t_weather,weather_risk_level,weather risk level,string,,实时/秒级,中,按业务字典校验，缺失率和异常值需监控,香港沙盒环境因素与深圳低空气象监测能力要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0155,气象与环境,感知层/业务层,t_weather,nowcast_update_time,nowcast update time,datetime/date,,实时/秒级,低,主键唯一/时间戳不可为空/坐标需在城市边界内,香港沙盒环境因素与深圳低空气象监测能力要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0156,起降设施与场地,感知层/业务层,t_landing_site,site_id,site id,string/id,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,深圳/苏州/广州起降设施、无人机巢和垂直起降点建设要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0157,起降设施与场地,感知层/业务层,t_landing_site,site_name,site name,numeric,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,深圳/苏州/广州起降设施、无人机巢和垂直起降点建设要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0158,起降设施与场地,感知层/业务层,t_landing_site,site_type,site type,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,深圳/苏州/广州起降设施、无人机巢和垂直起降点建设要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0159,起降设施与场地,感知层/业务层,t_landing_site,owner_org,owner org,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,深圳/苏州/广州起降设施、无人机巢和垂直起降点建设要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0160,起降设施与场地,感知层/业务层,t_landing_site,lat,lat,decimal_degrees,度,按业务事件,中,主键唯一/时间戳不可为空/坐标需在城市边界内,深圳/苏州/广州起降设施、无人机巢和垂直起降点建设要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0161,起降设施与场地,感知层/业务层,t_landing_site,lon,lon,decimal_degrees,度,按业务事件,中,主键唯一/时间戳不可为空/坐标需在城市边界内,深圳/苏州/广州起降设施、无人机巢和垂直起降点建设要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0162,起降设施与场地,感知层/业务层,t_landing_site,elevation_m,elevation m,numeric,米,按业务事件,低,按业务字典校验，缺失率和异常值需监控,深圳/苏州/广州起降设施、无人机巢和垂直起降点建设要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0163,起降设施与场地,感知层/业务层,t_landing_site,pad_count,pad count,numeric,个/架/次,按业务事件,低,按业务字典校验，缺失率和异常值需监控,深圳/苏州/广州起降设施、无人机巢和垂直起降点建设要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0164,起降设施与场地,感知层/业务层,t_landing_site,max_aircraft_capacity,max aircraft capacity,numeric,个/架/次,按业务事件,低,按业务字典校验，缺失率和异常值需监控,深圳/苏州/广州起降设施、无人机巢和垂直起降点建设要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0165,起降设施与场地,感知层/业务层,t_landing_site,charging_available_flag,charging available flag,boolean,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,深圳/苏州/广州起降设施、无人机巢和垂直起降点建设要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0166,起降设施与场地,感知层/业务层,t_landing_site,battery_swap_flag,battery swap flag,boolean,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,深圳/苏州/广州起降设施、无人机巢和垂直起降点建设要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0167,起降设施与场地,感知层/业务层,t_landing_site,fire_facility_flag,fire facility flag,boolean,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,深圳/苏州/广州起降设施、无人机巢和垂直起降点建设要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0168,起降设施与场地,感知层/业务层,t_landing_site,medical_support_flag,medical support flag,boolean,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,深圳/苏州/广州起降设施、无人机巢和垂直起降点建设要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0169,起降设施与场地,感知层/业务层,t_landing_site,weather_sensor_flag,weather sensor flag,boolean,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,深圳/苏州/广州起降设施、无人机巢和垂直起降点建设要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0170,起降设施与场地,感知层/业务层,t_landing_site,cctv_flag,cctv flag,boolean,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,深圳/苏州/广州起降设施、无人机巢和垂直起降点建设要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0171,起降设施与场地,感知层/业务层,t_landing_site,obstacle_clearance_m,obstacle clearance m,numeric,米,按业务事件,低,按业务字典校验，缺失率和异常值需监控,深圳/苏州/广州起降设施、无人机巢和垂直起降点建设要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0172,起降设施与场地,感知层/业务层,t_landing_site,operating_hours,operating hours,numeric,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,深圳/苏州/广州起降设施、无人机巢和垂直起降点建设要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0173,起降设施与场地,感知层/业务层,t_landing_site,reservation_required_flag,reservation required flag,boolean,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,深圳/苏州/广州起降设施、无人机巢和垂直起降点建设要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0174,起降设施与场地,感知层/业务层,t_landing_site,site_status,site status,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,深圳/苏州/广州起降设施、无人机巢和垂直起降点建设要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0175,障碍物与地理底图,感知层/业务层,t_obstacle,obstacle_id,obstacle id,string/id,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,城市低空安全净空、地形建筑与临时障碍物管理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0176,障碍物与地理底图,感知层/业务层,t_obstacle,obstacle_type,obstacle type,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,城市低空安全净空、地形建筑与临时障碍物管理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0177,障碍物与地理底图,感知层/业务层,t_obstacle,obstacle_name,obstacle name,numeric,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,城市低空安全净空、地形建筑与临时障碍物管理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0178,障碍物与地理底图,感知层/业务层,t_obstacle,lat,lat,decimal_degrees,度,按业务事件,中,主键唯一/时间戳不可为空/坐标需在城市边界内,城市低空安全净空、地形建筑与临时障碍物管理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0179,障碍物与地理底图,感知层/业务层,t_obstacle,lon,lon,decimal_degrees,度,按业务事件,中,主键唯一/时间戳不可为空/坐标需在城市边界内,城市低空安全净空、地形建筑与临时障碍物管理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0180,障碍物与地理底图,感知层/业务层,t_obstacle,height_m,height m,numeric,米,按业务事件,低,按业务字典校验，缺失率和异常值需监控,城市低空安全净空、地形建筑与临时障碍物管理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0181,障碍物与地理底图,感知层/业务层,t_obstacle,elevation_m,elevation m,numeric,米,按业务事件,低,按业务字典校验，缺失率和异常值需监控,城市低空安全净空、地形建筑与临时障碍物管理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0182,障碍物与地理底图,感知层/业务层,t_obstacle,data_source,data source,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,城市低空安全净空、地形建筑与临时障碍物管理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0183,障碍物与地理底图,感知层/业务层,t_obstacle,last_update_time,last update time,datetime/date,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,城市低空安全净空、地形建筑与临时障碍物管理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0184,障碍物与地理底图,感知层/业务层,t_obstacle,powerline_flag,powerline flag,boolean,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,城市低空安全净空、地形建筑与临时障碍物管理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0185,障碍物与地理底图,感知层/业务层,t_obstacle,crane_temporary_flag,crane temporary flag,boolean,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,城市低空安全净空、地形建筑与临时障碍物管理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0186,障碍物与地理底图,感知层/业务层,t_obstacle,building_floor_count,building floor count,numeric,个/架/次,按业务事件,低,按业务字典校验，缺失率和异常值需监控,城市低空安全净空、地形建筑与临时障碍物管理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0187,障碍物与地理底图,感知层/业务层,t_obstacle,terrain_dem_height_m,terrain dem height m,numeric,米,按业务事件,低,按业务字典校验，缺失率和异常值需监控,城市低空安全净空、地形建筑与临时障碍物管理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0188,障碍物与地理底图,感知层/业务层,t_obstacle,safe_clearance_m,safe clearance m,numeric,米,按业务事件,低,按业务字典校验，缺失率和异常值需监控,城市低空安全净空、地形建筑与临时障碍物管理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0189,障碍物与地理底图,感知层/业务层,t_obstacle,buffer_zone_m,buffer zone m,numeric,米,按业务事件,低,按业务字典校验，缺失率和异常值需监控,城市低空安全净空、地形建筑与临时障碍物管理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0190,障碍物与地理底图,感知层/业务层,t_obstacle,verification_status,verification status,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,城市低空安全净空、地形建筑与临时障碍物管理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0191,风险预警与冲突检测,数据层/平台层,t_risk_alert,alert_id,alert id,string/id,,实时/秒级,中,主键唯一/时间戳不可为空/坐标需在城市边界内,上海安全飞行、快速预警/精准识别/有效处置要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0192,风险预警与冲突检测,数据层/平台层,t_risk_alert,alert_time,alert time,datetime/date,,实时/秒级,中,主键唯一/时间戳不可为空/坐标需在城市边界内,上海安全飞行、快速预警/精准识别/有效处置要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0193,风险预警与冲突检测,数据层/平台层,t_risk_alert,aircraft_id,aircraft id,string/id,,实时/秒级,低,主键唯一/时间戳不可为空/坐标需在城市边界内,上海安全飞行、快速预警/精准识别/有效处置要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0194,风险预警与冲突检测,数据层/平台层,t_risk_alert,alert_type,alert type,string,,实时/秒级,中,按业务字典校验，缺失率和异常值需监控,上海安全飞行、快速预警/精准识别/有效处置要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0195,风险预警与冲突检测,数据层/平台层,t_risk_alert,risk_score,risk score,decimal_percent,%或0-100评分,实时/秒级,中,按业务字典校验，缺失率和异常值需监控,上海安全飞行、快速预警/精准识别/有效处置要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0196,风险预警与冲突检测,数据层/平台层,t_risk_alert,severity_level,severity level,string,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,上海安全飞行、快速预警/精准识别/有效处置要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0197,风险预警与冲突检测,数据层/平台层,t_risk_alert,grid_id,grid id,string/id,,实时/秒级,低,主键唯一/时间戳不可为空/坐标需在城市边界内,上海安全飞行、快速预警/精准识别/有效处置要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0198,风险预警与冲突检测,数据层/平台层,t_risk_alert,route_id,route id,string/id,,实时/秒级,中,主键唯一/时间戳不可为空/坐标需在城市边界内,上海安全飞行、快速预警/精准识别/有效处置要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0199,风险预警与冲突检测,数据层/平台层,t_risk_alert,conflict_target_id,conflict target id,string/id,,实时/秒级,低,主键唯一/时间戳不可为空/坐标需在城市边界内,上海安全飞行、快速预警/精准识别/有效处置要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0200,风险预警与冲突检测,数据层/平台层,t_risk_alert,time_to_conflict_sec,time to conflict sec,datetime/date,秒/分钟,实时/秒级,低,主键唯一/时间戳不可为空/坐标需在城市边界内,上海安全飞行、快速预警/精准识别/有效处置要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0201,风险预警与冲突检测,数据层/平台层,t_risk_alert,distance_to_conflict_m,distance to conflict m,numeric,米,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,上海安全飞行、快速预警/精准识别/有效处置要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0202,风险预警与冲突检测,数据层/平台层,t_risk_alert,altitude_separation_m,altitude separation m,numeric,米,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,上海安全飞行、快速预警/精准识别/有效处置要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0203,风险预警与冲突检测,数据层/平台层,t_risk_alert,geofence_violation_flag,geofence violation flag,boolean,度,实时/秒级,中,主键唯一/时间戳不可为空/坐标需在城市边界内,上海安全飞行、快速预警/精准识别/有效处置要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0204,风险预警与冲突检测,数据层/平台层,t_risk_alert,black_flight_suspected_flag,black flight suspected flag,boolean,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,上海安全飞行、快速预警/精准识别/有效处置要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0205,风险预警与冲突检测,数据层/平台层,t_risk_alert,lost_link_flag,lost link flag,boolean,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,上海安全飞行、快速预警/精准识别/有效处置要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0206,风险预警与冲突检测,数据层/平台层,t_risk_alert,low_battery_flag,low battery flag,boolean,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,上海安全飞行、快速预警/精准识别/有效处置要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0207,风险预警与冲突检测,数据层/平台层,t_risk_alert,weather_exceedance_flag,weather exceedance flag,boolean,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,上海安全飞行、快速预警/精准识别/有效处置要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0208,风险预警与冲突检测,数据层/平台层,t_risk_alert,crowd_risk_flag,crowd risk flag,boolean,,实时/秒级,中,按业务字典校验，缺失率和异常值需监控,上海安全飞行、快速预警/精准识别/有效处置要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0209,风险预警与冲突检测,数据层/平台层,t_risk_alert,sensitive_area_intrusion_flag,sensitive area intrusion flag,boolean,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,上海安全飞行、快速预警/精准识别/有效处置要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0210,风险预警与冲突检测,数据层/平台层,t_risk_alert,recommended_action,recommended action,numeric,,实时/秒级,低,按业务字典校验，缺失率和异常值需监控,上海安全飞行、快速预警/精准识别/有效处置要求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0211,应急处置与联动,感知层/业务层,t_emergency,incident_id,incident id,string/id,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,香港沙盒应急程序与城市应急联动需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0212,应急处置与联动,感知层/业务层,t_emergency,incident_type,incident type,string/id,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,香港沙盒应急程序与城市应急联动需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0213,应急处置与联动,感知层/业务层,t_emergency,first_alert_time,first alert time,datetime/date,,按业务事件,中,主键唯一/时间戳不可为空/坐标需在城市边界内,香港沙盒应急程序与城市应急联动需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0214,应急处置与联动,感知层/业务层,t_emergency,response_start_time,response start time,datetime/date,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,香港沙盒应急程序与城市应急联动需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0215,应急处置与联动,感知层/业务层,t_emergency,response_end_time,response end time,datetime/date,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,香港沙盒应急程序与城市应急联动需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0216,应急处置与联动,感知层/业务层,t_emergency,response_duration_sec,response duration sec,numeric,秒/分钟,按业务事件,低,按业务字典校验，缺失率和异常值需监控,香港沙盒应急程序与城市应急联动需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0217,应急处置与联动,感知层/业务层,t_emergency,lead_agency,lead agency,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,香港沙盒应急程序与城市应急联动需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0218,应急处置与联动,感知层/业务层,t_emergency,support_agency,support agency,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,香港沙盒应急程序与城市应急联动需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0219,应急处置与联动,感知层/业务层,t_emergency,dispatch_unit,dispatch unit,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,香港沙盒应急程序与城市应急联动需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0220,应急处置与联动,感知层/业务层,t_emergency,action_taken,action taken,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,香港沙盒应急程序与城市应急联动需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0221,应急处置与联动,感知层/业务层,t_emergency,countermeasure_type,countermeasure type,numeric,个/架/次,按业务事件,低,按业务字典校验，缺失率和异常值需监控,香港沙盒应急程序与城市应急联动需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0222,应急处置与联动,感知层/业务层,t_emergency,forced_landing_site_id,forced landing site id,string/id,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,香港沙盒应急程序与城市应急联动需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0223,应急处置与联动,感知层/业务层,t_emergency,public_notice_flag,public notice flag,boolean,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,香港沙盒应急程序与城市应急联动需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0224,应急处置与联动,感知层/业务层,t_emergency,evidence_file_uri,evidence file uri,string/id,,按业务事件,高,按业务字典校验，缺失率和异常值需监控,香港沙盒应急程序与城市应急联动需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0225,应急处置与联动,感知层/业务层,t_emergency,incident_status,incident status,string/id,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,香港沙盒应急程序与城市应急联动需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0226,应急处置与联动,感知层/业务层,t_emergency,loss_estimate_yuan,loss estimate yuan,numeric,元,按业务事件,低,按业务字典校验，缺失率和异常值需监控,香港沙盒应急程序与城市应急联动需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0227,应急处置与联动,感知层/业务层,t_emergency,people_affected,people affected,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,香港沙盒应急程序与城市应急联动需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0228,应急处置与联动,感知层/业务层,t_emergency,review_result,review result,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,香港沙盒应急程序与城市应急联动需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0229,运营统计与画像,数据层/平台层,t_operation_stats,stat_id,stat id,string/id,,日级/按事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,CAAC统计公报、云系统统计报告与城市平台运行评价需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0230,运营统计与画像,数据层/平台层,t_operation_stats,stat_date,stat date,datetime/date,,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,CAAC统计公报、云系统统计报告与城市平台运行评价需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0231,运营统计与画像,数据层/平台层,t_operation_stats,city,city,string,,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,CAAC统计公报、云系统统计报告与城市平台运行评价需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0232,运营统计与画像,数据层/平台层,t_operation_stats,district,district,string,,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,CAAC统计公报、云系统统计报告与城市平台运行评价需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0233,运营统计与画像,数据层/平台层,t_operation_stats,grid_id,grid id,string/id,,日级/按事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,CAAC统计公报、云系统统计报告与城市平台运行评价需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0234,运营统计与画像,数据层/平台层,t_operation_stats,route_id,route id,string/id,,日级/按事件,中,主键唯一/时间戳不可为空/坐标需在城市边界内,CAAC统计公报、云系统统计报告与城市平台运行评价需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0235,运营统计与画像,数据层/平台层,t_operation_stats,flight_count,flight count,numeric,个/架/次,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,CAAC统计公报、云系统统计报告与城市平台运行评价需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0236,运营统计与画像,数据层/平台层,t_operation_stats,aircraft_count,aircraft count,numeric,个/架/次,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,CAAC统计公报、云系统统计报告与城市平台运行评价需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0237,运营统计与画像,数据层/平台层,t_operation_stats,unique_operator_count,unique operator count,numeric,个/架/次,日级/按事件,高,按业务字典校验，缺失率和异常值需监控,CAAC统计公报、云系统统计报告与城市平台运行评价需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0238,运营统计与画像,数据层/平台层,t_operation_stats,total_flight_hours,total flight hours,numeric,,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,CAAC统计公报、云系统统计报告与城市平台运行评价需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0239,运营统计与画像,数据层/平台层,t_operation_stats,avg_altitude_m,avg altitude m,numeric,米,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,CAAC统计公报、云系统统计报告与城市平台运行评价需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0240,运营统计与画像,数据层/平台层,t_operation_stats,avg_speed_mps,avg speed mps,numeric,米/秒,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,CAAC统计公报、云系统统计报告与城市平台运行评价需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0241,运营统计与画像,数据层/平台层,t_operation_stats,peak_hour,peak hour,string,,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,CAAC统计公报、云系统统计报告与城市平台运行评价需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0242,运营统计与画像,数据层/平台层,t_operation_stats,mission_type_top1,mission type top1,numeric,,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,CAAC统计公报、云系统统计报告与城市平台运行评价需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0243,运营统计与画像,数据层/平台层,t_operation_stats,violation_count,violation count,decimal_degrees,度,日级/按事件,中,主键唯一/时间戳不可为空/坐标需在城市边界内,CAAC统计公报、云系统统计报告与城市平台运行评价需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0244,运营统计与画像,数据层/平台层,t_operation_stats,alert_count,alert count,numeric,个/架/次,日级/按事件,中,按业务字典校验，缺失率和异常值需监控,CAAC统计公报、云系统统计报告与城市平台运行评价需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0245,运营统计与画像,数据层/平台层,t_operation_stats,approval_count,approval count,numeric,个/架/次,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,CAAC统计公报、云系统统计报告与城市平台运行评价需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0246,运营统计与画像,数据层/平台层,t_operation_stats,rejection_count,rejection count,numeric,个/架/次,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,CAAC统计公报、云系统统计报告与城市平台运行评价需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0247,运营统计与画像,数据层/平台层,t_operation_stats,service_sla_pct,service sla pct,decimal_percent,%或0-100评分,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,CAAC统计公报、云系统统计报告与城市平台运行评价需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0248,运营统计与画像,数据层/平台层,t_operation_stats,data_completeness_pct,data completeness pct,decimal_percent,%或0-100评分,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,CAAC统计公报、云系统统计报告与城市平台运行评价需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0249,数据治理与审计,数据层/平台层,t_data_governance,record_uuid,record uuid,string/id,,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,监管平台合规审计与数据质量治理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0250,数据治理与审计,数据层/平台层,t_data_governance,source_system,source system,numeric,,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,监管平台合规审计与数据质量治理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0251,数据治理与审计,数据层/平台层,t_data_governance,source_table,source table,string,,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,监管平台合规审计与数据质量治理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0252,数据治理与审计,数据层/平台层,t_data_governance,ingest_time,ingest time,datetime/date,,日级/按事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,监管平台合规审计与数据质量治理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0253,数据治理与审计,数据层/平台层,t_data_governance,update_time,update time,datetime/date,,日级/按事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,监管平台合规审计与数据质量治理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0254,数据治理与审计,数据层/平台层,t_data_governance,data_owner,data owner,string,,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,监管平台合规审计与数据质量治理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0255,数据治理与审计,数据层/平台层,t_data_governance,data_classification,data classification,string,,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,监管平台合规审计与数据质量治理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0256,数据治理与审计,数据层/平台层,t_data_governance,privacy_level,privacy level,string,,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,监管平台合规审计与数据质量治理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0257,数据治理与审计,数据层/平台层,t_data_governance,desensitization_method,desensitization method,numeric,,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,监管平台合规审计与数据质量治理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0258,数据治理与审计,数据层/平台层,t_data_governance,quality_score,quality score,decimal_percent,%或0-100评分,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,监管平台合规审计与数据质量治理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0259,数据治理与审计,数据层/平台层,t_data_governance,missing_rate_pct,missing rate pct,decimal_percent,%或0-100评分,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,监管平台合规审计与数据质量治理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0260,数据治理与审计,数据层/平台层,t_data_governance,duplicate_flag,duplicate flag,boolean,,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,监管平台合规审计与数据质量治理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0261,数据治理与审计,数据层/平台层,t_data_governance,coordinate_system,coordinate system,numeric,,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,监管平台合规审计与数据质量治理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0262,数据治理与审计,数据层/平台层,t_data_governance,time_zone,time zone,datetime/date,,日级/按事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,监管平台合规审计与数据质量治理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0263,数据治理与审计,数据层/平台层,t_data_governance,retention_period_days,retention period days,numeric,,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,监管平台合规审计与数据质量治理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0264,数据治理与审计,数据层/平台层,t_data_governance,access_role,access role,string,,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,监管平台合规审计与数据质量治理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0265,数据治理与审计,数据层/平台层,t_data_governance,audit_user_hash,audit user hash,string/id,,日级/按事件,高,按业务字典校验，缺失率和异常值需监控,监管平台合规审计与数据质量治理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0266,数据治理与审计,数据层/平台层,t_data_governance,audit_action,audit action,string,,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,监管平台合规审计与数据质量治理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0267,数据治理与审计,数据层/平台层,t_data_governance,source_url,source url,string,,日级/按事件,低,按业务字典校验，缺失率和异常值需监控,监管平台合规审计与数据质量治理需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0268,算法模型与仿真,数据层/平台层,t_model_simulation,model_id,model id,numeric,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,空域容量、航线规划、风险预测与数字孪生仿真需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0269,算法模型与仿真,数据层/平台层,t_model_simulation,model_name,model name,numeric,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,空域容量、航线规划、风险预测与数字孪生仿真需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0270,算法模型与仿真,数据层/平台层,t_model_simulation,model_version,model version,numeric,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,空域容量、航线规划、风险预测与数字孪生仿真需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0271,算法模型与仿真,数据层/平台层,t_model_simulation,training_data_period,training data period,string,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,空域容量、航线规划、风险预测与数字孪生仿真需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0272,算法模型与仿真,数据层/平台层,t_model_simulation,feature_set_id,feature set id,string/id,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,空域容量、航线规划、风险预测与数字孪生仿真需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0273,算法模型与仿真,数据层/平台层,t_model_simulation,prediction_time,prediction time,datetime/date,,按业务事件,低,主键唯一/时间戳不可为空/坐标需在城市边界内,空域容量、航线规划、风险预测与数字孪生仿真需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0274,算法模型与仿真,数据层/平台层,t_model_simulation,predicted_risk_score,predicted risk score,decimal_percent,%或0-100评分,按业务事件,中,按业务字典校验，缺失率和异常值需监控,空域容量、航线规划、风险预测与数字孪生仿真需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0275,算法模型与仿真,数据层/平台层,t_model_simulation,conflict_probability_pct,conflict probability pct,decimal_percent,%或0-100评分,按业务事件,低,按业务字典校验，缺失率和异常值需监控,空域容量、航线规划、风险预测与数字孪生仿真需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0276,算法模型与仿真,数据层/平台层,t_model_simulation,demand_forecast_flights,demand forecast flights,numeric,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,空域容量、航线规划、风险预测与数字孪生仿真需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0277,算法模型与仿真,数据层/平台层,t_model_simulation,capacity_estimate_per_hour,capacity estimate per hour,numeric,个/架/次,按业务事件,低,按业务字典校验，缺失率和异常值需监控,空域容量、航线规划、风险预测与数字孪生仿真需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0278,算法模型与仿真,数据层/平台层,t_model_simulation,eta_seconds,eta seconds,numeric,秒/分钟,按业务事件,低,按业务字典校验，缺失率和异常值需监控,空域容量、航线规划、风险预测与数字孪生仿真需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0279,算法模型与仿真,数据层/平台层,t_model_simulation,recommended_route_id,recommended route id,numeric,,按业务事件,中,主键唯一/时间戳不可为空/坐标需在城市边界内,空域容量、航线规划、风险预测与数字孪生仿真需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0280,算法模型与仿真,数据层/平台层,t_model_simulation,simulation_scenario_id,simulation scenario id,decimal_degrees,度,按业务事件,中,主键唯一/时间戳不可为空/坐标需在城市边界内,空域容量、航线规划、风险预测与数字孪生仿真需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0281,算法模型与仿真,数据层/平台层,t_model_simulation,model_confidence_pct,model confidence pct,decimal_percent,%或0-100评分,按业务事件,低,按业务字典校验，缺失率和异常值需监控,空域容量、航线规划、风险预测与数字孪生仿真需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0282,算法模型与仿真,数据层/平台层,t_model_simulation,drift_score,drift score,decimal_percent,%或0-100评分,按业务事件,低,按业务字典校验，缺失率和异常值需监控,空域容量、航线规划、风险预测与数字孪生仿真需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0283,算法模型与仿真,数据层/平台层,t_model_simulation,explainability_summary,explainability summary,numeric,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,空域容量、航线规划、风险预测与数字孪生仿真需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+F0284,算法模型与仿真,数据层/平台层,t_model_simulation,human_review_required_flag,human review required flag,boolean,,按业务事件,低,按业务字典校验，缺失率和异常值需监控,空域容量、航线规划、风险预测与数字孪生仿真需求,schema_recommendation,用于城市低空空域安全感知、运行监管、风险预警、统计分析或应急联动,
+FD0001,飞行器身份与适航,数据层/平台层,t_aircraft_identity,aircrafidentity_record_id,记录ID,string/id,,按事件,低,主键唯一/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0002,飞行器身份与适航,数据层/平台层,t_aircraft_identity,aircrafidentity_city_code,城市代码,string,,按事件,低,需匹配行政区划,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0003,飞行器身份与适航,数据层/平台层,t_aircraft_identity,aircrafidentity_grid_id,空域网格ID,string/id,,分钟级/小时级,中,需匹配网格库,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0004,飞行器身份与适航,数据层/平台层,t_aircraft_identity,timestamp,时间戳,datetime,,秒级/分钟级,中,UTC+8/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0005,飞行器身份与适航,数据层/平台层,t_aircraft_identity,lat,纬度,float,,秒级,中,-90到90,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0006,飞行器身份与适航,数据层/平台层,t_aircraft_identity,lon,经度,float,,秒级,中,-180到180,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0007,飞行器身份与适航,数据层/平台层,t_aircraft_identity,aircrafidentity_altitude_m,飞行高度,float,m,秒级,中,0到1000m/按场景校验,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0008,飞行器身份与适航,数据层/平台层,t_aircraft_identity,aircrafidentity_speed_mps,地速,float,m/s,秒级,中,不得为负,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0009,飞行器身份与适航,数据层/平台层,t_aircraft_identity,aircrafidentity_heading_deg,航向角,float,,秒级,中,0到360,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0010,飞行器身份与适航,数据层/平台层,t_aircraft_identity,aircrafidentity_battery_pct,电量百分比,float,%,秒级,中,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0011,飞行器身份与适航,数据层/平台层,t_aircraft_identity,aircrafidentity_signal_quality,通信质量,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0012,飞行器身份与适航,数据层/平台层,t_aircraft_identity,aircrafidentity_risk_score,风险评分,float,,分钟级,高,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0013,飞行器身份与适航,数据层/平台层,t_aircraft_identity,aircrafidentity_risk_level,风险等级,category,,分钟级,高,低/中/高/严重,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0014,飞行器身份与适航,数据层/平台层,t_aircraft_identity,aircrafidentity_approval_status,审批状态,category,,按事件,中,待审/通过/驳回/撤销,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0015,飞行器身份与适航,数据层/平台层,t_aircraft_identity,aircrafidentity_remote_id_valid,远程识别有效,boolean,,秒级,高,true/false,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0016,飞行器身份与适航,数据层/平台层,t_aircraft_identity,aircrafidentity_geofence_status,电子围栏状态,category,,秒级,高,正常/临近/越界,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0017,飞行器身份与适航,数据层/平台层,t_aircraft_identity,aircrafidentity_sensor_type,感知设备类型,category,,分钟级,中,雷达/光电/射频/ADS-B/北斗/5G-A,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0018,飞行器身份与适航,数据层/平台层,t_aircraft_identity,aircrafidentity_confidence,识别置信度,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0019,飞行器身份与适航,数据层/平台层,t_aircraft_identity,aircrafidentity_weather_risk,气象风险,category,,分钟级,中,正常/风雨/低能见度/雷暴,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0020,飞行器身份与适航,数据层/平台层,t_aircraft_identity,aircrafidentity_disposal_status,处置状态,category,,按事件,高,待核查/处理中/已闭环,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0021,飞行器身份与适航,数据层/平台层,t_aircraft_identity,aircrafidentity_owner_dept,责任部门,string,,按事件,中,公安/交通/应急/空管/城管等,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0022,飞行器身份与适航,数据层/平台层,t_aircraft_identity,aircrafidentity_source_system,来源系统,string,,按事件,中,来源系统白名单,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0023,飞行器身份与适航,数据层/平台层,t_aircraft_identity,aircrafidentity_quality_flag,数据质量标记,category,,按事件,中,valid/suspect/missing/duplicated,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0024,飞行器身份与适航,数据层/平台层,t_aircraft_identity,source_url,来源链接,string/url,,按事件,低,公开数据需留源,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行器身份与适航的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0025,运营主体与资质,数据层/平台层,t_operator_certificate,operator_certificate_record_id,记录ID,string/id,,按事件,低,主键唯一/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0026,运营主体与资质,数据层/平台层,t_operator_certificate,operator_certificate_city_code,城市代码,string,,按事件,低,需匹配行政区划,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0027,运营主体与资质,数据层/平台层,t_operator_certificate,operator_certificate_grid_id,空域网格ID,string/id,,分钟级/小时级,中,需匹配网格库,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0028,运营主体与资质,数据层/平台层,t_operator_certificate,timestamp,时间戳,datetime,,秒级/分钟级,中,UTC+8/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0029,运营主体与资质,数据层/平台层,t_operator_certificate,lat,纬度,float,,秒级,中,-90到90,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0030,运营主体与资质,数据层/平台层,t_operator_certificate,lon,经度,float,,秒级,中,-180到180,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0031,运营主体与资质,数据层/平台层,t_operator_certificate,operator_certificate_altitude_m,飞行高度,float,m,秒级,中,0到1000m/按场景校验,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0032,运营主体与资质,数据层/平台层,t_operator_certificate,operator_certificate_speed_mps,地速,float,m/s,秒级,中,不得为负,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0033,运营主体与资质,数据层/平台层,t_operator_certificate,operator_certificate_heading_deg,航向角,float,,秒级,中,0到360,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0034,运营主体与资质,数据层/平台层,t_operator_certificate,operator_certificate_battery_pct,电量百分比,float,%,秒级,中,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0035,运营主体与资质,数据层/平台层,t_operator_certificate,operator_certificate_signal_quality,通信质量,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0036,运营主体与资质,数据层/平台层,t_operator_certificate,operator_certificate_risk_score,风险评分,float,,分钟级,高,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0037,运营主体与资质,数据层/平台层,t_operator_certificate,operator_certificate_risk_level,风险等级,category,,分钟级,高,低/中/高/严重,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0038,运营主体与资质,数据层/平台层,t_operator_certificate,operator_certificate_approval_status,审批状态,category,,按事件,中,待审/通过/驳回/撤销,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0039,运营主体与资质,数据层/平台层,t_operator_certificate,operator_certificate_remote_id_valid,远程识别有效,boolean,,秒级,高,true/false,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0040,运营主体与资质,数据层/平台层,t_operator_certificate,operator_certificate_geofence_status,电子围栏状态,category,,秒级,高,正常/临近/越界,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0041,运营主体与资质,数据层/平台层,t_operator_certificate,operator_certificate_sensor_type,感知设备类型,category,,分钟级,中,雷达/光电/射频/ADS-B/北斗/5G-A,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0042,运营主体与资质,数据层/平台层,t_operator_certificate,operator_certificate_confidence,识别置信度,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0043,运营主体与资质,数据层/平台层,t_operator_certificate,operator_certificate_weather_risk,气象风险,category,,分钟级,中,正常/风雨/低能见度/雷暴,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0044,运营主体与资质,数据层/平台层,t_operator_certificate,operator_certificate_disposal_status,处置状态,category,,按事件,高,待核查/处理中/已闭环,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0045,运营主体与资质,数据层/平台层,t_operator_certificate,operator_certificate_owner_dept,责任部门,string,,按事件,中,公安/交通/应急/空管/城管等,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0046,运营主体与资质,数据层/平台层,t_operator_certificate,operator_certificate_source_system,来源系统,string,,按事件,中,来源系统白名单,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0047,运营主体与资质,数据层/平台层,t_operator_certificate,operator_certificate_quality_flag,数据质量标记,category,,按事件,中,valid/suspect/missing/duplicated,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0048,运营主体与资质,数据层/平台层,t_operator_certificate,source_url,来源链接,string/url,,按事件,低,公开数据需留源,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营主体与资质的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0049,飞行计划审批,数据层/平台层,t_flight_plan,flighplan_record_id,记录ID,string/id,,按事件,低,主键唯一/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0050,飞行计划审批,数据层/平台层,t_flight_plan,flighplan_city_code,城市代码,string,,按事件,低,需匹配行政区划,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0051,飞行计划审批,数据层/平台层,t_flight_plan,flighplan_grid_id,空域网格ID,string/id,,分钟级/小时级,中,需匹配网格库,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0052,飞行计划审批,数据层/平台层,t_flight_plan,timestamp,时间戳,datetime,,秒级/分钟级,中,UTC+8/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0053,飞行计划审批,数据层/平台层,t_flight_plan,lat,纬度,float,,秒级,中,-90到90,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0054,飞行计划审批,数据层/平台层,t_flight_plan,lon,经度,float,,秒级,中,-180到180,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0055,飞行计划审批,数据层/平台层,t_flight_plan,flighplan_altitude_m,飞行高度,float,m,秒级,中,0到1000m/按场景校验,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0056,飞行计划审批,数据层/平台层,t_flight_plan,flighplan_speed_mps,地速,float,m/s,秒级,中,不得为负,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0057,飞行计划审批,数据层/平台层,t_flight_plan,flighplan_heading_deg,航向角,float,,秒级,中,0到360,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0058,飞行计划审批,数据层/平台层,t_flight_plan,flighplan_battery_pct,电量百分比,float,%,秒级,中,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0059,飞行计划审批,数据层/平台层,t_flight_plan,flighplan_signal_quality,通信质量,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0060,飞行计划审批,数据层/平台层,t_flight_plan,flighplan_risk_score,风险评分,float,,分钟级,高,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0061,飞行计划审批,数据层/平台层,t_flight_plan,flighplan_risk_level,风险等级,category,,分钟级,高,低/中/高/严重,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0062,飞行计划审批,数据层/平台层,t_flight_plan,flighplan_approval_status,审批状态,category,,按事件,中,待审/通过/驳回/撤销,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0063,飞行计划审批,数据层/平台层,t_flight_plan,flighplan_remote_id_valid,远程识别有效,boolean,,秒级,高,true/false,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0064,飞行计划审批,数据层/平台层,t_flight_plan,flighplan_geofence_status,电子围栏状态,category,,秒级,高,正常/临近/越界,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0065,飞行计划审批,数据层/平台层,t_flight_plan,flighplan_sensor_type,感知设备类型,category,,分钟级,中,雷达/光电/射频/ADS-B/北斗/5G-A,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0066,飞行计划审批,数据层/平台层,t_flight_plan,flighplan_confidence,识别置信度,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0067,飞行计划审批,数据层/平台层,t_flight_plan,flighplan_weather_risk,气象风险,category,,分钟级,中,正常/风雨/低能见度/雷暴,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0068,飞行计划审批,数据层/平台层,t_flight_plan,flighplan_disposal_status,处置状态,category,,按事件,高,待核查/处理中/已闭环,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0069,飞行计划审批,数据层/平台层,t_flight_plan,flighplan_owner_dept,责任部门,string,,按事件,中,公安/交通/应急/空管/城管等,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0070,飞行计划审批,数据层/平台层,t_flight_plan,flighplan_source_system,来源系统,string,,按事件,中,来源系统白名单,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0071,飞行计划审批,数据层/平台层,t_flight_plan,flighplan_quality_flag,数据质量标记,category,,按事件,中,valid/suspect/missing/duplicated,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0072,飞行计划审批,数据层/平台层,t_flight_plan,source_url,来源链接,string/url,,按事件,低,公开数据需留源,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于飞行计划审批的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0073,空域网格与规则,数据层/平台层,t_airspace_grid,airspace_grid_record_id,记录ID,string/id,,按事件,低,主键唯一/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0074,空域网格与规则,数据层/平台层,t_airspace_grid,airspace_grid_city_code,城市代码,string,,按事件,低,需匹配行政区划,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0075,空域网格与规则,数据层/平台层,t_airspace_grid,airspace_grid_grid_id,空域网格ID,string/id,,分钟级/小时级,中,需匹配网格库,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0076,空域网格与规则,数据层/平台层,t_airspace_grid,timestamp,时间戳,datetime,,秒级/分钟级,中,UTC+8/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0077,空域网格与规则,数据层/平台层,t_airspace_grid,lat,纬度,float,,秒级,中,-90到90,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0078,空域网格与规则,数据层/平台层,t_airspace_grid,lon,经度,float,,秒级,中,-180到180,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0079,空域网格与规则,数据层/平台层,t_airspace_grid,airspace_grid_altitude_m,飞行高度,float,m,秒级,中,0到1000m/按场景校验,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0080,空域网格与规则,数据层/平台层,t_airspace_grid,airspace_grid_speed_mps,地速,float,m/s,秒级,中,不得为负,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0081,空域网格与规则,数据层/平台层,t_airspace_grid,airspace_grid_heading_deg,航向角,float,,秒级,中,0到360,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0082,空域网格与规则,数据层/平台层,t_airspace_grid,airspace_grid_battery_pct,电量百分比,float,%,秒级,中,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0083,空域网格与规则,数据层/平台层,t_airspace_grid,airspace_grid_signal_quality,通信质量,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0084,空域网格与规则,数据层/平台层,t_airspace_grid,airspace_grid_risk_score,风险评分,float,,分钟级,高,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0085,空域网格与规则,数据层/平台层,t_airspace_grid,airspace_grid_risk_level,风险等级,category,,分钟级,高,低/中/高/严重,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0086,空域网格与规则,数据层/平台层,t_airspace_grid,airspace_grid_approval_status,审批状态,category,,按事件,中,待审/通过/驳回/撤销,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0087,空域网格与规则,数据层/平台层,t_airspace_grid,airspace_grid_remote_id_valid,远程识别有效,boolean,,秒级,高,true/false,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0088,空域网格与规则,数据层/平台层,t_airspace_grid,airspace_grid_geofence_status,电子围栏状态,category,,秒级,高,正常/临近/越界,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0089,空域网格与规则,数据层/平台层,t_airspace_grid,airspace_grid_sensor_type,感知设备类型,category,,分钟级,中,雷达/光电/射频/ADS-B/北斗/5G-A,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0090,空域网格与规则,数据层/平台层,t_airspace_grid,airspace_grid_confidence,识别置信度,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0091,空域网格与规则,数据层/平台层,t_airspace_grid,airspace_grid_weather_risk,气象风险,category,,分钟级,中,正常/风雨/低能见度/雷暴,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0092,空域网格与规则,数据层/平台层,t_airspace_grid,airspace_grid_disposal_status,处置状态,category,,按事件,高,待核查/处理中/已闭环,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0093,空域网格与规则,数据层/平台层,t_airspace_grid,airspace_grid_owner_dept,责任部门,string,,按事件,中,公安/交通/应急/空管/城管等,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0094,空域网格与规则,数据层/平台层,t_airspace_grid,airspace_grid_source_system,来源系统,string,,按事件,中,来源系统白名单,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0095,空域网格与规则,数据层/平台层,t_airspace_grid,airspace_grid_quality_flag,数据质量标记,category,,按事件,中,valid/suspect/missing/duplicated,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0096,空域网格与规则,数据层/平台层,t_airspace_grid,source_url,来源链接,string/url,,按事件,低,公开数据需留源,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于空域网格与规则的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0097,航线与起降点,数据层/平台层,t_route_vertiport,route_vertiport_record_id,记录ID,string/id,,按事件,低,主键唯一/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0098,航线与起降点,数据层/平台层,t_route_vertiport,route_vertiport_city_code,城市代码,string,,按事件,低,需匹配行政区划,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0099,航线与起降点,数据层/平台层,t_route_vertiport,route_vertiport_grid_id,空域网格ID,string/id,,分钟级/小时级,中,需匹配网格库,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0100,航线与起降点,数据层/平台层,t_route_vertiport,timestamp,时间戳,datetime,,秒级/分钟级,中,UTC+8/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0101,航线与起降点,数据层/平台层,t_route_vertiport,lat,纬度,float,,秒级,中,-90到90,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0102,航线与起降点,数据层/平台层,t_route_vertiport,lon,经度,float,,秒级,中,-180到180,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0103,航线与起降点,数据层/平台层,t_route_vertiport,route_vertiport_altitude_m,飞行高度,float,m,秒级,中,0到1000m/按场景校验,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0104,航线与起降点,数据层/平台层,t_route_vertiport,route_vertiport_speed_mps,地速,float,m/s,秒级,中,不得为负,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0105,航线与起降点,数据层/平台层,t_route_vertiport,route_vertiport_heading_deg,航向角,float,,秒级,中,0到360,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0106,航线与起降点,数据层/平台层,t_route_vertiport,route_vertiport_battery_pct,电量百分比,float,%,秒级,中,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0107,航线与起降点,数据层/平台层,t_route_vertiport,route_vertiport_signal_quality,通信质量,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0108,航线与起降点,数据层/平台层,t_route_vertiport,route_vertiport_risk_score,风险评分,float,,分钟级,高,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0109,航线与起降点,数据层/平台层,t_route_vertiport,route_vertiport_risk_level,风险等级,category,,分钟级,高,低/中/高/严重,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0110,航线与起降点,数据层/平台层,t_route_vertiport,route_vertiport_approval_status,审批状态,category,,按事件,中,待审/通过/驳回/撤销,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0111,航线与起降点,数据层/平台层,t_route_vertiport,route_vertiport_remote_id_valid,远程识别有效,boolean,,秒级,高,true/false,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0112,航线与起降点,数据层/平台层,t_route_vertiport,route_vertiport_geofence_status,电子围栏状态,category,,秒级,高,正常/临近/越界,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0113,航线与起降点,数据层/平台层,t_route_vertiport,route_vertiport_sensor_type,感知设备类型,category,,分钟级,中,雷达/光电/射频/ADS-B/北斗/5G-A,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0114,航线与起降点,数据层/平台层,t_route_vertiport,route_vertiport_confidence,识别置信度,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0115,航线与起降点,数据层/平台层,t_route_vertiport,route_vertiport_weather_risk,气象风险,category,,分钟级,中,正常/风雨/低能见度/雷暴,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0116,航线与起降点,数据层/平台层,t_route_vertiport,route_vertiport_disposal_status,处置状态,category,,按事件,高,待核查/处理中/已闭环,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0117,航线与起降点,数据层/平台层,t_route_vertiport,route_vertiport_owner_dept,责任部门,string,,按事件,中,公安/交通/应急/空管/城管等,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0118,航线与起降点,数据层/平台层,t_route_vertiport,route_vertiport_source_system,来源系统,string,,按事件,中,来源系统白名单,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0119,航线与起降点,数据层/平台层,t_route_vertiport,route_vertiport_quality_flag,数据质量标记,category,,按事件,中,valid/suspect/missing/duplicated,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0120,航线与起降点,数据层/平台层,t_route_vertiport,source_url,来源链接,string/url,,按事件,低,公开数据需留源,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于航线与起降点的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0121,实时遥测,数据层/平台层,t_realtime_telemetry,realtime_telemetry_record_id,记录ID,string/id,,按事件,低,主键唯一/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0122,实时遥测,数据层/平台层,t_realtime_telemetry,realtime_telemetry_city_code,城市代码,string,,按事件,低,需匹配行政区划,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0123,实时遥测,数据层/平台层,t_realtime_telemetry,realtime_telemetry_grid_id,空域网格ID,string/id,,分钟级/小时级,中,需匹配网格库,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0124,实时遥测,数据层/平台层,t_realtime_telemetry,timestamp,时间戳,datetime,,秒级/分钟级,中,UTC+8/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0125,实时遥测,数据层/平台层,t_realtime_telemetry,lat,纬度,float,,秒级,中,-90到90,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0126,实时遥测,数据层/平台层,t_realtime_telemetry,lon,经度,float,,秒级,中,-180到180,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0127,实时遥测,数据层/平台层,t_realtime_telemetry,realtime_telemetry_altitude_m,飞行高度,float,m,秒级,中,0到1000m/按场景校验,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0128,实时遥测,数据层/平台层,t_realtime_telemetry,realtime_telemetry_speed_mps,地速,float,m/s,秒级,中,不得为负,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0129,实时遥测,数据层/平台层,t_realtime_telemetry,realtime_telemetry_heading_deg,航向角,float,,秒级,中,0到360,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0130,实时遥测,数据层/平台层,t_realtime_telemetry,realtime_telemetry_battery_pct,电量百分比,float,%,秒级,中,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0131,实时遥测,数据层/平台层,t_realtime_telemetry,realtime_telemetry_signal_quality,通信质量,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0132,实时遥测,数据层/平台层,t_realtime_telemetry,realtime_telemetry_risk_score,风险评分,float,,分钟级,高,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0133,实时遥测,数据层/平台层,t_realtime_telemetry,realtime_telemetry_risk_level,风险等级,category,,分钟级,高,低/中/高/严重,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0134,实时遥测,数据层/平台层,t_realtime_telemetry,realtime_telemetry_approval_status,审批状态,category,,按事件,中,待审/通过/驳回/撤销,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0135,实时遥测,数据层/平台层,t_realtime_telemetry,realtime_telemetry_remote_id_valid,远程识别有效,boolean,,秒级,高,true/false,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0136,实时遥测,数据层/平台层,t_realtime_telemetry,realtime_telemetry_geofence_status,电子围栏状态,category,,秒级,高,正常/临近/越界,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0137,实时遥测,数据层/平台层,t_realtime_telemetry,realtime_telemetry_sensor_type,感知设备类型,category,,分钟级,中,雷达/光电/射频/ADS-B/北斗/5G-A,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0138,实时遥测,数据层/平台层,t_realtime_telemetry,realtime_telemetry_confidence,识别置信度,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0139,实时遥测,数据层/平台层,t_realtime_telemetry,realtime_telemetry_weather_risk,气象风险,category,,分钟级,中,正常/风雨/低能见度/雷暴,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0140,实时遥测,数据层/平台层,t_realtime_telemetry,realtime_telemetry_disposal_status,处置状态,category,,按事件,高,待核查/处理中/已闭环,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0141,实时遥测,数据层/平台层,t_realtime_telemetry,realtime_telemetry_owner_dept,责任部门,string,,按事件,中,公安/交通/应急/空管/城管等,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0142,实时遥测,数据层/平台层,t_realtime_telemetry,realtime_telemetry_source_system,来源系统,string,,按事件,中,来源系统白名单,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0143,实时遥测,数据层/平台层,t_realtime_telemetry,realtime_telemetry_quality_flag,数据质量标记,category,,按事件,中,valid/suspect/missing/duplicated,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0144,实时遥测,数据层/平台层,t_realtime_telemetry,source_url,来源链接,string/url,,按事件,低,公开数据需留源,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于实时遥测的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0145,通信导航监视,数据层/平台层,t_cns_status,cns_status_record_id,记录ID,string/id,,按事件,低,主键唯一/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0146,通信导航监视,数据层/平台层,t_cns_status,cns_status_city_code,城市代码,string,,按事件,低,需匹配行政区划,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0147,通信导航监视,数据层/平台层,t_cns_status,cns_status_grid_id,空域网格ID,string/id,,分钟级/小时级,中,需匹配网格库,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0148,通信导航监视,数据层/平台层,t_cns_status,timestamp,时间戳,datetime,,秒级/分钟级,中,UTC+8/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0149,通信导航监视,数据层/平台层,t_cns_status,lat,纬度,float,,秒级,中,-90到90,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0150,通信导航监视,数据层/平台层,t_cns_status,lon,经度,float,,秒级,中,-180到180,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0151,通信导航监视,数据层/平台层,t_cns_status,cns_status_altitude_m,飞行高度,float,m,秒级,中,0到1000m/按场景校验,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0152,通信导航监视,数据层/平台层,t_cns_status,cns_status_speed_mps,地速,float,m/s,秒级,中,不得为负,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0153,通信导航监视,数据层/平台层,t_cns_status,cns_status_heading_deg,航向角,float,,秒级,中,0到360,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0154,通信导航监视,数据层/平台层,t_cns_status,cns_status_battery_pct,电量百分比,float,%,秒级,中,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0155,通信导航监视,数据层/平台层,t_cns_status,cns_status_signal_quality,通信质量,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0156,通信导航监视,数据层/平台层,t_cns_status,cns_status_risk_score,风险评分,float,,分钟级,高,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0157,通信导航监视,数据层/平台层,t_cns_status,cns_status_risk_level,风险等级,category,,分钟级,高,低/中/高/严重,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0158,通信导航监视,数据层/平台层,t_cns_status,cns_status_approval_status,审批状态,category,,按事件,中,待审/通过/驳回/撤销,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0159,通信导航监视,数据层/平台层,t_cns_status,cns_status_remote_id_valid,远程识别有效,boolean,,秒级,高,true/false,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0160,通信导航监视,数据层/平台层,t_cns_status,cns_status_geofence_status,电子围栏状态,category,,秒级,高,正常/临近/越界,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0161,通信导航监视,数据层/平台层,t_cns_status,cns_status_sensor_type,感知设备类型,category,,分钟级,中,雷达/光电/射频/ADS-B/北斗/5G-A,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0162,通信导航监视,数据层/平台层,t_cns_status,cns_status_confidence,识别置信度,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0163,通信导航监视,数据层/平台层,t_cns_status,cns_status_weather_risk,气象风险,category,,分钟级,中,正常/风雨/低能见度/雷暴,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0164,通信导航监视,数据层/平台层,t_cns_status,cns_status_disposal_status,处置状态,category,,按事件,高,待核查/处理中/已闭环,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0165,通信导航监视,数据层/平台层,t_cns_status,cns_status_owner_dept,责任部门,string,,按事件,中,公安/交通/应急/空管/城管等,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0166,通信导航监视,数据层/平台层,t_cns_status,cns_status_source_system,来源系统,string,,按事件,中,来源系统白名单,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0167,通信导航监视,数据层/平台层,t_cns_status,cns_status_quality_flag,数据质量标记,category,,按事件,中,valid/suspect/missing/duplicated,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0168,通信导航监视,数据层/平台层,t_cns_status,source_url,来源链接,string/url,,按事件,低,公开数据需留源,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于通信导航监视的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0169,多源感知设备,数据层/平台层,t_sensor_station,sensor_station_record_id,记录ID,string/id,,按事件,低,主键唯一/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0170,多源感知设备,数据层/平台层,t_sensor_station,sensor_station_city_code,城市代码,string,,按事件,低,需匹配行政区划,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0171,多源感知设备,数据层/平台层,t_sensor_station,sensor_station_grid_id,空域网格ID,string/id,,分钟级/小时级,中,需匹配网格库,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0172,多源感知设备,数据层/平台层,t_sensor_station,timestamp,时间戳,datetime,,秒级/分钟级,中,UTC+8/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0173,多源感知设备,数据层/平台层,t_sensor_station,lat,纬度,float,,秒级,中,-90到90,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0174,多源感知设备,数据层/平台层,t_sensor_station,lon,经度,float,,秒级,中,-180到180,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0175,多源感知设备,数据层/平台层,t_sensor_station,sensor_station_altitude_m,飞行高度,float,m,秒级,中,0到1000m/按场景校验,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0176,多源感知设备,数据层/平台层,t_sensor_station,sensor_station_speed_mps,地速,float,m/s,秒级,中,不得为负,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0177,多源感知设备,数据层/平台层,t_sensor_station,sensor_station_heading_deg,航向角,float,,秒级,中,0到360,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0178,多源感知设备,数据层/平台层,t_sensor_station,sensor_station_battery_pct,电量百分比,float,%,秒级,中,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0179,多源感知设备,数据层/平台层,t_sensor_station,sensor_station_signal_quality,通信质量,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0180,多源感知设备,数据层/平台层,t_sensor_station,sensor_station_risk_score,风险评分,float,,分钟级,高,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0181,多源感知设备,数据层/平台层,t_sensor_station,sensor_station_risk_level,风险等级,category,,分钟级,高,低/中/高/严重,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0182,多源感知设备,数据层/平台层,t_sensor_station,sensor_station_approval_status,审批状态,category,,按事件,中,待审/通过/驳回/撤销,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0183,多源感知设备,数据层/平台层,t_sensor_station,sensor_station_remote_id_valid,远程识别有效,boolean,,秒级,高,true/false,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0184,多源感知设备,数据层/平台层,t_sensor_station,sensor_station_geofence_status,电子围栏状态,category,,秒级,高,正常/临近/越界,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0185,多源感知设备,数据层/平台层,t_sensor_station,sensor_station_sensor_type,感知设备类型,category,,分钟级,中,雷达/光电/射频/ADS-B/北斗/5G-A,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0186,多源感知设备,数据层/平台层,t_sensor_station,sensor_station_confidence,识别置信度,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0187,多源感知设备,数据层/平台层,t_sensor_station,sensor_station_weather_risk,气象风险,category,,分钟级,中,正常/风雨/低能见度/雷暴,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0188,多源感知设备,数据层/平台层,t_sensor_station,sensor_station_disposal_status,处置状态,category,,按事件,高,待核查/处理中/已闭环,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0189,多源感知设备,数据层/平台层,t_sensor_station,sensor_station_owner_dept,责任部门,string,,按事件,中,公安/交通/应急/空管/城管等,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0190,多源感知设备,数据层/平台层,t_sensor_station,sensor_station_source_system,来源系统,string,,按事件,中,来源系统白名单,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0191,多源感知设备,数据层/平台层,t_sensor_station,sensor_station_quality_flag,数据质量标记,category,,按事件,中,valid/suspect/missing/duplicated,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0192,多源感知设备,数据层/平台层,t_sensor_station,source_url,来源链接,string/url,,按事件,低,公开数据需留源,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于多源感知设备的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0193,气象环境,数据层/平台层,t_weather_micro,weather_micro_record_id,记录ID,string/id,,按事件,低,主键唯一/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0194,气象环境,数据层/平台层,t_weather_micro,weather_micro_city_code,城市代码,string,,按事件,低,需匹配行政区划,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0195,气象环境,数据层/平台层,t_weather_micro,weather_micro_grid_id,空域网格ID,string/id,,分钟级/小时级,中,需匹配网格库,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0196,气象环境,数据层/平台层,t_weather_micro,timestamp,时间戳,datetime,,秒级/分钟级,中,UTC+8/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0197,气象环境,数据层/平台层,t_weather_micro,lat,纬度,float,,秒级,中,-90到90,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0198,气象环境,数据层/平台层,t_weather_micro,lon,经度,float,,秒级,中,-180到180,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0199,气象环境,数据层/平台层,t_weather_micro,weather_micro_altitude_m,飞行高度,float,m,秒级,中,0到1000m/按场景校验,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0200,气象环境,数据层/平台层,t_weather_micro,weather_micro_speed_mps,地速,float,m/s,秒级,中,不得为负,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0201,气象环境,数据层/平台层,t_weather_micro,weather_micro_heading_deg,航向角,float,,秒级,中,0到360,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0202,气象环境,数据层/平台层,t_weather_micro,weather_micro_battery_pct,电量百分比,float,%,秒级,中,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0203,气象环境,数据层/平台层,t_weather_micro,weather_micro_signal_quality,通信质量,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0204,气象环境,数据层/平台层,t_weather_micro,weather_micro_risk_score,风险评分,float,,分钟级,高,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0205,气象环境,数据层/平台层,t_weather_micro,weather_micro_risk_level,风险等级,category,,分钟级,高,低/中/高/严重,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0206,气象环境,数据层/平台层,t_weather_micro,weather_micro_approval_status,审批状态,category,,按事件,中,待审/通过/驳回/撤销,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0207,气象环境,数据层/平台层,t_weather_micro,weather_micro_remote_id_valid,远程识别有效,boolean,,秒级,高,true/false,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0208,气象环境,数据层/平台层,t_weather_micro,weather_micro_geofence_status,电子围栏状态,category,,秒级,高,正常/临近/越界,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0209,气象环境,数据层/平台层,t_weather_micro,weather_micro_sensor_type,感知设备类型,category,,分钟级,中,雷达/光电/射频/ADS-B/北斗/5G-A,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0210,气象环境,数据层/平台层,t_weather_micro,weather_micro_confidence,识别置信度,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0211,气象环境,数据层/平台层,t_weather_micro,weather_micro_weather_risk,气象风险,category,,分钟级,中,正常/风雨/低能见度/雷暴,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0212,气象环境,数据层/平台层,t_weather_micro,weather_micro_disposal_status,处置状态,category,,按事件,高,待核查/处理中/已闭环,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0213,气象环境,数据层/平台层,t_weather_micro,weather_micro_owner_dept,责任部门,string,,按事件,中,公安/交通/应急/空管/城管等,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0214,气象环境,数据层/平台层,t_weather_micro,weather_micro_source_system,来源系统,string,,按事件,中,来源系统白名单,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0215,气象环境,数据层/平台层,t_weather_micro,weather_micro_quality_flag,数据质量标记,category,,按事件,中,valid/suspect/missing/duplicated,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0216,气象环境,数据层/平台层,t_weather_micro,source_url,来源链接,string/url,,按事件,低,公开数据需留源,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于气象环境的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0217,冲突检测与风险评分,数据层/平台层,t_conflict_risk,conflicrisk_record_id,记录ID,string/id,,按事件,低,主键唯一/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0218,冲突检测与风险评分,数据层/平台层,t_conflict_risk,conflicrisk_city_code,城市代码,string,,按事件,低,需匹配行政区划,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0219,冲突检测与风险评分,数据层/平台层,t_conflict_risk,conflicrisk_grid_id,空域网格ID,string/id,,分钟级/小时级,中,需匹配网格库,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0220,冲突检测与风险评分,数据层/平台层,t_conflict_risk,timestamp,时间戳,datetime,,秒级/分钟级,中,UTC+8/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0221,冲突检测与风险评分,数据层/平台层,t_conflict_risk,lat,纬度,float,,秒级,中,-90到90,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0222,冲突检测与风险评分,数据层/平台层,t_conflict_risk,lon,经度,float,,秒级,中,-180到180,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0223,冲突检测与风险评分,数据层/平台层,t_conflict_risk,conflicrisk_altitude_m,飞行高度,float,m,秒级,中,0到1000m/按场景校验,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0224,冲突检测与风险评分,数据层/平台层,t_conflict_risk,conflicrisk_speed_mps,地速,float,m/s,秒级,中,不得为负,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0225,冲突检测与风险评分,数据层/平台层,t_conflict_risk,conflicrisk_heading_deg,航向角,float,,秒级,中,0到360,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0226,冲突检测与风险评分,数据层/平台层,t_conflict_risk,conflicrisk_battery_pct,电量百分比,float,%,秒级,中,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0227,冲突检测与风险评分,数据层/平台层,t_conflict_risk,conflicrisk_signal_quality,通信质量,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0228,冲突检测与风险评分,数据层/平台层,t_conflict_risk,conflicrisk_risk_score,风险评分,float,,分钟级,高,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0229,冲突检测与风险评分,数据层/平台层,t_conflict_risk,conflicrisk_risk_level,风险等级,category,,分钟级,高,低/中/高/严重,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0230,冲突检测与风险评分,数据层/平台层,t_conflict_risk,conflicrisk_approval_status,审批状态,category,,按事件,中,待审/通过/驳回/撤销,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0231,冲突检测与风险评分,数据层/平台层,t_conflict_risk,conflicrisk_remote_id_valid,远程识别有效,boolean,,秒级,高,true/false,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0232,冲突检测与风险评分,数据层/平台层,t_conflict_risk,conflicrisk_geofence_status,电子围栏状态,category,,秒级,高,正常/临近/越界,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0233,冲突检测与风险评分,数据层/平台层,t_conflict_risk,conflicrisk_sensor_type,感知设备类型,category,,分钟级,中,雷达/光电/射频/ADS-B/北斗/5G-A,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0234,冲突检测与风险评分,数据层/平台层,t_conflict_risk,conflicrisk_confidence,识别置信度,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0235,冲突检测与风险评分,数据层/平台层,t_conflict_risk,conflicrisk_weather_risk,气象风险,category,,分钟级,中,正常/风雨/低能见度/雷暴,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0236,冲突检测与风险评分,数据层/平台层,t_conflict_risk,conflicrisk_disposal_status,处置状态,category,,按事件,高,待核查/处理中/已闭环,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0237,冲突检测与风险评分,数据层/平台层,t_conflict_risk,conflicrisk_owner_dept,责任部门,string,,按事件,中,公安/交通/应急/空管/城管等,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0238,冲突检测与风险评分,数据层/平台层,t_conflict_risk,conflicrisk_source_system,来源系统,string,,按事件,中,来源系统白名单,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0239,冲突检测与风险评分,数据层/平台层,t_conflict_risk,conflicrisk_quality_flag,数据质量标记,category,,按事件,中,valid/suspect/missing/duplicated,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0240,冲突检测与风险评分,数据层/平台层,t_conflict_risk,source_url,来源链接,string/url,,按事件,低,公开数据需留源,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于冲突检测与风险评分的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0241,告警事件与处置,数据层/平台层,t_alert_event,alerevent_record_id,记录ID,string/id,,按事件,低,主键唯一/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0242,告警事件与处置,数据层/平台层,t_alert_event,alerevent_city_code,城市代码,string,,按事件,低,需匹配行政区划,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0243,告警事件与处置,数据层/平台层,t_alert_event,alerevent_grid_id,空域网格ID,string/id,,分钟级/小时级,中,需匹配网格库,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0244,告警事件与处置,数据层/平台层,t_alert_event,timestamp,时间戳,datetime,,秒级/分钟级,中,UTC+8/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0245,告警事件与处置,数据层/平台层,t_alert_event,lat,纬度,float,,秒级,中,-90到90,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0246,告警事件与处置,数据层/平台层,t_alert_event,lon,经度,float,,秒级,中,-180到180,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0247,告警事件与处置,数据层/平台层,t_alert_event,alerevent_altitude_m,飞行高度,float,m,秒级,中,0到1000m/按场景校验,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0248,告警事件与处置,数据层/平台层,t_alert_event,alerevent_speed_mps,地速,float,m/s,秒级,中,不得为负,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0249,告警事件与处置,数据层/平台层,t_alert_event,alerevent_heading_deg,航向角,float,,秒级,中,0到360,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0250,告警事件与处置,数据层/平台层,t_alert_event,alerevent_battery_pct,电量百分比,float,%,秒级,中,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0251,告警事件与处置,数据层/平台层,t_alert_event,alerevent_signal_quality,通信质量,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0252,告警事件与处置,数据层/平台层,t_alert_event,alerevent_risk_score,风险评分,float,,分钟级,高,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0253,告警事件与处置,数据层/平台层,t_alert_event,alerevent_risk_level,风险等级,category,,分钟级,高,低/中/高/严重,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0254,告警事件与处置,数据层/平台层,t_alert_event,alerevent_approval_status,审批状态,category,,按事件,中,待审/通过/驳回/撤销,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0255,告警事件与处置,数据层/平台层,t_alert_event,alerevent_remote_id_valid,远程识别有效,boolean,,秒级,高,true/false,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0256,告警事件与处置,数据层/平台层,t_alert_event,alerevent_geofence_status,电子围栏状态,category,,秒级,高,正常/临近/越界,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0257,告警事件与处置,数据层/平台层,t_alert_event,alerevent_sensor_type,感知设备类型,category,,分钟级,中,雷达/光电/射频/ADS-B/北斗/5G-A,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0258,告警事件与处置,数据层/平台层,t_alert_event,alerevent_confidence,识别置信度,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0259,告警事件与处置,数据层/平台层,t_alert_event,alerevent_weather_risk,气象风险,category,,分钟级,中,正常/风雨/低能见度/雷暴,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0260,告警事件与处置,数据层/平台层,t_alert_event,alerevent_disposal_status,处置状态,category,,按事件,高,待核查/处理中/已闭环,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0261,告警事件与处置,数据层/平台层,t_alert_event,alerevent_owner_dept,责任部门,string,,按事件,中,公安/交通/应急/空管/城管等,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0262,告警事件与处置,数据层/平台层,t_alert_event,alerevent_source_system,来源系统,string,,按事件,中,来源系统白名单,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0263,告警事件与处置,数据层/平台层,t_alert_event,alerevent_quality_flag,数据质量标记,category,,按事件,中,valid/suspect/missing/duplicated,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0264,告警事件与处置,数据层/平台层,t_alert_event,source_url,来源链接,string/url,,按事件,低,公开数据需留源,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于告警事件与处置的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0265,反制与应急联动,数据层/平台层,t_emergency_response,emergency_response_record_id,记录ID,string/id,,按事件,低,主键唯一/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0266,反制与应急联动,数据层/平台层,t_emergency_response,emergency_response_city_code,城市代码,string,,按事件,低,需匹配行政区划,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0267,反制与应急联动,数据层/平台层,t_emergency_response,emergency_response_grid_id,空域网格ID,string/id,,分钟级/小时级,中,需匹配网格库,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0268,反制与应急联动,数据层/平台层,t_emergency_response,timestamp,时间戳,datetime,,秒级/分钟级,中,UTC+8/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0269,反制与应急联动,数据层/平台层,t_emergency_response,lat,纬度,float,,秒级,中,-90到90,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0270,反制与应急联动,数据层/平台层,t_emergency_response,lon,经度,float,,秒级,中,-180到180,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0271,反制与应急联动,数据层/平台层,t_emergency_response,emergency_response_altitude_m,飞行高度,float,m,秒级,中,0到1000m/按场景校验,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0272,反制与应急联动,数据层/平台层,t_emergency_response,emergency_response_speed_mps,地速,float,m/s,秒级,中,不得为负,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0273,反制与应急联动,数据层/平台层,t_emergency_response,emergency_response_heading_deg,航向角,float,,秒级,中,0到360,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0274,反制与应急联动,数据层/平台层,t_emergency_response,emergency_response_battery_pct,电量百分比,float,%,秒级,中,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0275,反制与应急联动,数据层/平台层,t_emergency_response,emergency_response_signal_quality,通信质量,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0276,反制与应急联动,数据层/平台层,t_emergency_response,emergency_response_risk_score,风险评分,float,,分钟级,高,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0277,反制与应急联动,数据层/平台层,t_emergency_response,emergency_response_risk_level,风险等级,category,,分钟级,高,低/中/高/严重,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0278,反制与应急联动,数据层/平台层,t_emergency_response,emergency_response_approval_status,审批状态,category,,按事件,中,待审/通过/驳回/撤销,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0279,反制与应急联动,数据层/平台层,t_emergency_response,emergency_response_remote_id_valid,远程识别有效,boolean,,秒级,高,true/false,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0280,反制与应急联动,数据层/平台层,t_emergency_response,emergency_response_geofence_status,电子围栏状态,category,,秒级,高,正常/临近/越界,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0281,反制与应急联动,数据层/平台层,t_emergency_response,emergency_response_sensor_type,感知设备类型,category,,分钟级,中,雷达/光电/射频/ADS-B/北斗/5G-A,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0282,反制与应急联动,数据层/平台层,t_emergency_response,emergency_response_confidence,识别置信度,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0283,反制与应急联动,数据层/平台层,t_emergency_response,emergency_response_weather_risk,气象风险,category,,分钟级,中,正常/风雨/低能见度/雷暴,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0284,反制与应急联动,数据层/平台层,t_emergency_response,emergency_response_disposal_status,处置状态,category,,按事件,高,待核查/处理中/已闭环,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0285,反制与应急联动,数据层/平台层,t_emergency_response,emergency_response_owner_dept,责任部门,string,,按事件,中,公安/交通/应急/空管/城管等,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0286,反制与应急联动,数据层/平台层,t_emergency_response,emergency_response_source_system,来源系统,string,,按事件,中,来源系统白名单,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0287,反制与应急联动,数据层/平台层,t_emergency_response,emergency_response_quality_flag,数据质量标记,category,,按事件,中,valid/suspect/missing/duplicated,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0288,反制与应急联动,数据层/平台层,t_emergency_response,source_url,来源链接,string/url,,按事件,低,公开数据需留源,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于反制与应急联动的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0289,运营统计与画像,数据层/平台层,t_operation_profile,operation_profile_record_id,记录ID,string/id,,按事件,低,主键唯一/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0290,运营统计与画像,数据层/平台层,t_operation_profile,operation_profile_city_code,城市代码,string,,按事件,低,需匹配行政区划,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0291,运营统计与画像,数据层/平台层,t_operation_profile,operation_profile_grid_id,空域网格ID,string/id,,分钟级/小时级,中,需匹配网格库,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0292,运营统计与画像,数据层/平台层,t_operation_profile,timestamp,时间戳,datetime,,秒级/分钟级,中,UTC+8/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0293,运营统计与画像,数据层/平台层,t_operation_profile,lat,纬度,float,,秒级,中,-90到90,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0294,运营统计与画像,数据层/平台层,t_operation_profile,lon,经度,float,,秒级,中,-180到180,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0295,运营统计与画像,数据层/平台层,t_operation_profile,operation_profile_altitude_m,飞行高度,float,m,秒级,中,0到1000m/按场景校验,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0296,运营统计与画像,数据层/平台层,t_operation_profile,operation_profile_speed_mps,地速,float,m/s,秒级,中,不得为负,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0297,运营统计与画像,数据层/平台层,t_operation_profile,operation_profile_heading_deg,航向角,float,,秒级,中,0到360,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0298,运营统计与画像,数据层/平台层,t_operation_profile,operation_profile_battery_pct,电量百分比,float,%,秒级,中,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0299,运营统计与画像,数据层/平台层,t_operation_profile,operation_profile_signal_quality,通信质量,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0300,运营统计与画像,数据层/平台层,t_operation_profile,operation_profile_risk_score,风险评分,float,,分钟级,高,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0301,运营统计与画像,数据层/平台层,t_operation_profile,operation_profile_risk_level,风险等级,category,,分钟级,高,低/中/高/严重,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0302,运营统计与画像,数据层/平台层,t_operation_profile,operation_profile_approval_status,审批状态,category,,按事件,中,待审/通过/驳回/撤销,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0303,运营统计与画像,数据层/平台层,t_operation_profile,operation_profile_remote_id_valid,远程识别有效,boolean,,秒级,高,true/false,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0304,运营统计与画像,数据层/平台层,t_operation_profile,operation_profile_geofence_status,电子围栏状态,category,,秒级,高,正常/临近/越界,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0305,运营统计与画像,数据层/平台层,t_operation_profile,operation_profile_sensor_type,感知设备类型,category,,分钟级,中,雷达/光电/射频/ADS-B/北斗/5G-A,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0306,运营统计与画像,数据层/平台层,t_operation_profile,operation_profile_confidence,识别置信度,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0307,运营统计与画像,数据层/平台层,t_operation_profile,operation_profile_weather_risk,气象风险,category,,分钟级,中,正常/风雨/低能见度/雷暴,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0308,运营统计与画像,数据层/平台层,t_operation_profile,operation_profile_disposal_status,处置状态,category,,按事件,高,待核查/处理中/已闭环,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0309,运营统计与画像,数据层/平台层,t_operation_profile,operation_profile_owner_dept,责任部门,string,,按事件,中,公安/交通/应急/空管/城管等,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0310,运营统计与画像,数据层/平台层,t_operation_profile,operation_profile_source_system,来源系统,string,,按事件,中,来源系统白名单,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0311,运营统计与画像,数据层/平台层,t_operation_profile,operation_profile_quality_flag,数据质量标记,category,,按事件,中,valid/suspect/missing/duplicated,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0312,运营统计与画像,数据层/平台层,t_operation_profile,source_url,来源链接,string/url,,按事件,低,公开数据需留源,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于运营统计与画像的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0313,数据质量与审计,数据层/平台层,t_data_quality_audit,data_quality_audit_record_id,记录ID,string/id,,按事件,低,主键唯一/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0314,数据质量与审计,数据层/平台层,t_data_quality_audit,data_quality_audit_city_code,城市代码,string,,按事件,低,需匹配行政区划,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0315,数据质量与审计,数据层/平台层,t_data_quality_audit,data_quality_audit_grid_id,空域网格ID,string/id,,分钟级/小时级,中,需匹配网格库,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0316,数据质量与审计,数据层/平台层,t_data_quality_audit,timestamp,时间戳,datetime,,秒级/分钟级,中,UTC+8/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0317,数据质量与审计,数据层/平台层,t_data_quality_audit,lat,纬度,float,,秒级,中,-90到90,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0318,数据质量与审计,数据层/平台层,t_data_quality_audit,lon,经度,float,,秒级,中,-180到180,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0319,数据质量与审计,数据层/平台层,t_data_quality_audit,data_quality_audit_altitude_m,飞行高度,float,m,秒级,中,0到1000m/按场景校验,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0320,数据质量与审计,数据层/平台层,t_data_quality_audit,data_quality_audit_speed_mps,地速,float,m/s,秒级,中,不得为负,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0321,数据质量与审计,数据层/平台层,t_data_quality_audit,data_quality_audit_heading_deg,航向角,float,,秒级,中,0到360,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0322,数据质量与审计,数据层/平台层,t_data_quality_audit,data_quality_audit_battery_pct,电量百分比,float,%,秒级,中,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0323,数据质量与审计,数据层/平台层,t_data_quality_audit,data_quality_audit_signal_quality,通信质量,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0324,数据质量与审计,数据层/平台层,t_data_quality_audit,data_quality_audit_risk_score,风险评分,float,,分钟级,高,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0325,数据质量与审计,数据层/平台层,t_data_quality_audit,data_quality_audit_risk_level,风险等级,category,,分钟级,高,低/中/高/严重,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0326,数据质量与审计,数据层/平台层,t_data_quality_audit,data_quality_audit_approval_status,审批状态,category,,按事件,中,待审/通过/驳回/撤销,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0327,数据质量与审计,数据层/平台层,t_data_quality_audit,data_quality_audit_remote_id_valid,远程识别有效,boolean,,秒级,高,true/false,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0328,数据质量与审计,数据层/平台层,t_data_quality_audit,data_quality_audit_geofence_status,电子围栏状态,category,,秒级,高,正常/临近/越界,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0329,数据质量与审计,数据层/平台层,t_data_quality_audit,data_quality_audit_sensor_type,感知设备类型,category,,分钟级,中,雷达/光电/射频/ADS-B/北斗/5G-A,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0330,数据质量与审计,数据层/平台层,t_data_quality_audit,data_quality_audit_confidence,识别置信度,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0331,数据质量与审计,数据层/平台层,t_data_quality_audit,data_quality_audit_weather_risk,气象风险,category,,分钟级,中,正常/风雨/低能见度/雷暴,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0332,数据质量与审计,数据层/平台层,t_data_quality_audit,data_quality_audit_disposal_status,处置状态,category,,按事件,高,待核查/处理中/已闭环,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0333,数据质量与审计,数据层/平台层,t_data_quality_audit,data_quality_audit_owner_dept,责任部门,string,,按事件,中,公安/交通/应急/空管/城管等,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0334,数据质量与审计,数据层/平台层,t_data_quality_audit,data_quality_audit_source_system,来源系统,string,,按事件,中,来源系统白名单,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0335,数据质量与审计,数据层/平台层,t_data_quality_audit,data_quality_audit_quality_flag,数据质量标记,category,,按事件,中,valid/suspect/missing/duplicated,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0336,数据质量与审计,数据层/平台层,t_data_quality_audit,source_url,来源链接,string/url,,按事件,低,公开数据需留源,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于数据质量与审计的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0337,隐私安全与权限,数据层/平台层,t_privacy_permission,privacy_permission_record_id,记录ID,string/id,,按事件,低,主键唯一/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0338,隐私安全与权限,数据层/平台层,t_privacy_permission,privacy_permission_city_code,城市代码,string,,按事件,低,需匹配行政区划,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0339,隐私安全与权限,数据层/平台层,t_privacy_permission,privacy_permission_grid_id,空域网格ID,string/id,,分钟级/小时级,中,需匹配网格库,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0340,隐私安全与权限,数据层/平台层,t_privacy_permission,timestamp,时间戳,datetime,,秒级/分钟级,中,UTC+8/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0341,隐私安全与权限,数据层/平台层,t_privacy_permission,lat,纬度,float,,秒级,中,-90到90,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0342,隐私安全与权限,数据层/平台层,t_privacy_permission,lon,经度,float,,秒级,中,-180到180,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0343,隐私安全与权限,数据层/平台层,t_privacy_permission,privacy_permission_altitude_m,飞行高度,float,m,秒级,中,0到1000m/按场景校验,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0344,隐私安全与权限,数据层/平台层,t_privacy_permission,privacy_permission_speed_mps,地速,float,m/s,秒级,中,不得为负,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0345,隐私安全与权限,数据层/平台层,t_privacy_permission,privacy_permission_heading_deg,航向角,float,,秒级,中,0到360,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0346,隐私安全与权限,数据层/平台层,t_privacy_permission,privacy_permission_battery_pct,电量百分比,float,%,秒级,中,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0347,隐私安全与权限,数据层/平台层,t_privacy_permission,privacy_permission_signal_quality,通信质量,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0348,隐私安全与权限,数据层/平台层,t_privacy_permission,privacy_permission_risk_score,风险评分,float,,分钟级,高,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0349,隐私安全与权限,数据层/平台层,t_privacy_permission,privacy_permission_risk_level,风险等级,category,,分钟级,高,低/中/高/严重,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0350,隐私安全与权限,数据层/平台层,t_privacy_permission,privacy_permission_approval_status,审批状态,category,,按事件,中,待审/通过/驳回/撤销,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0351,隐私安全与权限,数据层/平台层,t_privacy_permission,privacy_permission_remote_id_valid,远程识别有效,boolean,,秒级,高,true/false,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0352,隐私安全与权限,数据层/平台层,t_privacy_permission,privacy_permission_geofence_status,电子围栏状态,category,,秒级,高,正常/临近/越界,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0353,隐私安全与权限,数据层/平台层,t_privacy_permission,privacy_permission_sensor_type,感知设备类型,category,,分钟级,中,雷达/光电/射频/ADS-B/北斗/5G-A,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0354,隐私安全与权限,数据层/平台层,t_privacy_permission,privacy_permission_confidence,识别置信度,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0355,隐私安全与权限,数据层/平台层,t_privacy_permission,privacy_permission_weather_risk,气象风险,category,,分钟级,中,正常/风雨/低能见度/雷暴,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0356,隐私安全与权限,数据层/平台层,t_privacy_permission,privacy_permission_disposal_status,处置状态,category,,按事件,高,待核查/处理中/已闭环,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0357,隐私安全与权限,数据层/平台层,t_privacy_permission,privacy_permission_owner_dept,责任部门,string,,按事件,中,公安/交通/应急/空管/城管等,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0358,隐私安全与权限,数据层/平台层,t_privacy_permission,privacy_permission_source_system,来源系统,string,,按事件,中,来源系统白名单,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0359,隐私安全与权限,数据层/平台层,t_privacy_permission,privacy_permission_quality_flag,数据质量标记,category,,按事件,中,valid/suspect/missing/duplicated,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0360,隐私安全与权限,数据层/平台层,t_privacy_permission,source_url,来源链接,string/url,,按事件,低,公开数据需留源,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于隐私安全与权限的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0361,算法模型与阈值,数据层/平台层,t_model_threshold,model_threshold_record_id,记录ID,string/id,,按事件,低,主键唯一/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0362,算法模型与阈值,数据层/平台层,t_model_threshold,model_threshold_city_code,城市代码,string,,按事件,低,需匹配行政区划,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0363,算法模型与阈值,数据层/平台层,t_model_threshold,model_threshold_grid_id,空域网格ID,string/id,,分钟级/小时级,中,需匹配网格库,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0364,算法模型与阈值,数据层/平台层,t_model_threshold,timestamp,时间戳,datetime,,秒级/分钟级,中,UTC+8/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0365,算法模型与阈值,数据层/平台层,t_model_threshold,lat,纬度,float,,秒级,中,-90到90,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0366,算法模型与阈值,数据层/平台层,t_model_threshold,lon,经度,float,,秒级,中,-180到180,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0367,算法模型与阈值,数据层/平台层,t_model_threshold,model_threshold_altitude_m,飞行高度,float,m,秒级,中,0到1000m/按场景校验,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0368,算法模型与阈值,数据层/平台层,t_model_threshold,model_threshold_speed_mps,地速,float,m/s,秒级,中,不得为负,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0369,算法模型与阈值,数据层/平台层,t_model_threshold,model_threshold_heading_deg,航向角,float,,秒级,中,0到360,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0370,算法模型与阈值,数据层/平台层,t_model_threshold,model_threshold_battery_pct,电量百分比,float,%,秒级,中,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0371,算法模型与阈值,数据层/平台层,t_model_threshold,model_threshold_signal_quality,通信质量,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0372,算法模型与阈值,数据层/平台层,t_model_threshold,model_threshold_risk_score,风险评分,float,,分钟级,高,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0373,算法模型与阈值,数据层/平台层,t_model_threshold,model_threshold_risk_level,风险等级,category,,分钟级,高,低/中/高/严重,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0374,算法模型与阈值,数据层/平台层,t_model_threshold,model_threshold_approval_status,审批状态,category,,按事件,中,待审/通过/驳回/撤销,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0375,算法模型与阈值,数据层/平台层,t_model_threshold,model_threshold_remote_id_valid,远程识别有效,boolean,,秒级,高,true/false,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0376,算法模型与阈值,数据层/平台层,t_model_threshold,model_threshold_geofence_status,电子围栏状态,category,,秒级,高,正常/临近/越界,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0377,算法模型与阈值,数据层/平台层,t_model_threshold,model_threshold_sensor_type,感知设备类型,category,,分钟级,中,雷达/光电/射频/ADS-B/北斗/5G-A,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0378,算法模型与阈值,数据层/平台层,t_model_threshold,model_threshold_confidence,识别置信度,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0379,算法模型与阈值,数据层/平台层,t_model_threshold,model_threshold_weather_risk,气象风险,category,,分钟级,中,正常/风雨/低能见度/雷暴,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0380,算法模型与阈值,数据层/平台层,t_model_threshold,model_threshold_disposal_status,处置状态,category,,按事件,高,待核查/处理中/已闭环,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0381,算法模型与阈值,数据层/平台层,t_model_threshold,model_threshold_owner_dept,责任部门,string,,按事件,中,公安/交通/应急/空管/城管等,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0382,算法模型与阈值,数据层/平台层,t_model_threshold,model_threshold_source_system,来源系统,string,,按事件,中,来源系统白名单,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0383,算法模型与阈值,数据层/平台层,t_model_threshold,model_threshold_quality_flag,数据质量标记,category,,按事件,中,valid/suspect/missing/duplicated,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0384,算法模型与阈值,数据层/平台层,t_model_threshold,source_url,来源链接,string/url,,按事件,低,公开数据需留源,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于算法模型与阈值的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0385,公众服务与申报,数据层/平台层,t_public_service,public_service_record_id,记录ID,string/id,,按事件,低,主键唯一/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0386,公众服务与申报,数据层/平台层,t_public_service,public_service_city_code,城市代码,string,,按事件,低,需匹配行政区划,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0387,公众服务与申报,数据层/平台层,t_public_service,public_service_grid_id,空域网格ID,string/id,,分钟级/小时级,中,需匹配网格库,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0388,公众服务与申报,数据层/平台层,t_public_service,timestamp,时间戳,datetime,,秒级/分钟级,中,UTC+8/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0389,公众服务与申报,数据层/平台层,t_public_service,lat,纬度,float,,秒级,中,-90到90,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0390,公众服务与申报,数据层/平台层,t_public_service,lon,经度,float,,秒级,中,-180到180,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0391,公众服务与申报,数据层/平台层,t_public_service,public_service_altitude_m,飞行高度,float,m,秒级,中,0到1000m/按场景校验,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0392,公众服务与申报,数据层/平台层,t_public_service,public_service_speed_mps,地速,float,m/s,秒级,中,不得为负,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0393,公众服务与申报,数据层/平台层,t_public_service,public_service_heading_deg,航向角,float,,秒级,中,0到360,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0394,公众服务与申报,数据层/平台层,t_public_service,public_service_battery_pct,电量百分比,float,%,秒级,中,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0395,公众服务与申报,数据层/平台层,t_public_service,public_service_signal_quality,通信质量,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0396,公众服务与申报,数据层/平台层,t_public_service,public_service_risk_score,风险评分,float,,分钟级,高,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0397,公众服务与申报,数据层/平台层,t_public_service,public_service_risk_level,风险等级,category,,分钟级,高,低/中/高/严重,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0398,公众服务与申报,数据层/平台层,t_public_service,public_service_approval_status,审批状态,category,,按事件,中,待审/通过/驳回/撤销,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0399,公众服务与申报,数据层/平台层,t_public_service,public_service_remote_id_valid,远程识别有效,boolean,,秒级,高,true/false,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0400,公众服务与申报,数据层/平台层,t_public_service,public_service_geofence_status,电子围栏状态,category,,秒级,高,正常/临近/越界,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0401,公众服务与申报,数据层/平台层,t_public_service,public_service_sensor_type,感知设备类型,category,,分钟级,中,雷达/光电/射频/ADS-B/北斗/5G-A,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0402,公众服务与申报,数据层/平台层,t_public_service,public_service_confidence,识别置信度,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0403,公众服务与申报,数据层/平台层,t_public_service,public_service_weather_risk,气象风险,category,,分钟级,中,正常/风雨/低能见度/雷暴,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0404,公众服务与申报,数据层/平台层,t_public_service,public_service_disposal_status,处置状态,category,,按事件,高,待核查/处理中/已闭环,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0405,公众服务与申报,数据层/平台层,t_public_service,public_service_owner_dept,责任部门,string,,按事件,中,公安/交通/应急/空管/城管等,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0406,公众服务与申报,数据层/平台层,t_public_service,public_service_source_system,来源系统,string,,按事件,中,来源系统白名单,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0407,公众服务与申报,数据层/平台层,t_public_service,public_service_quality_flag,数据质量标记,category,,按事件,中,valid/suspect/missing/duplicated,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0408,公众服务与申报,数据层/平台层,t_public_service,source_url,来源链接,string/url,,按事件,低,公开数据需留源,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于公众服务与申报的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0409,城市治理场景,数据层/平台层,t_city_governance,city_governance_record_id,记录ID,string/id,,按事件,低,主键唯一/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0410,城市治理场景,数据层/平台层,t_city_governance,city_governance_city_code,城市代码,string,,按事件,低,需匹配行政区划,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0411,城市治理场景,数据层/平台层,t_city_governance,city_governance_grid_id,空域网格ID,string/id,,分钟级/小时级,中,需匹配网格库,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0412,城市治理场景,数据层/平台层,t_city_governance,timestamp,时间戳,datetime,,秒级/分钟级,中,UTC+8/不可为空,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0413,城市治理场景,数据层/平台层,t_city_governance,lat,纬度,float,,秒级,中,-90到90,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0414,城市治理场景,数据层/平台层,t_city_governance,lon,经度,float,,秒级,中,-180到180,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0415,城市治理场景,数据层/平台层,t_city_governance,city_governance_altitude_m,飞行高度,float,m,秒级,中,0到1000m/按场景校验,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0416,城市治理场景,数据层/平台层,t_city_governance,city_governance_speed_mps,地速,float,m/s,秒级,中,不得为负,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0417,城市治理场景,数据层/平台层,t_city_governance,city_governance_heading_deg,航向角,float,,秒级,中,0到360,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0418,城市治理场景,数据层/平台层,t_city_governance,city_governance_battery_pct,电量百分比,float,%,秒级,中,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0419,城市治理场景,数据层/平台层,t_city_governance,city_governance_signal_quality,通信质量,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0420,城市治理场景,数据层/平台层,t_city_governance,city_governance_risk_score,风险评分,float,,分钟级,高,0到100,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0421,城市治理场景,数据层/平台层,t_city_governance,city_governance_risk_level,风险等级,category,,分钟级,高,低/中/高/严重,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0422,城市治理场景,数据层/平台层,t_city_governance,city_governance_approval_status,审批状态,category,,按事件,中,待审/通过/驳回/撤销,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0423,城市治理场景,数据层/平台层,t_city_governance,city_governance_remote_id_valid,远程识别有效,boolean,,秒级,高,true/false,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0424,城市治理场景,数据层/平台层,t_city_governance,city_governance_geofence_status,电子围栏状态,category,,秒级,高,正常/临近/越界,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0425,城市治理场景,数据层/平台层,t_city_governance,city_governance_sensor_type,感知设备类型,category,,分钟级,中,雷达/光电/射频/ADS-B/北斗/5G-A,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0426,城市治理场景,数据层/平台层,t_city_governance,city_governance_confidence,识别置信度,float,,秒级,中,0到1,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0427,城市治理场景,数据层/平台层,t_city_governance,city_governance_weather_risk,气象风险,category,,分钟级,中,正常/风雨/低能见度/雷暴,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0428,城市治理场景,数据层/平台层,t_city_governance,city_governance_disposal_status,处置状态,category,,按事件,高,待核查/处理中/已闭环,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0429,城市治理场景,数据层/平台层,t_city_governance,city_governance_owner_dept,责任部门,string,,按事件,中,公安/交通/应急/空管/城管等,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0430,城市治理场景,数据层/平台层,t_city_governance,city_governance_source_system,来源系统,string,,按事件,中,来源系统白名单,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,Y
+FD0431,城市治理场景,数据层/平台层,t_city_governance,city_governance_quality_flag,数据质量标记,category,,按事件,中,valid/suspect/missing/duplicated,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,N
+FD0432,城市治理场景,数据层/平台层,t_city_governance,source_url,来源链接,string/url,,按事件,低,公开数据需留源,结合民航无人机监管、低空飞行服务保障、城市低空平台建设需求抽象,schema_recommendation,用于城市治理场景的数据治理、运行监管、风险预警、统计分析或应急联动,N

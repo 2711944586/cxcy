@@ -1,0 +1,5 @@
+﻿dataset_name,domain,size_or_scope,platform_usage,data_nature,source_id,source_url,note
+AU-AIR,低空交通监控/多模态无人机数据,多模态传感器、视觉、时间、位置、高度、IMU、速度等元数据,目标检测、无人机视觉感知、交通监控算法演示,open_research_dataset_catalog,AU_AIR_DATASET_PAPER,https://arxiv.org/abs/2001.11737,需到项目页/论文页确认下载许可。
+UAV-Human,无人机视角人体行为理解,67428个多模态视频序列，119名主体等,低空安防/行为识别算法参考,open_research_dataset_catalog,UAV_HUMAN_DATASET_PAPER,https://arxiv.org/abs/2104.00946,学术数据集，不是城市监管平台数据。
+CitySim,无人机视频车辆轨迹/安全研究/数字孪生,12个地点、1140分钟无人机视频提取轨迹,低空视频数据处理、交通安全、数字孪生示范,open_research_dataset_catalog,CITYSIM_DATASET_PAPER,https://arxiv.org/abs/2208.11036,可作为算法/可视化参考。
+High-Density Intersection Dataset,高密度城市路口无人机视频轨迹,超过100小时无人机视频、百万级道路使用者轨迹、5万次以上变道,无人机视觉监测、交通流识别、热力图演示,open_research_dataset_catalog,HIGH_DENSITY_INTERSECTION_DATASET,https://arxiv.org/abs/2411.02349,偏交通场景，不是低空空域监管记录。

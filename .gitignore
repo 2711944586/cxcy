@@ -14,10 +14,6 @@ __pycache__/
 **/__pycache__/
 *.pyc
 
-# Large local source/reference material kept outside the deploy repository
-数据以及图/
-参考/
-
 # Office lock files
 ~$*.docx
 ~$*.xlsx

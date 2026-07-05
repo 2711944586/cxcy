@@ -1,0 +1,5 @@
+数据集名称,Kaggle标识,Kaggle页面,本地CSV文件,行数,列数,平台参考用途
+UAV Communication Monitoring Dataset,ziya07/uav-communication-monitoring-dataset,https://www.kaggle.com/datasets/ziya07/uav-communication-monitoring-dataset,data/uav_communication_monitoring/uav_encrypted_communication_dataset.csv,2000,14,低空通信链路监测、频谱异常识别、遥控/数传链路安全感知
+UAV Autonomous Navigation Dataset,ziya07/uav-autonomous-navigation-dataset,https://www.kaggle.com/datasets/ziya07/uav-autonomous-navigation-dataset,data/uav_autonomous_navigation/uav_navigation_dataset.csv,5000,15,无人机位置/高度/速度/风速/电量/障碍物检测等低空运行态势感知
+Cyber Network Intrusion Dataset for UAVs,hebasyijari/cyber-network-intrusion-dataset-for-uavs,https://www.kaggle.com/datasets/hebasyijari/cyber-network-intrusion-dataset-for-uavs,data/uav_cyber_network_intrusion/Dataset_uav_cyber.csv,33102,38,无人机 Wi-Fi/网络流量入侵检测、空域安全平台网络安全告警
+Cyber Network Intrusion Dataset for UAVs,hebasyijari/cyber-network-intrusion-dataset-for-uavs,https://www.kaggle.com/datasets/hebasyijari/cyber-network-intrusion-dataset-for-uavs,data/uav_cyber_network_intrusion/merged_wifi_attacks_dataset.csv,42258,15,无人机通信网络攻击分类、异常行为检测模型训练

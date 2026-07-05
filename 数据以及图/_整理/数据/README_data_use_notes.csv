@@ -1,0 +1,6 @@
+﻿section,content
+数据分层,official_statistic/policy_target/public_case_statistic为公开真实数据或政策目标；simulated_demo_sample/simulated_model_training_sample为平台建模演示样本，不是真实飞行轨迹或执法数据。
+适用场景,可用于PPT图表、报告数据支撑、平台架构字段设计、数据看板样例、热力图演示、风险预警模型课程/原型展示。
+不可误用,不得把模拟样本描述为政府公开真实飞行记录；不得用于执法、商业投资决策或真实空域划设。
+清洗规则,所有CSV统一UTF-8-SIG编码；字段采用snake_case；行内尽可能保留source_id/source_url/data_nature/source_basis。
+建议引用方式,PPT中引用官方/政策数据时引用source_url；使用样本数据时标注“平台演示样本/模拟数据”。

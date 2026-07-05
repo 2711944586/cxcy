@@ -67,7 +67,7 @@ export function Home() {
           </div>
         </div>
         <div className="hero-photo">
-          <img src="/assets/asset_01.jpg" alt="低空飞行服务平台真实界面素材" />
+          <img src={appPath("/assets/asset_01.jpg")} alt="低空飞行服务平台真实界面素材" />
           <div className="photo-label">参考素材：低空飞行服务平台界面</div>
         </div>
       </section>
@@ -104,7 +104,7 @@ export function Product() {
     <div className="page">
       <PageTitle eyebrow="产品方案" title="产品方案" desc="产品不以“大屏效果”作为终点，而以可运行、可追溯、可复盘的低空监管流程作为交付对象。" action={<a className="btn primary" href={appPath("/dashboard")}>打开后台</a>} />
       <div className="two-column">
-        <section className="panel image-panel"><img src="/assets/asset_10.jpg" alt="低空平台界面素材" /></section>
+        <section className="panel image-panel"><img src={appPath("/assets/asset_10.jpg")} alt="低空平台界面素材" /></section>
         <section className="panel">
           <h3>核心模块与客户动作</h3>
           <TableMini headers={["模块", "能力", "客户动作"]} rows={productRows} />
@@ -129,7 +129,7 @@ export function Technology() {
         {layers.map(([name, body]) => <div className="layer" key={name}><strong>{name}</strong><span>{body}</span></div>)}
       </div>
       <div className="two-column">
-        <section className="panel"><img src="/assets/asset_06.png" alt="低空感知系统展台素材" /></section>
+        <section className="panel"><img src={appPath("/assets/asset_06.png")} alt="低空感知系统展台素材" /></section>
         <section className="panel"><h3>工程边界</h3><p className="reading">SkyGuard 提供辅助感知、风险预警、事件协同和报表复盘，不做干扰、捕获、打击，也不替代审批或执法。早期试点先接入计划、围栏、轨迹和工单，硬件通过伙伴逐步扩展。</p></section>
       </div>
     </div>
@@ -195,7 +195,7 @@ export function CaseStudy() {
           <div className="case-step" key={step}><span>{i + 1}</span><strong>{step}</strong></div>
         ))}
       </div>
-      <div className="two-column"><section className="panel"><img src="/assets/asset_03.jpg" alt="低空综合监管平台素材" /></section><section className="panel"><h3>验收口径</h3><p className="reading">试点验收关注计划匹配率、告警确认时长、工单闭环率、设备在线率和日报输出质量。系统不承诺替代执法，只提供辅助监管和复盘材料。</p></section></div>
+      <div className="two-column"><section className="panel"><img src={appPath("/assets/asset_03.jpg")} alt="低空综合监管平台素材" /></section><section className="panel"><h3>验收口径</h3><p className="reading">试点验收关注计划匹配率、告警确认时长、工单闭环率、设备在线率和日报输出质量。系统不承诺替代执法，只提供辅助监管和复盘材料。</p></section></div>
     </div>
   );
 }
@@ -279,7 +279,7 @@ export function RecognitionReview() {
     <div className="page">
       <PageTitle eyebrow="智能复核" title="识别复核" desc="上传图片后显示模拟检测框、置信度和风险建议。结果用于演示，不作为真实执法结论。" action={<label className="btn primary"><Upload size={16} />上传图片<input type="file" hidden onChange={(e) => setFileName(e.target.files?.[0]?.name ?? "未选择文件")} /></label>} />
       <div className="two-column">
-        <section className="panel detection-frame"><img src="/assets/asset_03.jpg" alt="目标识别样例" /><div className="detection-box" /><span className="detect-tag">无人机 0.91</span></section>
+        <section className="panel detection-frame"><img src={appPath("/assets/asset_03.jpg")} alt="目标识别样例" /><div className="detection-box" /><span className="detect-tag">无人机 0.91</span></section>
         <section className="panel"><h3>复核建议</h3><p className="muted">输入文件：{fileName}</p><p><span className="badge high">需人工确认</span></p><p className="reading">目标疑似低空航拍无人机，建议与飞行计划库、Remote ID、电子围栏和现场人员确认结果进行比对。系统只给出辅助建议，最终处置保留人工确认。</p><div className="flow"><span className="flow-step">图像输入</span><span className="flow-step">检测框</span><span className="flow-step">风险建议</span><span className="flow-step">人工确认</span></div></section>
       </div>
     </div>

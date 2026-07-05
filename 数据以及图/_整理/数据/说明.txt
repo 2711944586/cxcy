@@ -1,0 +1,14 @@
+policy字段：该城市该年份是否发布低空经济有关政策
+
+
+数据引用格式
+请您在任何基于“数据皮皮侠”数据库所产生的中文研究成果（含学术论文、公开发表的研究报告等）均包括以下表述或类似表述声明：
+本研究使用的数据来自PPData数据库。
+例如：文中使用的农业研究相关数据来自PPData农业研究数据库。
+其中，“农业研究相关数据”替换成实际使用的数据名称。
+请您在任何基于“数据皮皮侠”数据库所产生的英文研究成果（含学术论文、公开发表的研究报告等）均包括以下表述或类似表述声明：
+The data used in this study came from PPData database.
+The agricultural research data used in this paper are from PPData agricultural research database.
+Where "agricultural research related data" is replaced with the actual data name used.
+
+声明：本数据由数据皮皮侠团队整理，仅用于学术研究
