@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: skyguard-demo
+        working-directory: 04_web_demo
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -31,7 +31,7 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: skyguard-demo/package-lock.json
+          cache-dependency-path: 04_web_demo/package-lock.json
 
       - name: Install dependencies
         run: npm ci
@@ -47,7 +47,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: skyguard-demo/dist
+          path: 04_web_demo/dist
 
   deploy:
     name: Deploy to GitHub Pages

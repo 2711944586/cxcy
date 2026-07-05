@@ -1,15 +1,15 @@
 # Dependencies
 node_modules/
-skyguard-demo/node_modules/
+04_web_demo/node_modules/
 
 # Build outputs
 dist/
-skyguard-demo/dist/
+04_web_demo/dist/
 
 # Local temporary/render output
 tmp/
 *.log
-skyguard-plan/qa/
+03_plan_generation/qa/
 __pycache__/
 **/__pycache__/
 *.pyc
